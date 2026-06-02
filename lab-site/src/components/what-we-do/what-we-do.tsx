@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ServiceCard from "../shared/ui/service-card";
+import ImageCard from "../shared/ui/service-card";
 
 export const WhatWeDo: React.FC = () => {
 
@@ -34,7 +34,7 @@ export const WhatWeDo: React.FC = () => {
         {/* Responsive Grid Layout */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <ServiceCard
+            <ImageCard
               key={index}
               imageSrc={service.imageSrc}
               title={service.title}

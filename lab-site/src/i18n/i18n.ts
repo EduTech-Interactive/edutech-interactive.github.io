@@ -71,6 +71,29 @@ i18n
               }
             },
             "hubBtnText": "Visit the Knowledge Hub"
+          },
+
+          "knowledgeHub": 
+          {
+            "title": "Knowledge Hub",
+            "cards": 
+            {
+              "blog": 
+              {
+                "title": "Blog",
+                "description": "Design Teaching & Inclusion"
+              },
+              "podcast": 
+              {
+                "title": "Podcast",
+                "description": "Conversations on Education & AI"
+              },
+              "resources": 
+              {
+                "title": "Resources",
+                "description": "Guides & Toolkits"
+              }
+            }
           }
         }
       },
@@ -136,6 +159,29 @@ i18n
               }
             },
             "hubBtnText": "Visiter le Carrefour de connaissances"
+          },
+
+          "knowledgeHub": 
+          {
+            "title": "Carrefour des connaissances",
+            "cards": 
+            {
+              "blog": 
+              {
+                "title": "Blogue",
+                "description": "Enseignement du design et inclusion"
+              },
+              "podcast": 
+              {
+                "title": "Balado",
+                "description": "Discussions sur l'éducation et l'IA"
+              },
+              "resources": 
+              {
+                "title": "Ressources",
+                "description": "Guides et boîtes à outils"
+              }
+            }
           }
         }
       }

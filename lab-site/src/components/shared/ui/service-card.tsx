@@ -1,10 +1,10 @@
-interface ServiceCardProps {
+interface ImageCardProps {
   imageSrc: string;
   title: string;
   description: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ 
+const ImageCard: React.FC<ImageCardProps> = ({ 
   imageSrc, 
   title, 
   description, 
@@ -38,4 +38,4 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   );
 };
 
-export default ServiceCard;
+export default ImageCard;

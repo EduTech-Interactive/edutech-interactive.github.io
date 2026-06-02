@@ -1,4 +1,4 @@
-import { CheckCircle2, ChevronRight } from 'lucide-react'; // Example icon library for checkmarks
+import { CheckCircle2, ChevronRight } from 'lucide-react';
 import { Button } from '../shared/ui/button';
 import { Link } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
