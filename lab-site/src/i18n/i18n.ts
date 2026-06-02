@@ -43,6 +43,13 @@ i18n
             "inclusiveCardDesc": "Designing accessible frameworks to maximize learning outcomes for higher education students.",
             "toolsCardTitle": "Digital & AI Tools",
             "toolsCardDesc": "Integrating innovative practices and variety to enhance modern teaching and student engagement.",
+          },
+          
+          "calculusBuddy":
+          {
+            "heading": "Featured Project: Calculus Buddy",
+            "desc": "AI-powered tutoring for higher education mathematics.",
+            "btnText": "Discover The Project"
           }
         }
       },
@@ -80,6 +87,13 @@ i18n
             "inclusiveCardDesc": "Conception de cadres accessibles pour maximiser les résultats d'apprentissage des étudiants de l'enseignement supérieur.",
             "toolsCardTitle": "Outils numériques et IA",
             "toolsCardDesc": "Intégration de pratiques innovantes et diversifiées pour enrichir l'enseignement moderne et stimuler l'engagement des étudiants.",
+          },
+
+          "calculusBuddy":
+          {
+            "heading": "Projet en vedette : Calculus Buddy",
+            "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
+            "btnText": "Découvrir le projet"
           }
         }
       }
