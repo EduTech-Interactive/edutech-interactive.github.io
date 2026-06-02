@@ -13,11 +13,17 @@ const Navbar: React.FC = () => {
   };
 
 
-  const navLinks = 
-  [
-    { to: '/', label: t("nav.homeLink")},
+  const navLinks = [
+    { to: '/', label: t("nav.homeLink") },
     { to: '/projects', label: t("nav.projectsLink") },
-  ]
+    { to: '/calculus-buddy', label: t("nav.calculusBuddyLink") },
+    { to: '/collaborate', label: t("nav.collaborateLink") },
+    { to: '/funding', label: t("nav.fundingLink") },
+    { to: '/knowledge-hub', label: t("nav.knowledgeHubLink") },
+    { to: '/meet-the-team', label: t("nav.meetTheTeamLink") },
+    { to: '/research-approach', label: t("nav.researchApproachLink") },
+    { to: '/what-we-do', label: t("nav.whatWeDoLink") },
+  ];
 
 
   return (
