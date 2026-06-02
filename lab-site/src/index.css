@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-edu-orange-200: hsl(20, 100%, 70%);
+  --color-edu-orange-400: hsl(20, 100%, 42%);
+  --color-edu-orange-600: hsl(20, 100%, 32%);
+
+  --color-edu-yellow-200: hsl(42, 81%, 70%);
+  --color-edu-yellow-400: hsl(42, 81%, 50%);
+  --color-edu-yellow-600: hsl(42, 81%, 40%);
+
+  --color-edu-blue-200: hsl(200, 77%, 85%);
+  --color-edu-blue-400: hsl(200, 77%, 63%);
+  --color-edu-blue-600: hsl(200, 77%, 45%);
+
+  --color-edu-green-200: hsl(163, 99%, 70%);
+  --color-edu-green-400: hsl(163, 99%, 31%);
+  --color-edu-green-600: hsl(163, 99%, 22%);
+
+  --color-edu-purple-200: hsl(264, 40%, 80%);
+  --color-edu-purple-400: hsl(264, 40%, 58%);
+  --color-edu-purple-600: hsl(264, 40%, 42%);
+
+  --color-edu-dark-blue-200: hsl(200, 100%, 70%);
+  --color-edu-dark-blue-400: hsl(200, 100%, 35%);
+  --color-edu-dark-blue-600: hsl(200, 100%, 25%);
+
+  --font-nav: 'Inter', sans-serif;
+  --font-body: 'Inder', sans-serif;
+  --font-heading: 'Roboto', sans-serif;
+}
