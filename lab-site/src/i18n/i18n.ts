@@ -21,7 +21,7 @@ i18n
             "fundingLink": "Funding & Support",
             "knowledgeHubLink": "Knowledge Hub",
             "meetTheTeamLink": "Meet the Team",
-            "researchApproachLink": "Research Approach",
+            "researchApproachLink": "Research",
             "whatWeDoLink": "What We Do"
           },
 
@@ -31,6 +31,18 @@ i18n
             "brandSubtitle": "Innovating Inclusive, Digital & AI-Enhanced Learning in Higher Education.",
             "projectsBtn": "Explore Our Projects",
             "collabBtn": "Collaborate With Us"
+          },
+
+          "whatWeDo": 
+          {
+            "title": "What We Do",
+
+            "classroomCardTitle": "Classroom Management",
+            "classroomCardDesc": "Engaging in positive behavior and organizational practices tailored for diverse learning environments.",
+            "inclusiveCardTitle": "Inclusive & UDL Practices",
+            "inclusiveCardDesc": "Designing accessible frameworks to maximize learning outcomes for higher education students.",
+            "toolsCardTitle": "Digital & AI Tools",
+            "toolsCardDesc": "Integrating innovative practices and variety to enhance modern teaching and student engagement.",
           }
         }
       },
@@ -44,9 +56,9 @@ i18n
             "calculusBuddyLink": "Calculus Buddy",
             "collaborateLink": "Collaborer",
             "fundingLink": "Financement et Soutien",
-            "knowledgeHubLink": "Carrefour des connaissances",
-            "meetTheTeamLink": "Rencontrez l'équipe",
-            "researchApproachLink": "Approche de recherche",
+            "knowledgeHubLink": "Connaissances",
+            "meetTheTeamLink": "L'équipe",
+            "researchApproachLink": "Recherche",
             "whatWeDoLink": "Ce que nous faisons"
           },
 
@@ -56,6 +68,18 @@ i18n
             "brandSubtitle": "Innover pour un apprentissage inclusif, numérique et propulsé par l'IA en enseignement supérieur,",
             "projectsBtn": "Découvrir nos projets",
             "collabBtn": "Collaborer avec nous"
+          },
+
+          "whatWeDo": 
+          {
+            "title": "Ce que nous faisons",
+
+            "classroomCardTitle": "Gestion de classe",
+            "classroomCardDesc": "Mise en œuvre de pratiques organisationnelles et de comportements positifs adaptés à des environnements d'apprentissage diversifiés.",
+            "inclusiveCardTitle": "Pratiques inclusives et CUA",
+            "inclusiveCardDesc": "Conception de cadres accessibles pour maximiser les résultats d'apprentissage des étudiants de l'enseignement supérieur.",
+            "toolsCardTitle": "Outils numériques et IA",
+            "toolsCardDesc": "Intégration de pratiques innovantes et diversifiées pour enrichir l'enseignement moderne et stimuler l'engagement des étudiants.",
           }
         }
       }
