@@ -2,29 +2,31 @@
 @import "tailwindcss";
 
 @theme {
-  --color-edu-orange-200: hsl(20, 100%, 70%);
-  --color-edu-orange-400: hsl(20, 100%, 42%);
-  --color-edu-orange-600: hsl(20, 100%, 32%);
+  
+  /* Core Brand Blues */
+  --color-edu-blue-200: hsl(220, 90%, 85%); 
+  --color-edu-blue-400: hsl(220, 85%, 55%); 
+  --color-edu-blue-600: hsl(222, 80%, 35%); 
 
-  --color-edu-yellow-200: hsl(42, 81%, 70%);
-  --color-edu-yellow-400: hsl(42, 81%, 50%);
-  --color-edu-yellow-600: hsl(42, 81%, 40%);
+  /* Deep Royal / Navy Accents */
+  --color-edu-navy-200: hsl(225, 60%, 80%);
+  --color-edu-navy-400: hsl(225, 70%, 45%); 
+  --color-edu-navy-600: hsl(225, 75%, 20%);
 
-  --color-edu-blue-200: hsl(200, 77%, 85%);
-  --color-edu-blue-400: hsl(200, 77%, 63%);
-  --color-edu-blue-600: hsl(200, 77%, 45%);
+  /* Creative Purples */
+  --color-edu-purple-200: hsl(265, 70%, 88%); 
+  --color-edu-purple-400: hsl(265, 60%, 60%);
+  --color-edu-purple-600: hsl(265, 65%, 40%);
 
-  --color-edu-green-200: hsl(163, 99%, 70%);
-  --color-edu-green-400: hsl(163, 99%, 31%);
-  --color-edu-green-600: hsl(163, 99%, 22%);
+  /* Soft Light / Background Gradients */
+  --color-edu-slate-200: hsl(215, 60%, 96%); 
+  --color-edu-slate-400: hsl(215, 30%, 75%); 
+  --color-edu-slate-600: hsl(215, 25%, 45%);  
 
-  --color-edu-purple-200: hsl(264, 40%, 80%);
-  --color-edu-purple-400: hsl(264, 40%, 58%);
-  --color-edu-purple-600: hsl(264, 40%, 42%);
-
-  --color-edu-dark-blue-200: hsl(200, 100%, 70%);
-  --color-edu-dark-blue-400: hsl(200, 100%, 35%);
-  --color-edu-dark-blue-600: hsl(200, 100%, 25%);
+  /* Warm Highlight / Accent Gold */
+  --color-edu-gold-200: hsl(35, 95%, 88%);
+  --color-edu-gold-400: hsl(38, 95%, 55%);   
+  --color-edu-gold-600: hsl(35, 90%, 35%);  
 
   --font-nav: 'Inter', sans-serif;
   --font-body: 'Inder', sans-serif;
