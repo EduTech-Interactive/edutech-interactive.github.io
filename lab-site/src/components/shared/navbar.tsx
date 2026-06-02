@@ -20,6 +20,7 @@ const Navbar: React.FC = () => {
     { to: '/collaborate', label: t("nav.collaborateLink") },
     { to: '/funding', label: t("nav.fundingLink") },
     { to: '/knowledge-hub', label: t("nav.knowledgeHubLink") },
+    { to: '/knowledge-hub-preview', label: t("nav.knowledgeHubPreviewLink") },
     { to: '/meet-the-team', label: t("nav.meetTheTeamLink") },
     { to: '/research-approach', label: t("nav.researchApproachLink") },
     { to: '/what-we-do', label: t("nav.whatWeDoLink") },
@@ -27,7 +28,7 @@ const Navbar: React.FC = () => {
 
 
   return (
-    <nav className="bg-edu-blue-200 font-nav p-6 md:p-10 text-lg">
+    <nav className="bg-edu-blue-400 text-white font-nav p-6 md:p-4 text-lg">
       {/*container*/}
       <div className="flex items-center justify-between md:justify-center max-w-7xl mx-auto relative">
         
@@ -55,7 +56,7 @@ const Navbar: React.FC = () => {
 
         {/*language selector (on the right on mobile layout)*/}
         <div className="md:absolute md:right-0">
-          <select className="bg-white rounded px-2 py-1" onChange={changeLanguage} defaultValue={i18n.language}>
+          <select className="rounded px-2 py-1" onChange={changeLanguage} defaultValue={i18n.language}>
             <option value={"en"}>EN</option>
             <option value={"fr"}>FR</option>
           </select>
@@ -63,7 +64,7 @@ const Navbar: React.FC = () => {
 
         {/*overlay for mobile menu*/}
         <div className={`
-          fixed inset-0 bg-edu-blue-200 z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-300 md:hidden
+          fixed inset-0 bg-edu-blue-400 z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-300 md:hidden
           ${isHamburgerMenuOpen ? 'translate-x-0' : '-translate-x-full'}
         `}>
           {navLinks.map((link) => (

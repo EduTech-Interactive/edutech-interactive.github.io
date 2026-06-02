@@ -5,10 +5,11 @@ import Homepage from '../components/homepage/homepage'
 import CalculusBuddy from '../components/calculus-buddy/calculus-buddy'
 import Collaborate from '../components/collaborate/collaborate'
 import Funding from '../components/funding/funding'
-import KnowledgeHub from '../components/knowledge-hub/knowledge-hub'
+import KnowledgeHubPreview from '../components/knowledge-hub-preview/knowledge-hub-preview'
 import MeetTheTeam from '../components/meet-the-team/meet-the-team'
 import ResearchApproach from '../components/research-approach/research-approach'
 import { WhatWeDo } from '../components/what-we-do/what-we-do'
+import KnowledgeHub from '../components/knowledge-hub/knowledge-hub'
 export const routeDefinitions = [
 
   //homepage
@@ -44,6 +45,13 @@ export const routeDefinitions = [
     getParentRoute: () => rootRoute,
     path: '/funding',
     component: Funding,
+  }),
+
+  //knowledge hub preview
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/knowledge-hub-preview',
+    component: KnowledgeHubPreview,
   }),
 
   //knowledge hub

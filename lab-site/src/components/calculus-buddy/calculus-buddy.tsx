@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Button } from "../shared/ui/button";
 import { useTranslation } from "react-i18next";
+import laptopBg from "/img/calculus-buddy/laptop-bg.webp";
 
 const CalculusBuddy = () => {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ const CalculusBuddy = () => {
     <>
       <section 
         className="relative w-full min-h-[400px] md:h-[500px] flex items-center bg-cover bg-center bg-no-repeat px-6 md:px-16 lg:px-32"
-        style={{ backgroundImage: `url('img/calculus-buddy/laptop-bg.webp')` }}
+        style={{ backgroundImage: `url('${laptopBg}')` }}
       >
         {/*text content*/}
         <div className="text-white z-10 space-y-4 md:space-y-6">

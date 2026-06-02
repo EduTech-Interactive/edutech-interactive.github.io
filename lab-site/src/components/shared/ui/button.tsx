@@ -27,7 +27,7 @@ export const Button: React.FC<ButtonProps> = ({
         font-nav font-bold text-base md:text-lg text-white 
         px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl 
         transform hover:-translate-y-0.5 transition-all duration-200 
-        cursor-pointer text-center whitespace-nowrap min-w-[200px]
+        cursor-pointer text-center whitespace-nowrap min-w-[300px]
         ${bgClassName} 
         ${hoverBgClassName} 
         ${borderClassName}

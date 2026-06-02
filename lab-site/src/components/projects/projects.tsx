@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div>projects works</div>
+    <div>projects page - what should we put here?</div>
   )
 }
 

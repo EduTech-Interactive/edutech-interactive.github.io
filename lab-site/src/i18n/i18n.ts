@@ -14,15 +14,16 @@ i18n
         {
           "nav": 
           {
-            "homeLink": "Home",
-            "projectsLink": "Projects",
-            "calculusBuddyLink": "Calculus Buddy",
-            "collaborateLink": "Collaborate",
-            "fundingLink": "Funding & Support",
-            "knowledgeHubLink": "Knowledge Hub",
-            "meetTheTeamLink": "Meet the Team",
-            "researchApproachLink": "Research",
-            "whatWeDoLink": "What We Do"
+            "homeLink": "home",
+            "projectsLink": "projects",
+            "calculusBuddyLink": "calc buddy",
+            "collaborateLink": "collab",
+            "fundingLink": "funding",
+            "knowledgeHubPreviewLink": "knowledge hub preview",
+            "knowledgeHubLink": "knowledge hub",
+            "meetTheTeamLink": "team",
+            "researchApproachLink": "research",
+            "whatWeDoLink": "what we do"
           },
 
           "homepage":
@@ -55,6 +56,7 @@ i18n
           "researchApproach": 
           {
             "title": "Our Research Approach",
+            "desc": "EDUQLASSE adopts a <b>design-based and applied research approach</b>, combining theory, practice, and iterative evaluation in authentic teaching contexts.",
             "items": 
             {
               "process": 
@@ -73,7 +75,7 @@ i18n
             "hubBtnText": "Visit the Knowledge Hub"
           },
 
-          "knowledgeHub": 
+          "knowledgeHubPreview": 
           {
             "title": "Knowledge Hub",
             "cards": 
@@ -93,7 +95,31 @@ i18n
                 "title": "Resources",
                 "description": "Guides & Toolkits"
               }
-            }
+            },
+
+            "visitBtnText": "Visit the Knowledge Hub"
+          },
+
+          "meetTheTeam": 
+          {
+            "title": "Meet the EDUQLASSE Team",
+            "stats": "20+ Researchers & Developers | 6 Graduate Students",
+            "desc": "EDUQLASSE brings together researchers, graduate students, programmers, and illustrators working collaboratively on interdisciplinary projects in higher education.",
+            "learnMoreBtn": "Learn More"
+          },
+
+          "funding": 
+          {
+            "title": "Funding & Support",
+            "desc": "EDUQLASSE’s activities are supported through institutional and program-based funding that enables pedagogical innovation and applied research in higher education.",
+            "subtitle": "Supported By",
+          },
+
+          "collaborate": 
+          {
+            "title": "Collaborate With Us",
+            "proposeBtn": "Propose a Collaboration",
+            "joinBtn": "Join the Lab"
           }
         }
       },
@@ -102,15 +128,16 @@ i18n
         {
           "nav": 
           {
-            "homeLink": "Accueil",
-            "projectsLink": "Projets",
-            "calculusBuddyLink": "Calculus Buddy",
-            "collaborateLink": "Collaborer",
-            "fundingLink": "Financement et Soutien",
-            "knowledgeHubLink": "Connaissances",
-            "meetTheTeamLink": "L'équipe",
-            "researchApproachLink": "Recherche",
-            "whatWeDoLink": "Ce que nous faisons"
+            "homeLink": "accueil",
+            "projectsLink": "projets",
+            "calculusBuddyLink": "calc buddy",
+            "collaborateLink": "collab",
+            "fundingLink": "financement",
+            "knowledgeHubPreviewLink": "connaisances preview",
+            "knowledgeHubLink": "connaissances",
+            "meetTheTeamLink": "équipe",
+            "researchApproachLink": "recherche",
+            "whatWeDoLink": "ce que nous faisons"
           },
 
           "homepage":
@@ -143,6 +170,7 @@ i18n
           "researchApproach": 
           {
             "title": "Notre approche de recherche",
+            "desc": "EDUQLASSE adopte une approche de recherche <b>appliquée et axée sur la conception, combinant théorie, pratique et évaluation</b> itérative dans des contextes d'enseignement authentiques.",
             "items": 
             {
               "process": 
@@ -161,7 +189,7 @@ i18n
             "hubBtnText": "Visiter le Carrefour de connaissances"
           },
 
-          "knowledgeHub": 
+          "knowledgeHubPreview": 
           {
             "title": "Carrefour des connaissances",
             "cards": 
@@ -180,8 +208,32 @@ i18n
               {
                 "title": "Ressources",
                 "description": "Guides et boîtes à outils"
-              }
+              },
+
+              "visitBtnText": "Visiter le Centre de connaissances"
             }
+          },
+
+          "meetTheTeam": 
+          {
+            "title": "Rencontrez l'équipe EDUQLASSE",
+            "stats": "Plus de 20 chercheurs et développeurs | 6 étudiants de cycles supérieurs",
+            "desc": "EDUQLASSE réunit des chercheurs, des étudiants de troisième cycle, des programmeurs et des illustrateurs travaillant en collaboration sur des projets interdisciplinaires dans l'enseignement supérieur.",
+            "learnMoreBtn": "En savoir plus"
+          },
+
+          "funding": 
+          {
+            "title": "Financement et soutien",
+            "desc": "Les activités d'EDUQLASSE sont soutenues par un financement institutionnel et programmatique qui permet l'innovation pédagogique et la recherche appliquée dans l'enseignement supérieur.",
+            "subtitle": "Avec le soutien de"
+          },
+
+          "collaborate": 
+          {
+            "title": "Collaborez avec nous",
+            "proposeBtn": "Proposer une collaboration",
+            "joinBtn": "Joindre le labo"
           }
         }
       }

@@ -12,6 +12,12 @@ const ResearchApproach = () => {
         {t("researchApproach.title")}
       </h2>
 
+      <p dangerouslySetInnerHTML={{ __html: t("researchApproach.desc")}}>
+
+      </p>
+
+      <div className='m-2'></div>
+
       {/*main info box*/}
       <div className="w-full bg-[#f4f7ff] border border-edu-blue-200 rounded-xl p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-x-8 md:divide-x md:divide-[#cbdcfd] relative mb-8 shadow-sm">
         
@@ -29,7 +35,7 @@ const ResearchApproach = () => {
             </div>
           </div>
 
-          {/*item 2: interdisciplinaty collaboration*/}
+          {/*item 2: interdisciplinary collaboration*/}
           <div className="flex items-center space-x-3">
             <CheckCircle2 className="w-10 h-10  text-edu-blue-400  shrink-0" fill="currentColor" stroke="white" strokeWidth={2} />
             <span className="text-sm md:text-base font-medium">{t("researchApproach.items.collaboration")}</span>

@@ -27,8 +27,8 @@ export const WhatWeDo: React.FC = () => {
     <section className="bg-white px-6 py-16 md:px-12 lg:py-24">
       <div className="mx-auto max-w-6xl">
         {/* Section Heading */}
-        <h2 className="font-heading mb-12 text-center text-3xl tracking-tight sm:text-4xl">
-          What We Do
+        <h2 className="font-heading mb-12 text-center text-3xl sm:text-4xl">
+          {t("whatWeDo.title")}
         </h2>
         
         {/* Responsive Grid Layout */}
