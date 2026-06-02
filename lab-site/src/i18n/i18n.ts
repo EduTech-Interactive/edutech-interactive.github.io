@@ -50,6 +50,27 @@ i18n
             "heading": "Featured Project: Calculus Buddy",
             "desc": "AI-powered tutoring for higher education mathematics.",
             "btnText": "Discover The Project"
+          },
+
+          "researchApproach": 
+          {
+            "title": "Our Research Approach",
+            "items": 
+            {
+              "process": 
+              {
+                "step1": "Design",
+                "step2": "Implementation",
+                "step3": "Evaluation"
+              },
+              "collaboration": "Interdisciplinary Collaboration",
+              "methodology": 
+              {
+                "type": "Interdisciplinary",
+                "setting": "Classroom-based Research"
+              }
+            },
+            "hubBtnText": "Visit the Knowledge Hub"
           }
         }
       },
@@ -94,6 +115,27 @@ i18n
             "heading": "Projet en vedette : Calculus Buddy",
             "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
             "btnText": "Découvrir le projet"
+          },
+
+          "researchApproach": 
+          {
+            "title": "Notre approche de recherche",
+            "items": 
+            {
+              "process": 
+              {
+                "step1": "Conception",
+                "step2": "Mise en œuvre",
+                "step3": "Évaluation"
+              },
+              "collaboration": "Collaboration interdisciplinaire",
+              "methodology": 
+              {
+                "type": "Interdisciplinaire",
+                "setting": "Recherche en milieu scolaire"
+              }
+            },
+            "hubBtnText": "Visiter le Carrefour de connaissances"
           }
         }
       }
