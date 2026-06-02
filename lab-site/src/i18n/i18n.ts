@@ -8,9 +8,12 @@ i18n
   .init({
     resources: 
     {
-      en: {
-        translation: {
-          "nav": {
+      en: 
+      {
+        translation: 
+        {
+          "nav": 
+          {
             "homeLink": "Home",
             "projectsLink": "Projects",
             "calculusBuddyLink": "Calculus Buddy",
@@ -20,12 +23,22 @@ i18n
             "meetTheTeamLink": "Meet the Team",
             "researchApproachLink": "Research Approach",
             "whatWeDoLink": "What We Do"
+          },
+
+          "homepage":
+          {
+            "brand": "Eduqlasse",
+            "brandSubtitle": "Innovating Inclusive, Digital & AI-Enhanced Learning in Higher Education.",
+            "projectsBtn": "Explore Our Projects",
+            "collabBtn": "Collaborate With Us"
           }
         }
       },
       fr: {
-        translation: {
-          "nav": {
+        translation: 
+        {
+          "nav": 
+          {
             "homeLink": "Accueil",
             "projectsLink": "Projets",
             "calculusBuddyLink": "Calculus Buddy",
@@ -35,6 +48,14 @@ i18n
             "meetTheTeamLink": "Rencontrez l'équipe",
             "researchApproachLink": "Approche de recherche",
             "whatWeDoLink": "Ce que nous faisons"
+          },
+
+          "homepage":
+          {
+            "brand": "Eduqlasse",
+            "brandSubtitle": "Innover pour un apprentissage inclusif, numérique et propulsé par l'IA en enseignement supérieur,",
+            "projectsBtn": "Découvrir nos projets",
+            "collabBtn": "Collaborer avec nous"
           }
         }
       }
