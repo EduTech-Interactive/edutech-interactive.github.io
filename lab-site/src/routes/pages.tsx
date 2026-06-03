@@ -1,15 +1,14 @@
 import { createRoute } from '@tanstack/react-router'
 import { rootRoute } from './root'
-import Projects from '../components/projects/projects'
 import Homepage from '../components/homepage/homepage'
-import CalculusBuddy from '../components/calculus-buddy/calculus-buddy'
 import Collaborate from '../components/collaborate/collaborate'
 import Funding from '../components/funding/funding'
-import KnowledgeHubPreview from '../components/knowledge-hub-preview/knowledge-hub-preview'
+import Resources from '../components/resources/resources'
 import MeetTheTeam from '../components/meet-the-team/meet-the-team'
 import ResearchApproach from '../components/research-approach/research-approach'
 import { WhatWeDo } from '../components/what-we-do/what-we-do'
 import KnowledgeHub from '../components/knowledge-hub/knowledge-hub'
+import Projects from '../components/projects/projects'
 export const routeDefinitions = [
 
   //homepage
@@ -19,18 +18,18 @@ export const routeDefinitions = [
     component: Homepage
   }),
 
-  //projects root (will we need this?)
+  //research approach
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/research-approach',
+    component: ResearchApproach,
+  }),
+
+  //projects
   createRoute({
     getParentRoute: () => rootRoute,
     path: '/projects',
     component: Projects,
-  }),
-
-  //calc buddy
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: '/calculus-buddy',
-    component: CalculusBuddy,
   }),
 
   //collab
@@ -47,11 +46,11 @@ export const routeDefinitions = [
     component: Funding,
   }),
 
-  //knowledge hub preview
+  //resources
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/knowledge-hub-preview',
-    component: KnowledgeHubPreview,
+    path: '/resources',
+    component: Resources,
   }),
 
   //knowledge hub
@@ -66,13 +65,6 @@ export const routeDefinitions = [
     getParentRoute: () => rootRoute,
     path: '/meet-the-team',
     component: MeetTheTeam,
-  }),
-
-  //research approach
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: '/research-approach',
-    component: ResearchApproach,
   }),
 
   //what we do

@@ -14,15 +14,15 @@ i18n
         {
           "nav": 
           {
-            "homeLink": "home",
-            "projectsLink": "projects",
-            "calculusBuddyLink": "calc buddy",
+            "homeLink": "Home",
+            "researchApproachLink": "Research",
+            "projectsLink": "Projects",
+            "resourcesLink": "Resources",
+            "blogLink": "Blog",
             "collaborateLink": "collab",
             "fundingLink": "funding",
-            "knowledgeHubPreviewLink": "knowledge hub preview",
             "knowledgeHubLink": "knowledge hub",
             "meetTheTeamLink": "team",
-            "researchApproachLink": "research",
             "whatWeDoLink": "what we do"
           },
 
@@ -46,11 +46,14 @@ i18n
             "toolsCardDesc": "Integrating innovative practices and variety to enhance modern teaching and student engagement.",
           },
           
-          "calculusBuddy":
+          "projects":
           {
-            "heading": "Featured Project: Calculus Buddy",
-            "desc": "AI-powered tutoring for higher education mathematics.",
-            "btnText": "Discover The Project"
+            "calcBuddy" : 
+            {
+              "heading": "Featured Project: Calculus Buddy",
+              "desc": "AI-powered tutoring for higher education mathematics.",
+              "btnText": "Discover The Project"
+            }
           },
 
           "researchApproach": 
@@ -75,9 +78,9 @@ i18n
             "hubBtnText": "Visit the Knowledge Hub"
           },
 
-          "knowledgeHubPreview": 
+          "resources": 
           {
-            "title": "Knowledge Hub",
+            "title": "Resources",
             "cards": 
             {
               "blog": 
@@ -94,10 +97,13 @@ i18n
               {
                 "title": "Resources",
                 "description": "Guides & Toolkits"
+              },
+              "gallery":
+              {
+                "title": "Gallery",
+                "description": "Photos and Videos of Events"
               }
             },
-
-            "visitBtnText": "Visit the Knowledge Hub"
           },
 
           "meetTheTeam": 
@@ -128,15 +134,15 @@ i18n
         {
           "nav": 
           {
-            "homeLink": "accueil",
-            "projectsLink": "projets",
-            "calculusBuddyLink": "calc buddy",
+            "homeLink": "Accueil",
+            "researchApproachLink": "Recherche",
+            "projectsLink": "Projets",
+            "resourcesLink": "Ressources",
+            "blogLink": "Blogue",
             "collaborateLink": "collab",
             "fundingLink": "financement",
-            "knowledgeHubPreviewLink": "connaisances preview",
             "knowledgeHubLink": "connaissances",
             "meetTheTeamLink": "équipe",
-            "researchApproachLink": "recherche",
             "whatWeDoLink": "ce que nous faisons"
           },
 
@@ -160,11 +166,14 @@ i18n
             "toolsCardDesc": "Intégration de pratiques innovantes et diversifiées pour enrichir l'enseignement moderne et stimuler l'engagement des étudiants.",
           },
 
-          "calculusBuddy":
+          "projects":
           {
-            "heading": "Projet en vedette : Calculus Buddy",
-            "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
-            "btnText": "Découvrir le projet"
+            "calcBuddy": 
+            {
+              "heading": "Projet en vedette : Calculus Buddy",
+              "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
+              "btnText": "Découvrir le projet"
+            }
           },
 
           "researchApproach": 
@@ -189,9 +198,9 @@ i18n
             "hubBtnText": "Visiter le Carrefour de connaissances"
           },
 
-          "knowledgeHubPreview": 
+          "resources": 
           {
-            "title": "Carrefour des connaissances",
+            "title": "Ressources",
             "cards": 
             {
               "blog": 
@@ -209,8 +218,11 @@ i18n
                 "title": "Ressources",
                 "description": "Guides et boîtes à outils"
               },
-
-              "visitBtnText": "Visiter le Centre de connaissances"
+              "gallery":
+              {
+                "title": "Galerie",
+                "description": "Photos et vidéos d'événements"
+              },
             }
           },
 
