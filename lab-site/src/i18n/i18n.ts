@@ -22,8 +22,8 @@ i18n
             "podcastLink": "Podcast",
             "publicationsLink": "Publications",
             "partnersLink": "Partners",
-            "meetTheTeamLink": "team",
-            "whatWeDoLink": "what we do"
+            "meetTheTeamLink": "Team",
+            "aboutLink": "what we do"
           },
 
           "homepage":
@@ -150,8 +150,8 @@ i18n
             "podcastLink": "Balado",
             "publicationsLink": "Publications",
             "partnersLink": "Partenaires",
-            "meetTheTeamLink": "équipe",
-            "whatWeDoLink": "ce que nous faisons"
+            "meetTheTeamLink": "Équipe",
+            "aboutLink": "À propos"
           },
 
           "homepage":

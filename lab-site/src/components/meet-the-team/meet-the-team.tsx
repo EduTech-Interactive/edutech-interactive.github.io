@@ -37,13 +37,14 @@ const MeetTheTeam = () => {
 
       {/*button*/}
       <div className="mt-2">
-        <Link to="/collaborate">
+        <Link to="/partners">
           <Button>
             {t("meetTheTeam.learnMoreBtn")}
           </Button>
         </Link>
       </div>
 
+      <div className='m-5'></div>
     </section>
   );
 };

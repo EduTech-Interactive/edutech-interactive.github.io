@@ -36,7 +36,7 @@ const Homepage = () => {
                             </Button>
                         </Link>
 
-                        <Link to="/collaborate">
+                        <Link to="/partners">
                             <Button 
                             bgClassName="bg-edu-purple-400"
                             hoverBgClassName="hover:bg-edu-purple-600"

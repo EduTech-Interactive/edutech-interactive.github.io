@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import ImageCard from "../shared/ui/service-card";
 
-export const WhatWeDo: React.FC = () => {
+export const About = () => {
 
   const { t } = useTranslation();
 

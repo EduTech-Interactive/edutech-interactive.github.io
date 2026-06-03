@@ -61,13 +61,13 @@ const Partners = () => {
       {/*btns*/}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-4 w-full sm:w-auto justify-center lg:justify-start items-center">
           
-        <Link to="/projects">
+        <Link to={undefined}>
             <Button>
                 {t("partners.collabSection.proposeBtn")}
             </Button>
         </Link>
 
-        <Link to="/collaborate">
+        <Link to={undefined}>
             <Button 
             bgClassName="bg-edu-purple-400"
             hoverBgClassName="hover:bg-edu-purple-600"

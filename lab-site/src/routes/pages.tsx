@@ -5,7 +5,7 @@ import Partners from '../components/partners/partners'
 import Resources from '../components/resources/resources'
 import MeetTheTeam from '../components/meet-the-team/meet-the-team'
 import ResearchApproach from '../components/research-approach/research-approach'
-import { WhatWeDo } from '../components/what-we-do/what-we-do'
+import { About } from '../components/about/about'
 import Projects from '../components/projects/projects'
 import Blog from '../components/blog/blog'
 import Podcast from '../components/podcast/podcast'
@@ -64,7 +64,7 @@ export const routeDefinitions = [
   //collab
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/collaborate',
+    path: '/partners',
     component: Partners,
   }),
 
@@ -78,8 +78,8 @@ export const routeDefinitions = [
   //what we do
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/what-we-do',
-    component: WhatWeDo,
+    path: '/about',
+    component: About,
   }),
 
 ]
