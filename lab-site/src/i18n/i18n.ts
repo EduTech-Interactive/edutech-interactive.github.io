@@ -23,7 +23,7 @@ i18n
             "publicationsLink": "Publications",
             "partnersLink": "Partners",
             "meetTheTeamLink": "Team",
-            "aboutLink": "what we do"
+            "aboutLink": "About"
           },
 
           "homepage":
