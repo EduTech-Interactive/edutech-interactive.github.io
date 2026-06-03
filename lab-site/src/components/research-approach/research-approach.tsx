@@ -58,7 +58,7 @@ const ResearchApproach = () => {
 
       {/*btn link*/}
       <div className="z-10 -mt-4">
-        <Link to="/knowledge-hub">
+        <Link to="/resources">
           <Button>
             {t("researchApproach.hubBtnText")}
           </Button>

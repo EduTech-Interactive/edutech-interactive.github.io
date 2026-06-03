@@ -22,7 +22,7 @@ const Resources = () => {
       icon: Podcast,
       title: t("resources.cards.podcast.title"),
       description: t("resources.cards.podcast.description"),
-      link: "podcast"
+      link: "/podcast"
     },
     {
       icon: Folder,
@@ -41,7 +41,7 @@ const Resources = () => {
   return (
     <section 
       className="relative w-full py-12 px-6 bg-cover bg-center flex flex-col items-center justify-center min-h-[400px]"
-      style={{ backgroundImage: "url('img/knowledge-hub/knowledge-hub.webp')" }}
+      style={{ backgroundImage: "url('img/resources/resources-bg.webp')" }}
     >
       {/*header container*/}
       <div className="flex justify-center items-center w-full max-w-6xl mb-8">
@@ -53,10 +53,14 @@ const Resources = () => {
       </div>
 
       {/*cards*/}
-      <div className='w-full flex justify-center'>
-        <div className="w-[90%] flex flex-col md:flex-row justify-between">
+      <div className='w-full flex justify-center items-center'>
+        <div className="w-[90%] flex flex-col md:flex-row md:justify-between items-center">
           {hubItems.map((item, idx) => (
-            <Link key={idx} className='w-full mb-1 md:mb-0 md:w-[20vw] h-full' to={item.link}>
+            <Link
+              key={idx}
+              className="w-[80%] mb-1 md:mb-0 md:w-[20vw]"
+              to={item.link}
+            >
               <IconCard
                 icon={item.icon}
                 title={item.title}

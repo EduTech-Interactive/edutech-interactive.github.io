@@ -19,9 +19,9 @@ const Navbar: React.FC = () => {
     { to: '/projects', label: t("nav.projectsLink") },
     { to: '/resources', label: t("nav.resourcesLink") },
     { to: '/blog', label: t("nav.blogLink")},
-    { to: '/collaborate', label: t("nav.collaborateLink") },
-    { to: '/funding', label: t("nav.fundingLink") },
-    { to: '/knowledge-hub', label: t("nav.knowledgeHubLink") },
+    { to: '/podcast', label: t("nav.podcastLink")},
+    { to: '/publications', label: t("nav.publicationsLink") },
+    { to: '/partners', label: t("nav.partnersLink") },
     { to: '/meet-the-team', label: t("nav.meetTheTeamLink") },
     { to: '/what-we-do', label: t("nav.whatWeDoLink") },
   ];

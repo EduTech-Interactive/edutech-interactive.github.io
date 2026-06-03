@@ -19,9 +19,9 @@ i18n
             "projectsLink": "Projects",
             "resourcesLink": "Resources",
             "blogLink": "Blog",
-            "collaborateLink": "collab",
-            "fundingLink": "funding",
-            "knowledgeHubLink": "knowledge hub",
+            "podcastLink": "Podcast",
+            "publicationsLink": "Publications",
+            "partnersLink": "Partners",
             "meetTheTeamLink": "team",
             "whatWeDoLink": "what we do"
           },
@@ -75,7 +75,7 @@ i18n
                 "setting": "Classroom-based Research"
               }
             },
-            "hubBtnText": "Visit the Knowledge Hub"
+            "hubBtnText": "View Resources"
           },
 
           "resources": 
@@ -116,16 +116,24 @@ i18n
 
           "funding": 
           {
-            "title": "Funding & Support",
-            "desc": "EDUQLASSE’s activities are supported through institutional and program-based funding that enables pedagogical innovation and applied research in higher education.",
-            "subtitle": "Supported By",
+
           },
 
-          "collaborate": 
+          "partners": 
           {
-            "title": "Collaborate With Us",
-            "proposeBtn": "Propose a Collaboration",
-            "joinBtn": "Join the Lab"
+            "fundingSection": 
+            {
+              "title": "Funding & Support",
+              "desc": "EDUQLASSE’s activities are supported through institutional and program-based funding that enables pedagogical innovation and applied research in higher education.",
+              "subtitle": "Supported By",
+            },
+
+            "collabSection": 
+            {
+              "title": "Collaborate With Us",
+              "proposeBtn": "Propose a Collaboration",
+              "joinBtn": "Join the Lab"
+            }
           }
         }
       },
@@ -139,9 +147,9 @@ i18n
             "projectsLink": "Projets",
             "resourcesLink": "Ressources",
             "blogLink": "Blogue",
-            "collaborateLink": "collab",
-            "fundingLink": "financement",
-            "knowledgeHubLink": "connaissances",
+            "podcastLink": "Balado",
+            "publicationsLink": "Publications",
+            "partnersLink": "Partenaires",
             "meetTheTeamLink": "équipe",
             "whatWeDoLink": "ce que nous faisons"
           },
@@ -195,7 +203,7 @@ i18n
                 "setting": "Recherche en milieu scolaire"
               }
             },
-            "hubBtnText": "Visiter le Carrefour de connaissances"
+            "hubBtnText": "Voir les Ressources"
           },
 
           "resources": 
@@ -234,18 +242,21 @@ i18n
             "learnMoreBtn": "En savoir plus"
           },
 
-          "funding": 
+          "partners": 
           {
-            "title": "Financement et soutien",
-            "desc": "Les activités d'EDUQLASSE sont soutenues par un financement institutionnel et programmatique qui permet l'innovation pédagogique et la recherche appliquée dans l'enseignement supérieur.",
-            "subtitle": "Avec le soutien de"
-          },
+            "fundingSection": 
+            {
+              "title": "Financement et soutien",
+              "desc": "Les activités d’EDUQLASSE sont soutenues par des financements institutionnels et sectoriels qui permettent l’innovation pédagogique et la recherche appliquée en enseignement supérieur.",
+              "subtitle": "Soutenu par"
+            },
 
-          "collaborate": 
-          {
-            "title": "Collaborez avec nous",
-            "proposeBtn": "Proposer une collaboration",
-            "joinBtn": "Joindre le labo"
+            "collabSection": 
+            {
+              "title": "Collaborer avec nous",
+              "proposeBtn": "Proposer une collaboration",
+              "joinBtn": "Rejoindre le laboratoire"
+            }
           }
         }
       }

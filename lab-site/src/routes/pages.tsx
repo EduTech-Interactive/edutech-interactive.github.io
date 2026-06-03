@@ -1,14 +1,15 @@
 import { createRoute } from '@tanstack/react-router'
 import { rootRoute } from './root'
 import Homepage from '../components/homepage/homepage'
-import Collaborate from '../components/collaborate/collaborate'
-import Funding from '../components/funding/funding'
+import Partners from '../components/partners/partners'
 import Resources from '../components/resources/resources'
 import MeetTheTeam from '../components/meet-the-team/meet-the-team'
 import ResearchApproach from '../components/research-approach/research-approach'
 import { WhatWeDo } from '../components/what-we-do/what-we-do'
-import KnowledgeHub from '../components/knowledge-hub/knowledge-hub'
 import Projects from '../components/projects/projects'
+import Blog from '../components/blog/blog'
+import Podcast from '../components/podcast/podcast'
+import Publications from '../components/publications/publications'
 export const routeDefinitions = [
 
   //homepage
@@ -32,20 +33,6 @@ export const routeDefinitions = [
     component: Projects,
   }),
 
-  //collab
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: '/collaborate',
-    component: Collaborate,
-  }),
-
-  //funding/support
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: '/funding',
-    component: Funding,
-  }),
-
   //resources
   createRoute({
     getParentRoute: () => rootRoute,
@@ -53,11 +40,32 @@ export const routeDefinitions = [
     component: Resources,
   }),
 
-  //knowledge hub
+  //blog
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/knowledge-hub',
-    component: KnowledgeHub,
+    path: '/blog',
+    component: Blog,
+  }),
+
+  //podcast
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/podcast',
+    component: Podcast,
+  }),
+
+  //podcast
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/publications',
+    component: Publications,
+  }),
+
+  //collab
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/collaborate',
+    component: Partners,
   }),
 
   //team
