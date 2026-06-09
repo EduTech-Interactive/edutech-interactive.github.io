@@ -6,5 +6,9 @@ import Globals from './src/globals'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: Globals.BASE_PATH
+  base: Globals.BASE_PATH,
+  build: 
+  {
+    outDir: "docs"
+  }
 })

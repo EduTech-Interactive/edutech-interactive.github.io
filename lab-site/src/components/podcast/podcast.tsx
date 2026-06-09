@@ -1,7 +1,7 @@
 const Podcast = () => {
   return (
     <div>
-        <h1>podcasts page - todo👀</h1>
+        <h1>Podcast</h1>
     </div>
   )
 }
