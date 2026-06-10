@@ -22,7 +22,6 @@ const Navbar: React.FC = () => {
     { to: '/podcast', label: t("nav.podcastLink")},
     { to: '/publications', label: t("nav.publicationsLink") },
     { to: '/partners', label: t("nav.partnersLink") },
-    { to: '/meet-the-team', label: t("nav.meetTheTeamLink") },
     { to: '/about', label: t("nav.aboutLink") },
   ];
 

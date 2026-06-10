@@ -25,8 +25,11 @@ export function TeamMember({
         />
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col justify-center">
         <h2 className="font-heading font-bold text-2xl">{name}</h2>
+
+        <div className="my-5"></div>
+
         <p className="font-body">{description}</p>
       </div>
     </div>

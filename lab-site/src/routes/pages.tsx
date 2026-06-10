@@ -3,7 +3,6 @@ import { rootRoute } from './root'
 import Homepage from '../components/homepage/homepage'
 import Partners from '../components/partners/partners'
 import Resources from '../components/resources/resources'
-import MeetTheTeam from '../components/meet-the-team/meet-the-team'
 import ResearchApproach from '../components/research-approach/research-approach'
 import { About } from '../components/about/about'
 import Projects from '../components/projects/projects'
@@ -66,13 +65,6 @@ export const routeDefinitions = [
     getParentRoute: () => rootRoute,
     path: '/partners',
     component: Partners,
-  }),
-
-  //team
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: '/meet-the-team',
-    component: MeetTheTeam,
   }),
 
   //what we do
