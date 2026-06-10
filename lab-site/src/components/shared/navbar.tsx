@@ -15,14 +15,15 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { to: '/', label: t("nav.homeLink") },
-    { to: '/research-approach', label: t("nav.researchApproachLink") },
-    { to: '/projects', label: t("nav.projectsLink") },
-    { to: '/resources', label: t("nav.resourcesLink") },
+    { to: '/research-projects', label: t("nav.researchProjectsLink") },
+    { to: '/games-and-simulations', label: t("nav.gamesAndSimulationsLink") },
+    { to: '/gen-ai-apps', label: t("nav.genAiAppsLink") },
+    //{ to: '/resources', label: t("nav.resourcesLink") },
     { to: '/blog', label: t("nav.blogLink")},
     { to: '/podcast', label: t("nav.podcastLink")},
     { to: '/publications', label: t("nav.publicationsLink") },
-    { to: '/partners', label: t("nav.partnersLink") },
     { to: '/about', label: t("nav.aboutLink") },
+    { to: '/partners', label: t("nav.partnersLink") },
   ];
 
 

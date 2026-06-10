@@ -3,12 +3,13 @@ import { rootRoute } from './root'
 import Homepage from '../components/homepage/homepage'
 import Partners from '../components/partners/partners'
 import Resources from '../components/resources/resources'
-import ResearchApproach from '../components/research-approach/research-approach'
+import ResearchProjects from '../components/research-projects/research-approach'
 import { About } from '../components/about/about'
-import Projects from '../components/projects/projects'
+import GenAiApps from '../components/gen-ai-apps/gen-ai-apps'
 import Blog from '../components/blog/blog'
 import Podcast from '../components/podcast/podcast'
 import Publications from '../components/publications/publications'
+import GamesAndSimulations from '../components/games-and-simulations/games-and-simulations'
 export const routeDefinitions = [
 
   //homepage
@@ -18,18 +19,25 @@ export const routeDefinitions = [
     component: Homepage
   }),
 
-  //research approach
+  //research projects
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/research-approach',
-    component: ResearchApproach,
+    path: '/research-projects',
+    component: ResearchProjects,
   }),
 
-  //projects
+  //games and simulations
   createRoute({
     getParentRoute: () => rootRoute,
-    path: '/projects',
-    component: Projects,
+    path: '/games-and-simulations',
+    component: GamesAndSimulations,
+  }),
+
+  //genai apps
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/gen-ai-apps',
+    component: GenAiApps,
   }),
 
   //resources

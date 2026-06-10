@@ -15,10 +15,11 @@ i18n
           "nav": 
           {
             "homeLink": "Home",
-            "researchApproachLink": "Research",
-            "projectsLink": "Projects",
+            "researchProjectsLink": "Research Projects",
+            "gamesAndSimulationsLink": "Games and Simulations",
+            "genAiAppsLink": "GenAI Apps",
             "resourcesLink": "Resources",
-            "blogLink": "Blog",
+            "blogLink": "Blogs",
             "podcastLink": "Podcast",
             "publicationsLink": "Publications",
             "partnersLink": "Partners",
@@ -112,7 +113,7 @@ i18n
             },
           },
           
-          "projects":
+          "genAiApps":
           {
             "calcBuddy" : 
             {
@@ -122,9 +123,9 @@ i18n
             }
           },
 
-          "researchApproach": 
+          "researchProjects": 
           {
-            "title": "Our Research Approach",
+            "title": "Research Projects",
             "desc": "EDUQLASSE adopts a <b>design-based and applied research approach</b>, combining theory, practice, and iterative evaluation in authentic teaching contexts.",
             "items": 
             {
@@ -201,8 +202,9 @@ i18n
           "nav": 
           {
             "homeLink": "Accueil",
-            "researchApproachLink": "Recherche",
-            "projectsLink": "Projets",
+            "researchProjectsLink": "Projets de recherche",
+            "gamesAndSimulationsLink": "Jeux et simulations",
+            "genAiAppsLink": "Applis IA",
             "resourcesLink": "Ressources",
             "blogLink": "Blogue",
             "podcastLink": "Balado",
@@ -299,7 +301,7 @@ i18n
             },
           },
 
-          "projects":
+          "genAiApps":
           {
             "calcBuddy": 
             {
@@ -309,9 +311,9 @@ i18n
             }
           },
 
-          "researchApproach": 
+          "researchProjects": 
           {
-            "title": "Notre approche de recherche",
+            "title": "Nos projets de recherche",
             "desc": "EDUQLASSE adopte une approche de recherche <b>appliquée et axée sur la conception, combinant théorie, pratique et évaluation</b> itérative dans des contextes d'enseignement authentiques.",
             "items": 
             {
