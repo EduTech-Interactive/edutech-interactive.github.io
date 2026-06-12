@@ -80,13 +80,26 @@ const GamesAndSimulations = () => {
                 </div>
             </section>
 
-            <div className="px-10 lg:px-40 py-20 gap-10 flex flex-wrap justify-center">
-              {GAME_DATA.map
-                ( (d, idx) =>
-
-                  <GameCard key={idx} imageSrc={d.imgSrc} title={t(`${d.jsonKey}.title`) + " - " + t(`${d.jsonKey}.author`)} description={t(`${d.jsonKey}.description`)} credits={t(`${d.jsonKey}.credits`)} buttonText={t(`gamesAndSimulations.gameBtnText`)} href={"/"} ></GameCard>
-                )
-              }
+            <div className="px-10 lg:px-40 py-20 grid gap-10 grid-cols-1 lg:grid-cols-6">
+              {GAME_DATA.map((d, idx) => (
+                <div
+                  key={idx}
+                  className={idx < 2 ? "lg:col-span-3" : "lg:col-span-2"}
+                >
+                  <GameCard
+                    imageSrc={d.imgSrc}
+                    title={
+                      t(`${d.jsonKey}.title`) +
+                      " - " +
+                      t(`${d.jsonKey}.author`)
+                    }
+                    description={t(`${d.jsonKey}.description`)}
+                    credits={t(`${d.jsonKey}.citation`)}
+                    buttonText={t(`gamesAndSimulations.gameBtnText`)}
+                    href="/"
+                  />
+                </div>
+              ))}
             </div>
         </>
   );

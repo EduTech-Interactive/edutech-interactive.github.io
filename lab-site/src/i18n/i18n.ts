@@ -116,69 +116,77 @@ i18n
 
           "gamesAndSimulations": 
           {
-            "title": "Games & Simulations",
-            "subtitle": "Education is the best way to grow your knowledge.",
-            "gameData": 
-            {
-              "bioBot": 
+              "title": "Games & Simulations",
+              "subtitle": "Education is the best way to grow your knowledge.",
+              "gameData": 
               {
-                "title": "BioBot",
-                "author": "Neerusha Gokool",
-                "description": "Earth is under attack! Alien invaders have arrived on our planet, leaving devastation in their path. A robotic task force, the BioBots, have been deployed to create the next generation of super-humans to save the world. As a BioBot, you’ll be challenged with gathering and researching the cell’s organelles to supply the creation of enhanced warriors.",
-                "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
+                "bioBot": 
+                {
+                  "title": "BioBot",
+                  "author": "Neerusha Gokool",
+                  "description": "Earth is under attack! Alien invaders have arrived on our planet, leaving devastation in their path. A robotic task force, the BioBots, have been deployed to create the next generation of super-humans to save the world. As a BioBot, you’ll be challenged with gathering and researching the cell’s organelles to supply the creation of enhanced warriors.",
+                  "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
+                  "citation": "Gokool, Neerusha. (2026). BioBot [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "cmSim": 
+                {
+                  "title": "CM Sim",
+                  "author": "Neerusha Gokool",
+                  "description": "",
+                  "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
+                  "citation": "Gokool, Neerusha. (2026). Classroom Management Simulator [Web Training App]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "divideAndConquer": 
+                {
+                  "title": "Divide and Conquer",
+                  "author": "Terry Saropoulos & Neerusha Gokool",
+                  "description": "Discover the cycle of life of the human cell in this rich interactive experience, and discover the cellular division process in this interactive experience. You will manage the growth, replication, and division of a cell.",
+                  "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
+                  "citation": "Saropoulos, Terry & Gokool, Neerusha. (2026). Divide and Conquer [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "geneDoom": 
+                {
+                  "title": "GeneDoom",
+                  "author": "Jason Letourneau & Neerusha Gokool",
+                  "description": "In this fantasy world, monsters have started emerging from labs all across the country, and scientists are tasked with taking them back. Using their experimental genetic enhancement serums, they must fight their way through waves of monsters to take down mutated beasts. As a scientist, you will have to pick the correct genetic serums to enhance your abilities by changing the expression of your genes. Be careful, however, as some serums might degrade your attributes as well.",
+                  "credits": "Jason Letourneau, Devrin Aiden Tiongson, Kamyar, Jeremy, Zaid Minhas, Noémie, Catherine, Mateo",
+                  "citation": "Letourneau, Jason & Gokool, Neerusha. (2026). GeneDoom [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "earthCodex": 
+                {
+                  "title": "Earth Codex",
+                  "author": "Angelo Geovani Dos Santos Jr. & Neerusha Gokool",
+                  "description": "In the near future, the Global Geological Network has started surveying geologically active areas on Earth to discover the planet’s many secrets. From rifts to volcanoes and beyond, the GGN’s agents work diligently to research every inch of the Earth’s layers. As a GGN agent, you’ll be exploring a narrative experience where you’ll discover and share knowledge of the Earth’s formation and tectonic activity.",
+                  "credits": "Angelo Geovani Dos Santos Jr., Richard Léveillé, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Ahmed Hassan, Brandon Boros, Thomas Scripcariu, Jimmy Lee, Zaid Minhas, Abigail Lopez, Arielle Wong, Johanne H. Rakotoson, Parsa Azarii, Nadia Abdul Aziz, Jake Guitard Lacass",
+                  "citation": "Geovani Dos Santos Jr., Angelo & Gokool, Neerusha. (2026). Earth Codex [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "microMedics": 
+                {
+                  "title": "Micro-Medics",
+                  "author": "Jason Lapointe & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Liver puzzle: Jason Lapointe, Devrin Aiden Tiongson. Nutrient pipe: Jason Lapointe, Zi Di.",
+                  "citation": ""
+                },
+                "vectorShock": 
+                {
+                  "title": "Vector Shock",
+                  "author": "Nadim Boukhira & Neerusha Gokool",
+                  "description": "In the twenty-third century, humanity finally established contact with otherworldly beings. Disappointment came quickly, however, as Earth’s intergalactic explorers soon discovered that they were billions of years too late to claim new worlds, instead fighting for scraps. Leymon-B, a barely habitable exoplanet, and one of humanity’s few interstellar claims, is your home. As a newly trained space cadet, one final step remains before you’re allowed to fight for your planet: a challenging graduation exam. Seated in a rugged fighter shuttle, and under the watchful eye of your examiner Lt. Vega, you will be challenged with flying and combat in Leymon-B’s rough electromagnetic field, and potentially discover some of its deep secrets.",
+                  "credits": "Nadim Boukhira, Neerusha Gokool, Alain Ducharme, Devrin Aiden Tiongson, Taief Ahmed, Sara Katerji, Alhasan Shnoot, Ana Torres Bejarno, Abigail Lopez, Julia Axiuk, Olivia Axiuk, Erin Mahar, Katheryn Lee, Mateo Alarie",
+                  "citation": "Boukhira, Nadim & Gokool, Neerusha. (2026). Vector Shock [Educational Computer Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "crisprSim": 
+                {
+                  "title": "CrispRSim",
+                  "author": "Karl Laroche & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Karl Laroche, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Brandon Boros, Emily Smelyansky, Hy Khang Tran, Zaid Minhas, Abigail Lopez, Thomas Scripcariu",
+                  "citation": "Laroche, Karl & Gokool, Neerusha. (2026). CrispRSim [Web Training App]. https://edutech-interactive.github.io/games-and-simulations"
+                }
               },
-              "cmSim": 
-              {
-                "title": "CM Sim",
-                "author": "Neerusha Gokool",
-                "description": "",
-                "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
-              },
-              "divideAndConquer":
-              {
-                "title": "Divide and Conquer",
-                "author": "Terry Saropoulos & Neerusha Gokool",
-                "description": "Discover the cycle of life of the human cell in this rich interactive experience, and discover the cellular division process in this interactive experience. You will manage the growth, replication, and division of a cell.",
-                "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
-              },
-              "geneDoom": 
-              {
-                "title": "GeneDoom",
-                "author": "Jason Letourneau & Neerusha Gokool",
-                "description": "In this fantasy world, monsters have started emerging from labs all across the country, and scientists are tasked with taking them back. Using their experimental genetic enhancement serums, they must fight their way through waves of monsters to take down mutated beasts. As a scientist, you will have to pick the correct genetic serums to enhance your abilities by changing the expression of your genes. Be careful, however, as some serums might degrade your attributes as well.",
-                "credits": "Jason Letourneau, Devrin Aiden Tiongson, Kamyar, Jeremy, Zaid Minhas, Noémie, Catherine, Mateo",
-              },
-              "earthCodex": 
-              {
-                "title": "Earth Codex",
-                "author": "Angelo Geovani Dos Santos Jr. & Neerusha Gokool",
-                "description": "In the near future, the Global Geological Network has started surveying geologically active areas on Earth to discover the planet’s many secrets. From rifts to volcanoes and beyond, the GGN’s agents work diligently to research every inch of the Earth’s layers. As a GGN agent, you’ll be exploring a narrative experience where you’ll discover and share knowledge of the Earth’s formation and tectonic activity.",
-                "credits": "Angelo Geovani Dos Santos Jr., Richard Léveillé, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Ahmed Hassan, Brandon Boros, Thomas Scripcariu, Jimmy Lee, Zaid Minhas, Abigail Lopez, Arielle Wong, Johanne H. Rakotoson, Parsa Azarii, Nadia Abdul Aziz, Jake Guitard Lacass",
-              },
-              "microMedics": 
-              {
-                "title": "Micro-Medics",
-                "author": "Jason Lapointe & Neerusha Gokool",
-                "description": "",
-                "credits": "Liver puzzle: Jason Lapointe, Devrin Aiden Tiongson. Nutrient pipe: Jason Lapointe, Zi Di.",
-              },
-              "vectorShock": 
-              {
-                "title": "Vector Shock",
-                "author": "Nadim Boukhira & Neerusha Gokool",
-                "description": "In the twenty-third century, humanity finally established contact with otherworldly beings. Disappointment came quickly, however, as Earth’s intergalactic explorers soon discovered that they were billions of years too late to claim new worlds, instead fighting for scraps. Leymon-B, a barely habitable exoplanet, and one of humanity’s few interstellar claims, is your home. As a newly trained space cadet, one final step remains before you’re allowed to fight for your planet: a challenging graduation exam. Seated in a rugged fighter shuttle, and under the watchful eye of your examiner Lt. Vega, you will be challenged with flying and combat in Leymon-B’s rough electromagnetic field, and potentially discover some of its deep secrets.",
-                "credits": "Nadim Boukhira, Neerusha Gokool, Alain Ducharme, Devrin Aiden Tiongson, Taief Ahmed, Sara Katerji, Alhasan Shnoot, Ana Torres Bejarno, Abigail Lopez, Julia Axiuk, Olivia Axiuk, Erin Mahar, Katheryn Lee, Mateo Alarie",
-              },
-              "crisprSim": 
-              {
-                "title": "CrispRSim",
-                "author": "Karl Laroche & Neerusha Gokool",
-                "description": "",
-                "credits": "Karl Laroche, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Brandon Boros, Emily Smelyansky, Hy Khang Tran, Zaid Minhas, Abigail Lopez, Thomas Scripcariu",
-              }
+              "gameBtnText": "Play Now!"
             },
-            "gameBtnText": "Play Now!"
-          },
 
           
           "genAiApps":
@@ -291,71 +299,78 @@ i18n
           },
 
           "gamesAndSimulations":
-          {
-            "title": "Jeux et simulations",
-            "subtitle": "L'éducation est le meilleur moyen de développer ses connaissances.",
-            "gameData":
             {
-              "bioBot":
+              "title": "Jeux et simulations",
+              "subtitle": "L'éducation est le meilleur moyen de développer ses connaissances.",
+              "gameData":
               {
-                "title": "BioBot",
-                "author": "Neerusha Gokool",
-                "description": "La Terre est attaquée ! Des envahisseurs extraterrestres ont débarqué sur notre planète, laissant la désolation sur leur passage. Une unité robotique spéciale, les BioBots, a été déployée pour créer la prochaine génération de super-humains afin de sauver le monde. En tant que BioBot, vous aurez pour mission de collecter et d'étudier les organites de la cellule pour fournir les éléments nécessaires à la création de guerriers améliorés.",
-                "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
+                "bioBot":
+                {
+                  "title": "BioBot",
+                  "author": "Neerusha Gokool",
+                  "description": "La Terre est attaquée ! Des envahisseurs extraterrestres ont débarqué sur notre planète, laissant la désolation sur leur passage. Une unité robotique spéciale, les BioBots, a été déployée pour créer la prochaine génération de super-humains afin de sauver le monde. En tant que BioBot, vous aurez pour mission de collecter et d'étudier les organites de la cellule pour fournir les éléments nécessaires à la création de guerriers améliorés.",
+                  "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
+                  "citation": "Gokool, Neerusha. (2026). BioBot [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "cmSim":
+                {
+                  "title": "Sim CM",
+                  "author": "Neerusha Gokool",
+                  "description": "",
+                  "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
+                  "citation": "Gokool, Neerusha. (2026). Simulateur de gestion de classe [Application de formation Web]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "divideAndConquer":
+                {
+                  "title": "Diviser pour régner",
+                  "author": "Terry Saropoulos & Neerusha Gokool",
+                  "description": "Découvrez le cycle de vie de la cellule humaine dans cette riche expérience interactive, et explorez le processus de division cellulaire au cours de cette aventure immersive. Vous gérerez la croissance, la réplication et la division d'une cellule.",
+                  "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
+                  "citation": "Saropoulos, Terry & Gokool, Neerusha. (2026). Diviser pour régner [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "geneDoom":
+                {
+                  "title": "GeneDoom",
+                  "author": "Jason Letourneau & Neerusha Gokool",
+                  "description": "Dans ce monde fantastique, des monstres ont commencé à s'échapper de laboratoires aux quatre coins du pays, et les scientifiques ont pour mission de les capturer. À l'aide de leurs sérums expérimentaux d'amélioration génétique, they must fight their way through waves of monsters to take down mutated beasts. En tant que scientifique, vous devrez choisir les bons sérums génétiques pour améliorer vos capacités en modifiant l'expression de vos gènes. Soyez toutefois prudent, car certains sérums pourraient également détériorer vos attributs.",
+                  "credits": "Jason Letourneau, Devrin Aiden Tiongson, Kamyar, Jeremy, Zaid Minhas, Noémie, Catherine, Mateo",
+                  "citation": "Letourneau, Jason & Gokool, Neerusha. (2026). GeneDoom [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "earthCodex":
+                {
+                  "title": "Codex Terrestre",
+                  "author": "Angelo Geovani Dos Santos Jr. & Neerusha Gokool",
+                  "description": "Dans un avenir proche, le Réseau géologique mondial a commencé à arpenter les zones géologiquement actives de la Terre afin de découvrir les nombreux secrets de la planète. Des rifts aux volcans et bien plus encore, les agents du RGM travaillent d'arrache-pied pour étudier les moindres recoins des couches terrestres. En tant qu'agent du RGM, vous plongerez dans une expérience narrative où vous découvrirez et partagerez des connaissances sur la formation de la Terre et l'activité tectonique.",
+                  "credits": "Angelo Geovani Dos Santos Jr., Richard Léveillé, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Ahmed Hassan, Brandon Boros, Thomas Scripcariu, Jimmy Lee, Zaid Minhas, Abigail Lopez, Arielle Wong, Johanne H. Rakotoson, Parsa Azarii, Nadia Abdul Aziz, Jake Guitard Lacass",
+                  "citation": "Geovani Dos Santos Jr., Angelo & Gokool, Neerusha. (2026). Codex Terrestre [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "microMedics":
+                {
+                  "title": "Micro-Médics",
+                  "author": "Jason Lapointe & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Casse-tête du foie : Jason Lapointe, Devrin Aiden Tiongson. Conduite de nutriments : Jason Lapointe, Zi Di.",
+                  "citation": ""
+                },
+                "vectorShock":
+                {
+                  "title": "Choc Vectoriel",
+                  "author": "Nadim Boukhira & Neerusha Gokool",
+                  "description": "Au vingt-troisième siècle, l'humanité a enfin établi le contact avec des êtres venus d'ailleurs. La déception fut toutefois rapide, car les explorateurs intergalactiques de la Terre ont vite découvert qu'ils arrivaient des milliards d'années trop tard pour revendiquer de nouveaux mondes, devant plutôt se battre pour des restes. Leymon-B, une exoplanète à la limite de l'habitable et l'un des rares territoires interstellaires de l'humanité, est votre patrie. En tant que cadet de l'espace fraîchement émoulu, une dernière étape vous sépare de l'autorisation de combattre pour votre planète : un examen de fin d'études des plus exigeants. Installé à bord d'une navette de combat robuste, et sous l'œil attentif de votre examinateur, le lieutenant Vega, vous devrez relever le défi du pilotage et du combat au sein du rude champ électromagnétique de Leymon-B, et potentiellement en percer les profonds secrets.",
+                  "credits": "Nadim Boukhira, Neerusha Gokool, Alain Ducharme, Devrin Aiden Tiongson, Taief Ahmed, Sara Katerji, Alhasan Shnoot, Ana Torres Bejarno, Abigail Lopez, Julia Axiuk, Olivia Axiuk, Erin Mahar, Katheryn Lee, Mateo Alarie",
+                  "citation": "Boukhira, Nadim & Gokool, Neerusha. (2026). Choc Vectoriel [Jeu d'ordinateur éducatif]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "crisprSim":
+                {
+                  "title": "Sim CRISPR",
+                  "author": "Karl Laroche & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Karl Laroche, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Brandon Boros, Emily Smelyansky, Hy Khang Tran, Zaid Minhas, Abigail Lopez, Thomas Scripcariu",
+                  "citation": "Laroche, Karl & Gokool, Neerusha. (2026). Sim CRISPR [Application de formation Web]. https://edutech-interactive.github.io/games-and-simulations"
+                }
               },
-              "cmSim":
-              {
-                "title": "Sim CM",
-                "author": "Neerusha Gokool",
-                "description": "",
-                "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
-              },
-              "divideAndConquer":
-              {
-                "title": "Diviser pour régner",
-                "author": "Terry Saropoulos & Neerusha Gokool",
-                "description": "Découvrez le cycle de vie de la cellule humaine dans cette riche expérience interactive, et explorez le processus de division cellulaire au cours de cette aventure immersive. Vous gérerez la croissance, la réplication et la division d'une cellule.",
-                "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
-              },
-              "geneDoom":
-              {
-                "title": "GeneDoom",
-                "author": "Jason Letourneau & Neerusha Gokool",
-                "description": "Dans ce monde fantastique, des monstres ont commencé à s'échapper de laboratoires aux quatre coins du pays, et les scientifiques ont pour mission de les capturer. À l'aide de leurs sérums expérimentaux d'amélioration génétique, ils doivent se frayer un chemin à travers des vagues de monstres pour terrasser des créatures mutantes. En tant que scientifique, vous devrez choisir les bons sérums génétiques pour améliorer vos capacités en modifiant l'expression de vos gènes. Soyez toutefois prudent, car certains sérums pourraient également détériorer vos attributs.",
-                "credits": "Jason Letourneau, Devrin Aiden Tiongson, Kamyar, Jeremy, Zaid Minhas, Noémie, Catherine, Mateo",
-              },
-              "earthCodex":
-              {
-                "title": "Codex Terrestre",
-                "author": "Angelo Geovani Dos Santos Jr. & Neerusha Gokool",
-                "description": "Dans un avenir proche, le Réseau géologique mondial a commencé à arpenter les zones géologiquement actives de la Terre afin de découvrir les nombreux secrets de la planète. Des rifts aux volcans et bien plus encore, les agents du RGM travaillent d'arrache-pied pour étudier les moindres recoins des couches terrestres. En tant qu'agent du RGM, vous plongerez dans une expérience narrative où vous découvrirez et partagerez des connaissances sur la formation de la Terre et l'activité tectonique.",
-                "credits": "Angelo Geovani Dos Santos Jr., Richard Léveillé, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Ahmed Hassan, Brandon Boros, Thomas Scripcariu, Jimmy Lee, Zaid Minhas, Abigail Lopez, Arielle Wong, Johanne H. Rakotoson, Parsa Azarii, Nadia Abdul Aziz, Jake Guitard Lacass",
-              },
-              "microMedics":
-              {
-                "title": "Micro-Médics",
-                "author": "Jason Lapointe & Neerusha Gokool",
-                "description": "",
-                "credits": "Casse-tête du foie : Jason Lapointe, Devrin Aiden Tiongson. Conduite de nutriments : Jason Lapointe, Zi Di.",
-              },
-              "vectorShock":
-              {
-                "title": "Choc Vectoriel",
-                "author": "Nadim Boukhira & Neerusha Gokool",
-                "description": "Au vingt-troisième siècle, l'humanité a enfin établi le contact avec des êtres venus d'ailleurs. La déception fut toutefois rapide, car les explorateurs intergalactiques de la Terre ont vite découvert qu'ils arrivaient des milliards d'années trop tard pour revendiquer de nouveaux mondes, devant plutôt se battre pour des restes. Leymon-B, une exoplanète à la limite de l'habitable et l'un des rares territoires interstellaires de l'humanité, est votre patrie. En tant que cadet de l'espace fraîchement émoulu, une dernière étape vous sépare de l'autorisation de combattre pour votre planète : un examen de fin d'études des plus exigeants. Installé à bord d'une navette de combat robuste, et sous l'œil attentif de votre examinateur, le lieutenant Vega, vous devrez relever le défi du pilotage et du combat au sein du rude champ électromagnétique de Leymon-B, et potentiellement en percer les profonds secrets.",
-                "credits": "Nadim Boukhira, Neerusha Gokool, Alain Ducharme, Devrin Aiden Tiongson, Taief Ahmed, Sara Katerji, Alhasan Shnoot, Ana Torres Bejarno, Abigail Lopez, Julia Axiuk, Olivia Axiuk, Erin Mahar, Katheryn Lee, Mateo Alarie",
-              },
-              "crisprSim":
-              {
-                "title": "Sim CRISPR",
-                "author": "Karl Laroche & Neerusha Gokool",
-                "description": "",
-                "credits": "Karl Laroche, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Brandon Boros, Emily Smelyansky, Hy Khang Tran, Zaid Minhas, Abigail Lopez, Thomas Scripcariu",
-              }
+              "gameBtnText": "Jouer maintenant!"
             },
-            "gameBtnText": "Jouer maintenant!"
-          },
-
           "about": 
           {
             "title": "Ce que nous faisons",
