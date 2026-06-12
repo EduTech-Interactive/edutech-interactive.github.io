@@ -199,6 +199,21 @@ i18n
             }
           },
 
+          "podcasts": 
+          {
+            "shareBtnText": "Share Podcast",
+            "tabs": 
+            {
+              "newestBtn": "Newest",
+              "oldestBtn": "Oldest"
+            },
+            "copyLink": 
+            {
+              "toastSuccess": "Successfully copied link",
+              "toastError": "Error copying link"
+            }
+          },
+
           "researchProjects": 
           {
             "title": "Research Projects",
@@ -457,6 +472,21 @@ i18n
               "heading": "Projet en vedette : Calculus Buddy",
               "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
               "btnText": "Découvrir le projet"
+            }
+          },
+
+          "podcasts": 
+          {
+            "shareBtnText": "Partager le balado",
+            "tabs": 
+            {
+              "newestBtn": "Plus récents",
+              "oldestBtn": "Plus anciens"
+            },
+            "copyLink": 
+            {
+              "toastSuccess": "Lien copié avec succès",
+              "toastError": "Lien copié avec succès"
             }
           },
 
