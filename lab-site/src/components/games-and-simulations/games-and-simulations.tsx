@@ -84,7 +84,7 @@ const GamesAndSimulations = () => {
               {GAME_DATA.map
                 ( (d, idx) =>
 
-                  <GameCard key={idx} imageSrc={d.imgSrc} title={t(`${d.jsonKey}.title`) + " - " + t(`${d.jsonKey}.author`)} description={t(`${d.jsonKey}.description`)} credits={t(`${d.jsonKey}.credits`)} buttonText={"Go to game"} href={"/"} ></GameCard>
+                  <GameCard key={idx} imageSrc={d.imgSrc} title={t(`${d.jsonKey}.title`) + " - " + t(`${d.jsonKey}.author`)} description={t(`${d.jsonKey}.description`)} credits={t(`${d.jsonKey}.credits`)} buttonText={t(`gamesAndSimulations.gameBtnText`)} href={"/"} ></GameCard>
                 )
               }
             </div>

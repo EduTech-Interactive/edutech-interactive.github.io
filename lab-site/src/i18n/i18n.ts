@@ -353,7 +353,7 @@ i18n
                 "credits": "Karl Laroche, Neerusha Gokool, Devrin Aiden Tiongson, Adam Laurin, Brandon Boros, Emily Smelyansky, Hy Khang Tran, Zaid Minhas, Abigail Lopez, Thomas Scripcariu",
               }
             },
-            "gameBtnText": "Jouer maintenant !"
+            "gameBtnText": "Jouer maintenant!"
           },
 
           "about": 
