@@ -116,15 +116,15 @@ const Podcasts = () => {
             {active === "newest" ? 
               <div>
                 {PODCAST_DATA.map
-                  (d => 
-                    <PodcastRow title={d.title} src={d.src}></PodcastRow>
+                  ( (d, idx) => 
+                    <PodcastRow key={idx+"new"} title={d.title} src={d.src}></PodcastRow>
                   )
                 }
               </div>: 
               <div>
                   {PODCAST_DATA.reverse().map
-                  (d => 
-                    <PodcastRow title={d.title} src={d.src}></PodcastRow>
+                  ((d, idx) => 
+                    <PodcastRow key={idx+"old"} title={d.title} src={d.src}></PodcastRow>
                   )
                 }
               </div>}
