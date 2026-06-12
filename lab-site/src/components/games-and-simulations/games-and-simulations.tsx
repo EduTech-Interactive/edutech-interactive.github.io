@@ -1,11 +1,55 @@
-import { Link } from "@tanstack/react-router";
-import { Button } from "../shared/ui/button";
 import { useTranslation } from "react-i18next";
 import heroBg from "/img/games-and-simulations/hero.webp";
 import { GameCard } from "./game-card";
+import placeholderImgSrc from "/img/shared/placeholder.png"
 
 const GamesAndSimulations = () => {
     const { t } = useTranslation();
+
+    const GAME_DATA: GameData[] = 
+    [
+      {
+        jsonKey: "gamesAndSimulations.gameData.bioBot",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.cmSim",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.divideAndConquer",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.geneDoom",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.earthCodex",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.microMedics",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.vectorShock",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
+        jsonKey: "gamesAndSimulations.gameData.crisprSim",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      }
+    ];
+
     return (
         <>
           {/*hero section*/}
@@ -36,11 +80,23 @@ const GamesAndSimulations = () => {
                 </div>
             </section>
 
-            <div>
-              <GameCard imageSrc={heroBg} title={"Game title"} description={"This is an educational web game"} credits={"ICARUS_2"} buttonText={"Go to game"} href={""} ></GameCard>
+            <div className="px-10 lg:px-40 py-20 gap-10 flex flex-wrap justify-center">
+              {GAME_DATA.map
+                ( (d, idx) =>
+
+                  <GameCard key={idx} imageSrc={d.imgSrc} title={t(`${d.jsonKey}.title`) + " - " + t(`${d.jsonKey}.author`)} description={t(`${d.jsonKey}.description`)} credits={t(`${d.jsonKey}.credits`)} buttonText={"Go to game"} href={"/"} ></GameCard>
+                )
+              }
             </div>
         </>
   );
 };
 
 export default GamesAndSimulations;
+
+interface GameData
+{
+  jsonKey: string,
+  imgSrc: string,
+  href: string
+}

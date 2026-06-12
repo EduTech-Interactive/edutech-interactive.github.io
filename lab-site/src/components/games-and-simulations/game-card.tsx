@@ -19,25 +19,25 @@ export function GameCard({
   href,
 }: GameCardProps) {
   return (
-    <div className="flex h-[400px] flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm max-w-[300px] ">
-      <div className="overflow-hidden">
-        <img
-          src={imageSrc}
-          alt={"game img"}
-          className="h-full w-full object-cover max-w-100"
-        />
-      </div>
+    <div className="flex w-[500px]  flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm">
+<div className="aspect-video w-full overflow-hidden">
+  <img
+    src={imageSrc}
+    alt="game img"
+    className="h-[300px] w-full"
+  />
+</div>
 
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="mb-3 text-2xl font-bold leading-tight text-zinc-900 dark:text-zinc-100">
+        <h3 className="mb-3 text-lg font-bold">
           {title}
         </h3>
 
-        <p className="mb-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+        <p className="mb-4 text-sm">
           {description}
         </p>
 
-        <p className="mb-6 text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-500">
+        <p className="mb-6 text-xs font-medium tracking-wide">
           {credits}
         </p>
 
