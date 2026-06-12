@@ -112,6 +112,12 @@ i18n
               }
             },
           },
+
+          "gamesAndSimulations":
+          {
+            "title": "Games & Simulations",
+            "subtitle": "Education is the best way to grow your knowledge.",
+          },
           
           "genAiApps":
           {
@@ -221,6 +227,8 @@ i18n
             "projectsBtn": "Découvrir nos projets",
             "collabBtn": "Collaborer avec nous"
           },
+
+
 
           "about": 
           {
