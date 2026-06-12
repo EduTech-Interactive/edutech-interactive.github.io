@@ -71,7 +71,7 @@ export const PodcastRow: React.FC<PodcastRowProps> = ({ title, src }) => {
   };
 
   return (
-    <div className="flex items-center gap-4 p- rounded-xl shadow-md w-full max-w-4xl">
+    <div className="flex items-center gap-4 h-20 rounded-xl shadow-md w-full max-w-4xl px-4">
       {/* Big Play/Pause Button */}
       <button
         onClick={togglePlay}
