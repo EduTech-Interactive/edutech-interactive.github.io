@@ -25,11 +25,11 @@ const Podcasts = () => {
     try 
     {
       navigator.clipboard.writeText(window.location.href);
-      toast.info(t("copyLink.toastSuccess"));
+      toast.info(t("podcasts.copyLink.toastSuccess"));
     }
     catch(ex)
     {
-      toast.error(t("copyLink.toastError") + ex);
+      toast.error(t("podcasts.copyLink.toastError") + ex);
     }
 
   }
