@@ -80,7 +80,7 @@ const GamesAndSimulations = () => {
                 </div>
             </section>
 
-            <div className="px-10 lg:px-40 py-20 grid gap-10 grid-cols-1 lg:grid-cols-6">
+            <div className="px-10 lg:px-40 py-20 grid gap-10 grid-cols-1 lg:grid-cols-6 font-body">
               {GAME_DATA.map((d, idx) => (
                 <div
                   key={idx}

@@ -7,7 +7,7 @@ import ResearchProjects from '../components/research-projects/research-approach'
 import { About } from '../components/about/about'
 import GenAiApps from '../components/gen-ai-apps/gen-ai-apps'
 import Blog from '../components/blog/blog'
-import Podcast from '../components/podcast/podcast'
+import Podcasts from '../components/podcasts/podcasts'
 import Publications from '../components/publications/publications'
 import GamesAndSimulations from '../components/games-and-simulations/games-and-simulations'
 export const routeDefinitions = [
@@ -58,7 +58,7 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: '/podcast',
-    component: Podcast,
+    component: Podcasts,
   }),
 
   //podcast
