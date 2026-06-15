@@ -27,11 +27,14 @@ export const routeDefinitions = [
   }),
 
   //games and simulations
+  //====================
+  //base path
   createRoute({
     getParentRoute: () => rootRoute,
     path: '/games-and-simulations',
     component: GamesAndSimulations,
   }),
+  //===================
 
   //genai apps
   createRoute({

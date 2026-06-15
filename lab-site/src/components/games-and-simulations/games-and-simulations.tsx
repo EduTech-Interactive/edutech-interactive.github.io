@@ -24,6 +24,11 @@ const GamesAndSimulations = () => {
         href: ""
       },
       {
+        jsonKey: "gamesAndSimulations.gameData.arcana",
+        imgSrc: placeholderImgSrc,
+        href: ""
+      },
+      {
         jsonKey: "gamesAndSimulations.gameData.geneDoom",
         imgSrc: placeholderImgSrc,
         href: ""

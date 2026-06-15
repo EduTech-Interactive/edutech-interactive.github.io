@@ -113,7 +113,6 @@ i18n
             },
           },
 
-
           "gamesAndSimulations": 
           {
               "title": "Games & Simulations",
@@ -143,6 +142,14 @@ i18n
                   "description": "Discover the cycle of life of the human cell in this rich interactive experience, and discover the cellular division process in this interactive experience. You will manage the growth, replication, and division of a cell.",
                   "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
                   "citation": "Saropoulos, Terry & Gokool, Neerusha. (2026). Divide and Conquer [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
+                "arcana": 
+                {
+                  "title": "Arcana Apotheca",
+                  "author": "Tania Peres & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Tania Peres, Alexandre Rogdrigue-Witchel, Neerusha Gokool, Sarah Wari, Alissia Bocarro, Vincent Gagnon, Devrin Aiden Tiongson",
+                  "citation": "Peres, Tania, Rodrigue-Witchel, Alexandre & Gokool, Neerusha. (2026). Arcana Apotheca [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
                 },
                 "geneDoom": 
                 {
@@ -186,7 +193,7 @@ i18n
                 }
               },
               "gameBtnText": "Play Now!"
-            },
+          },
 
           
           "genAiApps":
@@ -343,6 +350,14 @@ i18n
                   "credits": "Terry Saropoulos, Neerusha Gokool, Jenna Brown, Thomas Rompre, Devrin Aiden Tiongson, Katrina Frain, Katt Lee",
                   "citation": "Saropoulos, Terry & Gokool, Neerusha. (2026). Diviser pour régner [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
                 },
+                "arcana": 
+                {
+                  "title": "Arcana Apotheca",
+                  "author": "Tania Peres & Neerusha Gokool",
+                  "description": "",
+                  "credits": "Tania Peres, Alexandre Rogdrigue-Witchel, Neerusha Gokool, Sarah Wari, Alissia Bocarro, Vincent Gagnon, Devrin Aiden Tiongson",
+                  "citation": "Peres, Tania, Rodrigue-Witchel, Alexandre & Gokool, Neerusha. (2026). Arcana Apotheca [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
+                },
                 "geneDoom":
                 {
                   "title": "GeneDoom",
@@ -385,7 +400,8 @@ i18n
                 }
               },
               "gameBtnText": "Jouer maintenant!"
-            },
+          },
+
           "about": 
           {
             "title": "Ce que nous faisons",
