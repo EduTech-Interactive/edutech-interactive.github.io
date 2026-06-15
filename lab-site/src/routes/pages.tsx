@@ -45,6 +45,15 @@ export const GAME_PATHS =
 } as const;
 
 
+declare module '@tanstack/react-router' 
+{
+  interface StaticDataRouteOption 
+  {
+    hideFooter?: boolean
+  }
+}
+
+
 export const routeDefinitions = [
 
   //homepage
@@ -75,13 +84,21 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
-    component: Arcana,
+    staticData: 
+    {
+      hideFooter: true
+    },
+    component: Arcana
   }),
 
   //biobot game
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: BioBot,
   }),
 
@@ -89,6 +106,10 @@ export const routeDefinitions = [
     createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: CMSim,
   }),
 
@@ -96,6 +117,10 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: DivideAndConquer,
   }),
 
@@ -103,6 +128,10 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: MicroMedics,
   }),
 
@@ -110,6 +139,10 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: VectorShock,
   }),
 
