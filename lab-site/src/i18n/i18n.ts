@@ -239,6 +239,32 @@ i18n
             },
 
             "latestEpisodes": "LATEST EPISODES",
+
+            "podcastData": 
+            {
+              "cardData":
+              {
+                "episode": "Episode",
+                "guest": "Guest",
+                "fullSynopsis": "Full Synopsis"
+              },
+
+              "episode1": 
+              {
+                "title": "Generative AI Ethics in College Biology Education",
+                "guests": "Karl Laroche, Vanier College",
+                "shortDescription": "Exploring the ethical and responsible integration of GenAI in biology classrooms and its impact on learning, assessment and scientific reasoning",
+                "longDescription": "In this inaugural episode of Voices of Higher Education, we welcome Karl Laroche, an award-winning Biology faculty member at Vanier College, former Coordinator of the Science Program, and contributor to provincial science program reforms in Quebec.<br><br>Together, we explore the ethical and responsible integration of generative artificial intelligence in college biology classrooms.<br><br>Drawing on real-world examples from teaching practice, the conversation examines both the opportunities and challenges that AI presents for student learning, assessment, academic integrity, and the development of critical thinking skills.<br><br> As generative AI continues to reshape higher education, this episode highlights the important role educators play in helping students become thoughtful, ethical, and responsible users of emerging technologies. Through an engaging discussion grounded in experience and educational leadership, listeners are invited to reflect on how AI can be leveraged to support learning while preserving the values at the heart of science education."
+              },
+
+              "episode2": 
+              {
+                "title": "Generative AI in College Mathematics: Transforming Teaching and Learning",
+                "guests": "Dr. Elena Naidenova (Vanier College), Dr Ferenc Balogh (John Abbott College), Mr. Ivo Pendev (Mathematics Educator)",
+                "shortDescription": "Discussing how GenAI is transforming mathematics instruction, learning practices and student engagement.",
+                "longDescription": "In this episode of Voices of Higher Education, we explore the evolving role of generative artificial intelligence in college mathematics education with three experienced educators: Dr. Elena Naidenova from Vanier College, Dr. Ferenc Balogh from John Abbott College, and Mr. Ivo Pendev, mathematics educator and collaborator.<br><br>Together, they discuss how generative AI is reshaping the teaching and learning of mathematics, from supporting problem-solving and personalized learning to creating new opportunities for feedback, scaffolding, and student engagement. The conversation also examines the challenges that accompany these innovations, including the development of mathematical reasoning, academic integrity, assessment practices, and the responsible use of AI tools. <br><br> Drawing on their extensive experience teaching mathematics at the college level, the guests share practical insights, classroom experiences, and reflections on how educators can harness AI to enhance learning while ensuring that students continue to develop the critical thinking and problem-solving skills that are central to mathematics."
+              }
+            }
           },
 
           "researchProjects": 
@@ -543,6 +569,32 @@ i18n
             },
 
             "latestEpisodes": "DERNIERS ÉPISODES",
+
+            "podcastData": 
+            {
+              "cardData":
+              {
+                "episode": "Épisode",
+                "guest": "Invité(e)",
+                "fullSynopsis": "Synopsis complet"
+              },
+
+              "episode1": 
+              {
+                "title": "L'éthique de l'IA générative dans l'enseignement de la biologie au collégial",
+                "guests": "Karl Laroche, Collège Vanier",
+                "shortDescription": "Explorer l'intégration éthique et responsable de l'IAGen dans les classes de biologie et son impact sur l'apprentissage, l'évaluation et le raisonnement scientifique.",
+                "longDescription": "Dans ce premier épisode de Voix de l'enseignement supérieur, nous accueillons Karl Laroche, professeur de biologie primé au Collège Vanier, ancien coordonnateur du programme de sciences et contributeur aux réformes provinciales du programme de sciences au Québec.<br><br>Ensemble, nous explorons l'intégration éthique et responsable de l'intelligence artificielle générative dans les classes de biologie au collégial.<br><br>S'appuyant sur des exemples concrets tirés de la pratique enseignante, la conversation examine à la fois les opportunités et les défis que l'IA présente pour l'apprentissage des étudiants, l'évaluation, l'intégrité académique et le développement de l'esprit critique.<br><br>Alors que l'IA générative continue de remodeler l'enseignement supérieur, cet épisode met en lumière le rôle crucial que jouent les éducateurs pour aider les étudiants à devenir des utilisateurs réfléchis, éthiques et responsables des technologies émergentes. À travers une discussion captivante, ancrée dans l'expérience et le leadership pédagogique, les auditeurs sont invités à réfléchir à la manière dont l'IA peut être mise à profit pour soutenir l'apprentissage tout en préservant les valeurs fondamentales de l'enseignement des sciences."
+              },
+
+              "episode2": 
+              {
+                "title": "L'IA générative en mathématiques au collégial : Transformer l'enseignement et l'apprentissage",
+                "guests": "Dr Elena Naidenova (Collège Vanier), Dr Ferenc Balogh (Collège John Abbott), M. Ivo Pendev (éducateur en mathématiques)",
+                "shortDescription": "Discussion sur la manière dont l'IAGen transforme l'enseignement des mathématiques, les pratiques d'apprentissage et l'engagement des étudiants.",
+                "longDescription": "Dans cet épisode de Voix de l'enseignement supérieur, nous explorons le rôle évolutif de l'intelligence artificielle générative dans l'enseignement des mathématiques au collégial avec trois éducateurs chevronnés : la Dre Elena Naidenova du Collège Vanier, le Dr Ferenc Balogh du Collège John Abbott, et M. Ivo Pendev, éducateur et collaborateur en mathématiques.<br><br>Ensemble, ils discutent de la manière dont l'IA générative redéfinit l'enseignement et l'apprentissage des mathématiques, qu'il s'agisse de soutenir la résolution de problèmes et l'apprentissage personnalisé ou de créer de nouvelles occasions de rétroaction, d'échafaudage cognitif et d'engagement des étudiants. La conversation examine également les défis qui accompagnent ces innovations, notamment le développement du raisonnement mathématique, l'intégrité académique, les pratiques d'évaluation et l'utilisation responsable des outils d'IA.<br><br>S'appuyant sur leur vaste expérience de l'enseignement des mathématiques au niveau collégial, les invités partagent des perspectives pratiques, des expériences de classe et des réflexions sur la façon dont les éducateurs peuvent exploiter l'IA pour améliorer l'apprentissage tout en veillant à ce que les étudiants continuent de développer les compétences de pensée critique et de résolution de problèmes qui sont au cœur des mathématiques."
+              }
+            }
           },
 
           "researchProjects": 
