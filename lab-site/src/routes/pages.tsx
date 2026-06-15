@@ -11,6 +11,11 @@ import Podcasts from '../components/podcasts/podcasts'
 import Publications from '../components/publications/publications'
 import GamesAndSimulations from '../components/games-and-simulations/games-and-simulations'
 import Arcana from '../components/games-and-simulations/games/arcana'
+import BioBot from '../components/games-and-simulations/games/biobot'
+import CMSim from '../components/games-and-simulations/games/cmsim'
+import DivideAndConquer from '../components/games-and-simulations/games/divide-and-conquer'
+import MicroMedics from '../components/games-and-simulations/games/micromedics'
+import VectorShock from '../components/games-and-simulations/games/vector-shock'
 
 export const PATHS = 
 {
@@ -65,12 +70,50 @@ export const routeDefinitions = [
     component: GamesAndSimulations,
   }),
 
+  //Subpaths
   //arcana game
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
     component: Arcana,
   }),
+
+  //biobot game
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
+    component: BioBot,
+  }),
+
+  //cm sim
+    createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
+    component: CMSim,
+  }),
+
+  //divide and conquer
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
+    component: DivideAndConquer,
+  }),
+
+  //micromedics
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
+    component: MicroMedics,
+  }),
+
+  //vector shock
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
+    component: VectorShock,
+  }),
+
+
   //===================
 
   //genai apps

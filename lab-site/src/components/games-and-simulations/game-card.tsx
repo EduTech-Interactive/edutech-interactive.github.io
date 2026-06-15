@@ -42,9 +42,12 @@ export function GameCard({
             </p>
 
             <div className="mt-auto">
-            <Button>
-                <Link to={href}>{buttonText}</Link>
-            </Button>
+            <Link to={href}>
+              <Button>
+                {buttonText}
+              </Button>
+            </Link>
+
             </div>
         </div>
     </div>
