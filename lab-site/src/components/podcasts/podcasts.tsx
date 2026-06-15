@@ -7,9 +7,33 @@ import neerushaSignature from "/img/podcasts/neerusha-signature.webp";
 import { Scale, Blend, Lightbulb, UsersRound, BrainCircuit } from "lucide-react";
 import WaveformLine from "./waveform-line";
 
+//episode imgs
+import episode1Img from "/img/podcasts/episodes/episode1.webp";
+import episode2Img from "/img/podcasts/episodes/episode2.webp";
+
+//episode src
+import episode1Audio from "/podcasts/TGD.ogg";
+import episode2Audio from "/podcasts/Conf4P.mp3";
+import PodcastEpisodeCard from "./podcast-episode";
+
 
 const Podcasts = () => {
   const { t } = useTranslation();
+
+
+  const podcastData = 
+  [
+    {
+      jsonKey: "podcasts.podcastData.episode1",
+      audioSrc: episode1Audio,
+      imageSrc: episode1Img
+    },
+    {
+      jsonKey: "podcasts.podcastData.episode2",
+      audioSrc: episode2Audio,
+      imageSrc: episode2Img
+    },
+  ]
 
   return (
     <>
@@ -111,14 +135,13 @@ const Podcasts = () => {
             {/* The 4 pillars individual grid layout */}
             <div className="grid grid-cols-4 gap-2 pt-2 border-t border-white/15">
               {[
-                { icon: <Blend></Blend>, label: t("podcasts.featuredTheme.pillars.ethical") },
-                { icon: <Scale></Scale>, label: t("podcasts.featuredTheme.pillars.integrity") },
-                { icon: <Lightbulb></Lightbulb>, label: t("podcasts.featuredTheme.pillars.innovation") },
-                { icon: <UsersRound></UsersRound>, label: t("podcasts.featuredTheme.pillars.inclusion") }
+                { icon: <Blend className="w-10 h-10"></Blend>, label: t("podcasts.featuredTheme.pillars.ethical") },
+                { icon: <Scale className="w-10 h-10"></Scale>, label: t("podcasts.featuredTheme.pillars.integrity") },
+                { icon: <Lightbulb className="w-10 h-10"></Lightbulb>, label: t("podcasts.featuredTheme.pillars.innovation") },
+                { icon: <UsersRound className="w-10 h-10"></UsersRound>, label: t("podcasts.featuredTheme.pillars.inclusion") }
               ].map((pillar, idx) => (
                 <div key={idx} className="flex flex-col items-center text-center">
-                  <div className="w-6 h-6 sm:w-8 sm:h-8 mb-1 flex items-center justify-center">
-                    {/* <img src={pillar.icon} alt={pillar.label} className="w-full h-full object-contain" /> */}
+                  <div className="w-10 h-10 sm:w-8 sm:h-8 mb-1 flex items-center justify-center">
                     {pillar.icon}
                   </div>
                   <span className="text-[9px] sm:text-[10px] md:text-xs text-edu-slate-400 font-medium whitespace-normal sm:whitespace-nowrap">
@@ -144,6 +167,23 @@ const Podcasts = () => {
       </div>
 
       <WaveformLine text={t("podcasts.latestEpisodes")}></WaveformLine>
+
+        <div className="px-4 md:px-20 flex justify-around flex-wrap">
+          {podcastData.map( (d, idx) => 
+            
+            <PodcastEpisodeCard 
+              key={idx}
+              title={t(`${d.jsonKey}.title`)} 
+              episodeNumber={idx+1} 
+              guest={t(`${d.jsonKey}.guests`)} 
+              shortDescription={t(`${d.jsonKey}.shortDescription`)} 
+              longDescription={t(`${d.jsonKey}.longDescription`)} 
+              audioSrc={d.audioSrc} 
+              imageSrc={d.imageSrc}></PodcastEpisodeCard>
+          )}
+        </div>
+
+      <div className="m-20"></div>
     </>
   );
 };
