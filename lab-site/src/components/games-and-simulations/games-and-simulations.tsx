@@ -2,57 +2,57 @@ import { useTranslation } from "react-i18next";
 import heroBg from "/img/games-and-simulations/hero.webp";
 import { GameCard } from "./game-card";
 import placeholderImgSrc from "/img/shared/placeholder.png"
+import { GAME_PATHS, PATHS } from "../../routes/pages";
 
 const GamesAndSimulations = () => {
     const { t } = useTranslation();
 
-    const GAME_DATA: GameData[] = 
-    [
+    const GAME_DATA: GameData[] = [
       {
         jsonKey: "gamesAndSimulations.gameData.bioBot",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.cmSim",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.divideAndConquer",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.arcana",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.geneDoom",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.earthCodex",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.microMedics",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.vectorShock",
         imgSrc: placeholderImgSrc,
-        href: ""
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.crisprSim",
         imgSrc: placeholderImgSrc,
-        href: ""
-      }
+        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
+      },
     ];
 
     return (
@@ -101,7 +101,7 @@ const GamesAndSimulations = () => {
                     description={t(`${d.jsonKey}.description`)}
                     credits={t(`${d.jsonKey}.citation`)}
                     buttonText={t(`gamesAndSimulations.gameBtnText`)}
-                    href="/"
+                    href={d.href}
                   />
                 </div>
               ))}
