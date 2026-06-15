@@ -489,7 +489,14 @@ i18n
 
           "podcasts": 
           {
-
+            "heroSection": 
+            {
+              "title": "LES VOIX",
+              "title2": "DE L'ENSEIGNEMENT SUPÉRIEUR",
+              "subtitle": "Des conversations qui inspirent l'enseignement, l'apprentissage et l'innovation",
+              "by": "Un balado par",
+              "neerushaInfo": "Directrice, EduQlasse | Professeure adjointe, Université de Montréal"
+            }
           },
 
           "researchProjects": 
