@@ -214,7 +214,31 @@ i18n
               "subtitle": "Conversations that inspire teaching, learning and innovation",
               "by": "A podcast by",
               "neerushaInfo": "Director, EduQlasse | Assistant Professor, Université de Montréal"
-            }
+            },
+
+            "featuredTheme": 
+            {
+              "tag": "FEATURED THEME",
+              "title": "Generative AI Ethics and Responsible Use in Higher Education",
+              "description": "Exploring the ethical, pedagogical, and practical implications of generative AI in college and university classrooms.",
+              
+              "pillars": 
+              {
+                "ethical": "Ethical Use",
+                "integrity": "Integrity",
+                "innovation": "Innovation",
+                "inclusion": "Inclusion"
+              },
+
+              "slogan": 
+              {
+                "voices": "Real voices.",
+                "experiences": "Real experiences.",
+                "impact": "Real impact."
+              }
+            },
+
+            "latestEpisodes": "LATEST EPISODES",
           },
 
           "researchProjects": 
@@ -496,7 +520,29 @@ i18n
               "subtitle": "Des conversations qui inspirent l'enseignement, l'apprentissage et l'innovation",
               "by": "Un balado par",
               "neerushaInfo": "Directrice, EduQlasse | Professeure adjointe, Université de Montréal"
-            }
+            },
+
+            "featuredTheme": 
+            {
+              "tag": "THÈME VEDETTE",
+              "title": "Éthique de l'IA générative et utilisation responsable dans l'enseignement supérieur",
+              "description": "Explorer les implications éthiques, pédagogiques et pratiques de l'IA générative dans les salles de classe des collèges et universités.",
+              "pillars": 
+              {
+                "ethical": "Utilisation éthique",
+                "integrity": "Intégrité",
+                "innovation": "Innovation",
+                "inclusion": "Inclusion"
+              },
+              "slogan": 
+              {
+                "voices": "Vraies voix.",
+                "experiences": "Vrais vécus.",
+                "impact": "Vrai impact."
+              }
+            },
+
+            "latestEpisodes": "DERNIERS ÉPISODES",
           },
 
           "researchProjects": 
