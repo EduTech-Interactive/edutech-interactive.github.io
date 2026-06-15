@@ -207,17 +207,38 @@ i18n
 
           "podcasts": 
           {
-            "shareBtnText": "Share Podcast",
-            "tabs": 
+            "heroSection": 
             {
-              "newestBtn": "Newest",
-              "oldestBtn": "Oldest"
+              "title": "VOICES",
+              "title2": "OF HIGHER EDUCATION",
+              "subtitle": "Conversations that inspire teaching, learning and innovation",
+              "by": "A podcast by",
+              "neerushaInfo": "Director, EduQlasse | Assistant Professor, Université de Montréal"
             },
-            "copyLink": 
+
+            "featuredTheme": 
             {
-              "toastSuccess": "Successfully copied link",
-              "toastError": "Error copying link"
-            }
+              "tag": "FEATURED THEME",
+              "title": "Generative AI Ethics and Responsible Use in Higher Education",
+              "description": "Exploring the ethical, pedagogical, and practical implications of generative AI in college and university classrooms.",
+              
+              "pillars": 
+              {
+                "ethical": "Ethical Use",
+                "integrity": "Integrity",
+                "innovation": "Innovation",
+                "inclusion": "Inclusion"
+              },
+
+              "slogan": 
+              {
+                "voices": "Real voices.",
+                "experiences": "Real experiences.",
+                "impact": "Real impact."
+              }
+            },
+
+            "latestEpisodes": "LATEST EPISODES",
           },
 
           "researchProjects": 
@@ -492,17 +513,36 @@ i18n
 
           "podcasts": 
           {
-            "shareBtnText": "Partager le balado",
-            "tabs": 
+            "heroSection": 
             {
-              "newestBtn": "Plus récents",
-              "oldestBtn": "Plus anciens"
+              "title": "LES VOIX",
+              "title2": "DE L'ENSEIGNEMENT SUPÉRIEUR",
+              "subtitle": "Des conversations qui inspirent l'enseignement, l'apprentissage et l'innovation",
+              "by": "Un balado par",
+              "neerushaInfo": "Directrice, EduQlasse | Professeure adjointe, Université de Montréal"
             },
-            "copyLink": 
+
+            "featuredTheme": 
             {
-              "toastSuccess": "Lien copié avec succès",
-              "toastError": "Lien copié avec succès"
-            }
+              "tag": "THÈME VEDETTE",
+              "title": "Éthique de l'IA générative et utilisation responsable dans l'enseignement supérieur",
+              "description": "Explorer les implications éthiques, pédagogiques et pratiques de l'IA générative dans les salles de classe des collèges et universités.",
+              "pillars": 
+              {
+                "ethical": "Utilisation éthique",
+                "integrity": "Intégrité",
+                "innovation": "Innovation",
+                "inclusion": "Inclusion"
+              },
+              "slogan": 
+              {
+                "voices": "Vraies voix.",
+                "experiences": "Vrais vécus.",
+                "impact": "Vrai impact."
+              }
+            },
+
+            "latestEpisodes": "DERNIERS ÉPISODES",
           },
 
           "researchProjects": 
