@@ -207,16 +207,13 @@ i18n
 
           "podcasts": 
           {
-            "shareBtnText": "Share Podcast",
-            "tabs": 
+            "heroSection": 
             {
-              "newestBtn": "Newest",
-              "oldestBtn": "Oldest"
-            },
-            "copyLink": 
-            {
-              "toastSuccess": "Successfully copied link",
-              "toastError": "Error copying link"
+              "title": "VOICES",
+              "title2": "OF HIGHER EDUCATION",
+              "subtitle": "Conversations that inspire teaching, learning and innovation",
+              "by": "A podcast by",
+              "neerushaInfo": "Director, EduQlasse | Assistant Professor, Université de Montréal"
             }
           },
 
@@ -492,17 +489,7 @@ i18n
 
           "podcasts": 
           {
-            "shareBtnText": "Partager le balado",
-            "tabs": 
-            {
-              "newestBtn": "Plus récents",
-              "oldestBtn": "Plus anciens"
-            },
-            "copyLink": 
-            {
-              "toastSuccess": "Lien copié avec succès",
-              "toastError": "Lien copié avec succès"
-            }
+
           },
 
           "researchProjects": 
