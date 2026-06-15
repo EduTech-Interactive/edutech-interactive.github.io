@@ -14,7 +14,7 @@ const GamesAndSimulations = () => {
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
       },
       {
-        jsonKey: "gamesAndSimulations.gameData.cmSim",
+        jsonKey: "gamesAndSimulations.gameData.classBuild",
         imgSrc: placeholderImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
       },

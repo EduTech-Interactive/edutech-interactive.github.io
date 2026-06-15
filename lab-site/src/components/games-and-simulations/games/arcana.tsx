@@ -6,7 +6,7 @@ const Arcana = () => {
 
     return (
         <div className="mt-16">
-            <UnityEmbed src={SRC}></UnityEmbed>
+            <UnityEmbed isPortrait={false}  src={SRC}></UnityEmbed>
         </div>
     )
 }

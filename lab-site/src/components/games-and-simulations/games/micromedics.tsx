@@ -6,8 +6,8 @@ const MicroMedics = () => {
 
     return (
         <div className="w-full flex justify-center mt-10">
-            <div className="w-full max-w-7xl">
-                <UnityEmbed src={SRC} />
+            <div className="w-full max-w-md">
+                <UnityEmbed isPortrait={true} src={SRC} />
             </div>
         </div>
     )

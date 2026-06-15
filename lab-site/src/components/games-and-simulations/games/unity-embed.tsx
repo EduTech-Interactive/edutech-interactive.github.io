@@ -1,20 +1,21 @@
-interface UnityEmbedProps
+class UnityEmbedProps
 {
-    src: string;
+  src: string = "";
+  isPortrait = false;
 }
 
-const UnityEmbed = (props: UnityEmbedProps) => {
+const UnityEmbed = ({ src, isPortrait = false }: UnityEmbedProps) => {
   return (
     <div className="w-full mx-auto">
-        <div className="aspect-video w-full overflow-hidden rounded-xl">
-        <iframe
-            src={props.src}
-            className="h-full w-full"
-            allowFullScreen
-        />
-        </div>
+      <div
+        className={`w-full overflow-hidden rounded-xl ${
+          isPortrait ? 'aspect-9/16' : 'aspect-video'
+        }`}
+      >
+        <iframe src={src} className="h-full w-full" allowFullScreen />
+      </div>
     </div>
   )
 }
 
-export default UnityEmbed
+export default UnityEmbed;

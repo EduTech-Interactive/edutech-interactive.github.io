@@ -12,7 +12,7 @@ import Publications from '../components/publications/publications'
 import GamesAndSimulations from '../components/games-and-simulations/games-and-simulations'
 import Arcana from '../components/games-and-simulations/games/arcana'
 import BioBot from '../components/games-and-simulations/games/biobot'
-import CMSim from '../components/games-and-simulations/games/cmsim'
+import ClassBuild from '../components/games-and-simulations/games/classbuild'
 import DivideAndConquer from '../components/games-and-simulations/games/divide-and-conquer'
 import MicroMedics from '../components/games-and-simulations/games/micromedics'
 import VectorShock from '../components/games-and-simulations/games/vector-shock'
@@ -34,7 +34,7 @@ export const PATHS =
 export const GAME_PATHS = 
 {
   BIOBOT: "/biobot",
-  CM_SIM: "/cm-sim",
+  CM_SIM: "/class-build",
   DIVIDE_AND_CONQUER: "/divide-and-conquer",
   ARCANA: "/arcana",
   GENE_DOOM: "/gene-doom",
@@ -110,7 +110,7 @@ export const routeDefinitions = [
     {
       hideFooter: true
     },
-    component: CMSim,
+    component: ClassBuild,
   }),
 
   //divide and conquer

@@ -127,9 +127,9 @@ i18n
                   "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
                   "citation": "Gokool, Neerusha. (2026). BioBot [Educational Web Game]. https://edutech-interactive.github.io/games-and-simulations"
                 },
-                "cmSim": 
+                "classBuild": 
                 {
-                  "title": "CM Sim",
+                  "title": "ClassBuild",
                   "author": "Neerusha Gokool",
                   "description": "",
                   "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
@@ -194,7 +194,6 @@ i18n
               },
               "gameBtnText": "Play Now!"
           },
-
           
           "genAiApps":
           {
@@ -334,9 +333,9 @@ i18n
                   "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Thomas Rompré, Kamyar Karimi, Jenna Brown, Zi Di, Sarah Wari, Taryn Baupre, Zachary Dupe, Vincent Cloutier Duval, Abigail Lopez, Marysa, Olivier, Achraf, Veronica Marallag, Julius Napoleon Sargent",
                   "citation": "Gokool, Neerusha. (2026). BioBot [Jeu Web éducatif]. https://edutech-interactive.github.io/games-and-simulations"
                 },
-                "cmSim":
+                "classBuild":
                 {
-                  "title": "Sim CM",
+                  "title": "ClasseBuild",
                   "author": "Neerusha Gokool",
                   "description": "",
                   "credits": "Neerusha Gokool, Devrin Aiden Tiongson, Abigail Lopez",
