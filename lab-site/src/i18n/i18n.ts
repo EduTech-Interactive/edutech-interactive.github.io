@@ -194,14 +194,147 @@ i18n
               },
               "gameBtnText": "Play Now!"
           },
-          
+
           "genAiApps":
           {
-            "calcBuddy" : 
+            heroSection: 
             {
-              "heading": "Featured Project: Calculus Buddy",
-              "desc": "AI-powered tutoring for higher education mathematics.",
-              "btnText": "Discover The Project"
+              title: "AI Projects",
+              subtitle: "Advancing Teaching and Learning Through Responsible AI",
+              description: "At EduQlasse, we design and study artificial intelligence tools that address real challenges in higher education. Grounded in learning sciences, inclusive pedagogy, and ethical AI practices, our projects are developed through collaboration with educators, researchers, students, and programmers.",
+              leadership: 
+              {
+                label: "Led by",
+                name: "Dr. Neerusha Gokool",
+                title: "Founder & Principal Investigator, EduQlasse"
+              }
+            },
+            ecosystem: 
+            {
+              title: "Our AI Ecosystem",
+              apps: 
+              {
+                calculusBuddy: 
+                {
+                  title: "Calculus Buddy",
+                  subtitle: "An AI learning companion for student success in mathematics",
+                  description: "Supports students in differential calculus with scaffolded guidance, personalized feedback, and step-by-step problem solving to build conceptual understanding and confidence.",
+                  features: 
+                  [
+                    "Personalized learning support",
+                    "Step-by-step scaffolding",
+                    "Guided problem-solving",
+                    "Learning analytics & feedback",
+                    "UDL-informed design"
+                  ],
+                  ctaText: "Learn more"
+                },
+                teachersCraft: 
+                {
+                  title: "Teacher's Craft",
+                  subtitle: "An AI-powered pedagogical design assistant",
+                  description: "Helps educators design inclusive, engaging, and evidence-informed learning experiences with tools for lesson planning, assessment, and student supports.",
+                  features: 
+                  [
+                    "Lesson & course design support",
+                    "Assessment & rubric creation",
+                    "UDL-aligned recommendations",
+                    "Inclusive teaching strategies",
+                    "Ethical AI integration guidance"
+                  ],
+                  ctaText: "Learn more"
+                },
+                aiCompass: 
+                {
+                  title: "AI Compass",
+                  subtitle: "Navigating AI with confidence, responsibility, and purpose",
+                  description: "A self-assessment and professional learning tool that helps educators reflect on their use of AI and access personalized resources for ethical and effective integration.",
+                  features: 
+                  [
+                    "AI readiness self-assessment",
+                    "Personalized learning pathways",
+                    "Ethical reflection prompts",
+                    "Resource recommendations",
+                    "Evidence-informed guidance"
+                  ],
+                  ctaText: "Learn more"
+                }
+              }
+            },
+            impact: 
+            {
+              title: "Our Impact",
+              metrics: 
+              {
+                studentsSupported: 
+                {
+                  value: "3,200+",
+                  label: "Students Supported"
+                },
+                educatorsEngaged: 
+                {
+                  value: "850+",
+                  label: "Educators Engaged"
+                },
+                institutionsInvolved: 
+                {
+                  value: "25+",
+                  label: "Institutions Involved"
+                },
+                researchProjects: 
+                {
+                  value: "18+",
+                  label: "Research Projects"
+                },
+                fundingReceived: 
+                {
+                  value: "$1.2M+",
+                  label: "Funding Received"
+                }
+              }
+            },
+            collaborators: 
+            {
+              title: "Collaborators",
+              description: "Our projects are made possible through the expertise and commitment of educators, researchers, and technologists.",
+              mathTeam: 
+              {
+                title: "Calculus Buddy Math Team",
+                description: "Collaborative partnership with experienced mathematics educators.",
+                ctaText: "View team",
+                members: 
+                [
+                  {
+                    name: "Dr. Elena Naidenova",
+                    institution: "Vanier College"
+                  },
+                  {
+                    name: "Dr. Ferenc Balogh",
+                    institution: "John Abbott College"
+                  },
+                  {
+                    name: "Mr. Ivo Pendev",
+                    institution: "Mathematics"
+                  }
+                ]
+              },
+              technicalDevelopment: 
+              {
+                title: "Technical Development",
+                description: "Built by a talented team of student programmers under the leadership of Dr. Neerusha Gokool.",
+                ctaText: "Learn more"
+              }
+            },
+            callToAction: 
+            {
+              title: "Let's Shape the Future of Teaching and Learning—Together",
+              description: "Interested in collaborating, piloting a tool, or learning more about our research? We'd love to connect.",
+              actions: 
+              {
+                partner: "Partner With Us",
+                pilot: "Pilot a Tool",
+                explore: "Explore Our Research"
+              }
             }
           },
 
@@ -529,14 +662,146 @@ i18n
 
           "genAiApps":
           {
-            "calcBuddy": 
+            heroSection: 
             {
-              "heading": "Projet en vedette : Calculus Buddy",
-              "desc": "Tutorat propulsé par l'IA pour l'enseignement supérieur en mathématiques.",
-              "btnText": "Découvrir le projet"
+              title: "Projets d'IA",
+              subtitle: "Faire progresser l'enseignement et l'apprentissage grâce à une IA responsable",
+              description: "Chez EduQlasse, nous concevons et étudions des outils d'intelligence artificielle qui répondent à des défis réels de l'enseignement supérieur. Ancrés dans les sciences de l'apprentissage, la pédagogie inclusive et les pratiques d'IA éthiques, nos projets sont développés en collaboration avec des éducateurs, des chercheurs, des étudiants et des programmeurs.",
+              leadership: 
+              {
+                label: "Dirigé par",
+                name: "Dr. Neerusha Gokool",
+                title: "Fondatrice et chercheuse principale, EduQlasse"
+              }
+            },
+            ecosystem: 
+            {
+              title: "Notre écosystème d'IA",
+              apps: 
+              {
+                calculusBuddy: 
+                {
+                  title: "Calculus Buddy",
+                  subtitle: "Un compagnon d'apprentissage de l'IA pour la réussite des étudiants en mathématiques",
+                  description: "Soutient les étudiants en calcul différentiel grâce à un encadrement progressif, des rétroactions personnalisées et une résolution de problèmes étape par étape afin de renforcer la compréhension conceptuelle et la confiance.",
+                  features: 
+                  [
+                    "Soutien à l'apprentissage personnalisé",
+                    "Encadrement étape par étape",
+                    "Résolution de problèmes guidée",
+                    "Analyses de l'apprentissage et rétroaction",
+                    "Conception inspirée de l'UDL (CUA)"
+                  ],
+                  ctaText: "En savoir plus"
+                },
+                teachersCraft: 
+                {
+                  title: "Teacher's Craft",
+                  subtitle: "Un assistant de conception pédagogique propulsé par l'IA",
+                  description: "Aide les éducateurs à concevoir des expériences d'apprentissage inclusives, engageantes et fondées sur des données probantes grâce à des outils de planification de cours, d'évaluation et de soutien aux étudiants.",
+                  features: 
+                  [
+                    "Soutien à la conception de cours et de leçons",
+                    "Création d'évaluations et de grilles de correction",
+                    "Recommandations alignées sur l'UDL (CUA)",
+                    "Stratégies d'enseignement inclusives",
+                    "Guidage pour l'intégration éthique de l'IA"
+                  ],
+                  ctaText: "En savoir plus"
+                },
+                aiCompass: 
+                {
+                  title: "AI Compass",
+                  subtitle: "Naviguer dans l'IA avec confiance, responsabilité et détermination",
+                  description: "Un outil d'auto-évaluation et d'apprentissage professionnel qui aide les éducateurs à réfléchir à leur utilisation de l'IA et à accéder à des ressources personnalisées pour une intégration éthique et efficace.",
+                  features: 
+                  [
+                    "Auto-évaluation de la préparation à l'IA",
+                    "Parcours d'apprentissage personnalisés",
+                    "Pistes de réflexion éthique",
+                    "Recommandations de ressources",
+                    "Guidage fondé sur des données probantes"
+                  ],
+                  ctaText: "En savoir plus"
+                }
+              }
+            },
+            impact: 
+            {
+              title: "Notre impact",
+              metrics: 
+              {
+                studentsSupported: 
+                {
+                  value: "3 200+",
+                  label: "Étudiants soutenus"
+                },
+                educatorsEngaged: 
+                {
+                  value: "850+",
+                  label: "Éducateurs engagés"
+                },
+                institutionsInvolved: 
+                {
+                  value: "25+",
+                  label: "Établissements impliqués"
+                },
+                researchProjects: 
+                {
+                  value: "18+",
+                  label: "Projets de recherche"
+                },
+                fundingReceived: 
+                {
+                  value: "1,2 M$+",
+                  label: "Financement reçu"
+                }
+              }
+            },
+            collaborators: 
+            {
+              title: "Collaborateurs",
+              description: "Nos projets sont rendus possibles grâce à l'expertise et à l'engagement d'éducateurs, de chercheurs et de technologues.",
+              mathTeam: 
+              {
+                title: "Équipe de mathématiques de Calculus Buddy",
+                description: "Partenariat de collaboration avec des éducateurs en mathématiques chevronnés.",
+                ctaText: "Voir l'équipe",
+                members: 
+                [
+                  {
+                    name: "Dr. Elena Naidenova",
+                    institution: "Collège Vanier"
+                  },
+                  {
+                    name: "Dr. Ferenc Balogh",
+                    institution: "Collège John Abbott"
+                  },
+                  {
+                    name: "M. Ivo Pendev",
+                    institution: "Mathématiques"
+                  }
+                ]
+              },
+              technicalDevelopment: 
+              {
+                title: "Développement technique",
+                description: "Créé par une équipe talentueuse d'étudiants programmeurs sous la direction de la Dre Neerusha Gokool.",
+                ctaText: "En savoir plus"
+              }
+            },
+            callToAction: 
+            {
+              title: "Façonnons ensemble l'avenir de l'enseignement et de l'apprentissage",
+              description: "Vous souhaitez collaborer, piloter un outil ou en savoir plus sur nos recherches? Nous serions ravis de faire votre connaissance.",
+              actions: 
+              {
+                partner: "Devenir partenaire",
+                pilot: "Piloter un outil",
+                explore: "Explorer nos recherches"
+              }
             }
           },
-
           "podcasts": 
           {
             "heroSection": 
