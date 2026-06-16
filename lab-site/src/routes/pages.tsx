@@ -16,6 +16,7 @@ import ClassBuild from '../components/games-and-simulations/games/classbuild'
 import DivideAndConquer from '../components/games-and-simulations/games/divide-and-conquer'
 import MicroMedics from '../components/games-and-simulations/games/micromedics'
 import VectorShock from '../components/games-and-simulations/games/vector-shock'
+import CrisprSim from '../components/games-and-simulations/games/crispr-sim'
 
 export const PATHS = 
 {
@@ -146,6 +147,16 @@ export const routeDefinitions = [
     component: VectorShock,
   }),
 
+  //crispr sim
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
+    staticData: 
+    {
+      hideFooter: true
+    },
+    component: CrisprSim,
+  }),
 
   //===================
 
