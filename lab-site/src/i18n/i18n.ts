@@ -45,10 +45,103 @@ i18n
             "toolsCardTitle": "Digital & AI Tools",
             "toolsCardDesc": "Integrating innovative practices and variety to enhance modern teaching and student engagement.",
 
-            "collaborators": 
+          
+            "collaborators":
             {
+              "title": "Collaborators",
 
+              "udem": 
+              {
+                "neerushaGokool": 
+                {
+                  "name": "Neerusha Gokool - Project Lead",
+                  "bio": "Neerusha is a professor at the University of Montreal, in the Faculty of Education, Department of Educational Psychology and Adult Education, where she specializes in educational psychology interventions in higher education, with a particular focus on teaching practices at the college level (CEGEP). She also directs EDUQLASSE, a research laboratory whose work focuses on the design, implementation, and evaluation of educational strategies in classroom management, the integration of digital technology, and inclusive teaching practices. Her research is grounded in robust theoretical frameworks, including Universal Design for Learning (UDL), socioconstructivist approaches, culturally relevant pedagogy, and inclusive perspectives in education. Her work focuses on analyzing and transforming teaching practices to support the diversity of student profiles and foster equitable, accessible, and meaningful learning environments. She is particularly interested in issues related to diversity, student engagement, and the relationship between classroom management, teaching practices, and the use of digital technology. Adopting a practice-based research approach, she prioritizes collaborative and pragmatic strategies that help bridge the gap between scientific knowledge and educational practices. In this regard, she works closely with faculty to co-develop evidence-based teaching strategies, thereby contributing to the success, retention, and well-being of students in higher education."
+                }
+              },
+              "champlain": 
+              {
+                "saraHashem": 
+                {
+                  "name": "Sara Hashem - Co-project Lead",
+                  "bio": "Sara Hashem currently serves as a pedagogical counselor at Champlain College Saint-Lambert, where she supports the development of innovative educational practices and the implementation of initiatives that promote learning, collaboration, and research in higher education. She is also a co-founder of the Artful Inquiry Research group at McGill University, a research collective dedicated to advancing educational research and promoting artistic and interdisciplinary approaches to pedagogy. Her work focuses on designing learning experiences that forge meaningful connections between theory, practice, and creation, while exploring the frontiers of contemporary pedagogical knowledge. In 2023, she co-directed the anthology Making Connections in and Through Arts-Based Educational Research. She is currently working on a new book exploring concepts of re-emergence in education and the transformation of teaching practices in evolving educational contexts."
+                },
+                "aïchaMein": 
+                {
+                  "name": "Aïcha Mein, MA - Professor at the Writing Center",
+                  "bio": "Aïcha Mein, MA, is a professor at the Writing Center at Champlain College Saint-Lambert. She holds a bachelor’s degree in English literature and African studies, as well as a master’s degree in English, with a specialization in colonial and postcolonial literature. She co-coordinates the English department and previously coordinated the Writing Centre, where she redesigned the space, updated the online platform, and fostered a more inclusive environment. Passionate about equity, diversity, and inclusion (EDI), Aïcha incorporates these values into her work, particularly through EDI-focused training for tutors and workshops with the Student Access Centre. She has also participated in a Canada-wide pilot project with the Global Centre for Pluralism and continues to contribute to the College’s EDI initiatives, notably by serving on the strategic plan committee. Aïcha is currently developing new resources for the Writing Center, including tutor-led modules and a self-paced online component, to make writing support more accessible and engaging."
+                },
+                "bahmanZamani": 
+                {
+                  "name": "Bahman Zamani, PhD - Computer Science Professor",
+                  "bio": "Bahman Zamani, PhD, is a computer science professor at Champlain College Saint-Lambert. He holds a PhD in computer science from Concordia University in Montreal, QC, Canada, where he conducted research on model language verification. He is currently a full-time faculty member in the College’s Department of Computer Technology and also teaches part-time at Concordia University. Dr. Zamani was previously an associate professor and is now an associate professor emeritus in the Department of Software Engineering at Isfahan University in Isfahan, Iran. His primary area of research is model-driven software engineering (MDSE), and he is the founder of the MDSE research group at Isfahan University."
+                },
+                "catherineNygren": 
+                {
+                  "name": "Catherine Nygren, PhD - English Faculty Member",
+                  "bio": "Catherine Nygren, PhD, is an English faculty member at Champlain College Saint-Lambert, specializing in speculative fiction and the rhetoric of scientific writing. In addition to her teaching responsibilities, she works with students with special needs at the Student Access Centre, providing personalized academic support to help them overcome challenges and develop strategies for academic success. During her doctoral studies, Catherine used computational models to explore and analyze 18th-century travel writings. This interdisciplinary approach allowed her to combine literary analysis with computational techniques, thereby offering a new perspective on historical texts."
+                },
+                "jennyDoubt": 
+                {
+                  "name": "Jenny Doubt",
+                  "bio": ""
+                },
+                "paulCatanu": 
+                {
+                  "name": "Paul Catanu, PhD - Professor of Humanities",
+                  "bio": "Paul Catanu holds a PhD and is a professor of humanities at Champlain College Saint-Lambert; he also teaches part-time at Concordia University. He earned his PhD from the University of Montreal. His research focuses on the critical implementation of AI—more specifically, automated statistical models—in educational settings. While he acknowledges the importance of introducing students to new large-scale language models, he emphasizes the need to do so within ethical frameworks that prioritize data confidentiality and preserve the authenticity of students’ voices. Paul is the author of two books: Heidegger’s Nietzsche: Being and Becoming (Montreal, 2010) and Critical Thinking, Worldviews, and Logic (Montreal, 2016)."
+                }
+              },
+              "dawson": 
+              {
+                "rafaelScapin":
+                {
+                  "name": "Dr. Rafael Scapin - Coordinator of Educational Technology",
+                  "bio": "Dr. Rafael Scapin holds a B.S. degree in Theoretical Physics and also a M.S. and a Ph.D. in Computational Physics from the University of São Paulo (Brazil). He has been involved with e-learning and educational technology since 1996. Since his arrival in Canada in 2008 he has worked for different companies in the field of e-learning (including as a consultant for the Canadian Government), leading various projects involving course design and the use of technology in a pedagogical environment. In 2008 he became the Coordinator of Educational Technology at Dawson College in Montreal, where he is currently employed, working with new technologies for education. He also publishes a weekly newsletter on IT and Education called DawsonITE. He is one of the co-founders of the Association for the Development of Technology in Education (ADTE), a non-profit organization devoted to fostering the development of Educational Technology in Quebec. Dr. Scapin was also on the organizing committee for the Canadian Moodle Conference 2013 in Vancouver, 2015 in Montreal and 2018 in Toronto. He also organized TEDx Dawson College on May 2013. His language skills include English, French, Spanish, Portuguese, Italian and Esperanto."
+                },
+                "azraKhan": 
+                {
+                  "name": "Azra Khan - Pedagogical Counselor",
+                  "bio": "Azra Khan is a pedagogical counselor in the Academic Development Office at Dawson College. She has worked on the professional integration of new faculty members, the Success Plan, and the inclusion of cultural communities and individuals with special needs, as well as strategic planning objectives. She serves as a liaison between Dawson and the network through AQPC, Performa, SALTISE, and other college network initiatives. She holds a master’s degree in urban development and has taught at the post-secondary level at Concordia, McGill, and in the United Kingdom before joining Dawson in 2011."
+                }
+              },
+              "vanier": 
+              {
+                "elenaNaidenova": 
+                {
+                  "name": "Elena Naidenova - Mathematics Professor and Coordinator",
+                  "bio": "Elena Naidenova is a mathematics professor and coordinator of the mathematics department at Vanier College in Montreal. A graduate of the Moldovan Academy of Sciences, she has extensive experience in postsecondary education, particularly in the fields of differential and integral calculus and differential equations. She is known for her rigorous and structured teaching approach, which focuses on clear explanations and a methodical progression of learning. She is recognized for her ability to make complex concepts accessible while maintaining high academic standards. Her assessments, though rigorous, are perceived as fair and encourage thorough preparation, active practice of exercises, and a genuine understanding of concepts. As a coordinator, she plays a central role in course planning, departmental organization, and the integration of educational innovations. She is actively involved in initiatives aimed at modernizing mathematics education, particularly through the use of technology. She is currently collaborating with Neerusha B. Gokool on the design of an intelligent chatbot intended to support students in calculus. This AI project aims to provide accessible and interactive educational support, enabling students to reinforce their learning outside the traditional classroom setting. Elena Naidenova’s entire career reflects a sustained commitment to student success, innovation in mathematics education, and making scientific knowledge accessible at the college level."
+                },
+                "karlLaroche": 
+                {
+                  "name": "Karl Laroche - Biology Instructor",
+                  "bio": "Karl Laroche, a biology instructor at Vanier College, is recognized for his outstanding contributions to teaching and his innovative pedagogical approaches. In 2022, he received the Vanier College Award for Excellence in Teaching, recognizing his commitment to quality education (Education News Canada). He had previously been honored in 2017 with the SALTISE Innovator Award for his pedagogical innovations (SALTISE). Karl stands out for his ability to engage students through active learning, hands-on projects, and inclusive strategies. A notable example is a field lab he designed, in which students analyze the impact of an invasive plant in Côte-de-Liesse Park, allowing them to collect and interpret real-world data. He also helped develop active learning activities, such as the case study “Genetics: Patterns of Inheritance,” which links genetic concepts to real-world applications (SALTISE). In addition to his teaching, Karl is actively involved in the professional development of faculty and promotes the integration of digital technologies and the principles of universal design for learning (UDL) to meet the diverse needs of students. His work reflects a deep commitment to student success, educational innovation, and the educational community."
+                },
+                "kevinCasey": 
+                {
+                  "name": "Kevin F. Casey - Professor of Psychology",
+                  "bio": "Kevin F. Casey is a professor of psychology at Vanier College in Montreal, where he teaches a variety of courses, including Introduction to Psychology, Cultural, Social, and Sports Psychology, as well as Psychological Disorders and Sexuality. He is known for his interactive teaching approach and accessible teaching style, which enable him to create a supportive learning environment. Mr. Casey also co-moderated a panel discussion at the 2023 SALTISE conference at Concordia University, highlighting the use of blended learning to improve student outcomes. Before joining Vanier, he taught at McGill University, where he was also recognized for his commitment to academic excellence. His dedication to education makes him a valued member of the academic community at both Vanier College and McGill."
+                }
+              },
+              "johnAbbott": 
+              {
+                "ivoPendev": 
+                {
+                  "name": "Ivo Pendev - Mathematics Professor",
+                  "bio": "Ivo Pendev has been a mathematics professor at John Abbott College since 2015. He is particularly interested in the integration of technology and artificial intelligence in higher education. He is part of the team developing an intelligent tutoring system for differential calculus designed to support students’ learning in mathematics. He is also contributing to a research project on the ethical and responsible use of artificial intelligence in educational settings. Recognized for his commitment to teaching and his interest in educational innovation, he is actively involved in developing educational practices that promote the thoughtful and critical integration of digital tools and artificial intelligence in middle school settings."
+                },
+                "ferencBalogh": 
+                {
+                  "name": "Dr. Ferenc Balogh - Professor of Mathematics",
+                  "bio": "Dr. Ferenc Balogh has been a professor of mathematics in the Department of Mathematics at John Abbott College since 2013. Specializing in mathematics and mathematical physics, he is the author of numerous scientific articles as well as a monograph on mathematical physics. In addition to his research activities, he is actively involved in student and academic life at the college. In particular, he co-organizes the JAC Math Explorations Club, an extracurricular activity designed to expose students to stimulating and accessible mathematical ideas beyond the traditional classroom setting. Dr. Balogh is also involved in the development of an intelligent tutoring system for differential calculus, helping to create innovative educational tools to support student success in mathematics."
+                },
+                "michaelLautman": 
+                {
+                  "name": "Michael Lautman - Chemistry Professor",
+                  "bio": "Michael Lautman has been a chemistry professor at John Abbott College since 2006, where he teaches a variety of chemistry-related courses. He earned a Bachelor of Science degree from Concordia University in 2000 and continued his studies at the University of Montreal, where he earned a master’s degree in organic and materials chemistry in 2002, followed by a Ph.D. in 2007. Before joining John Abbott, he taught at Dawson College and the University of Montreal. He draws on his expertise in organic chemistry and materials science to encourage students to explore sustainable solutions in chemistry. In addition to his teaching activities, his research focuses on the public perception of science, and he is actively developing projects aimed at promoting environmental sustainability on campus. Throughout his career, he has contributed to the integration of science education with an emphasis on practical applications, seeking to deepen students' understanding of chemistry and its impact on everyday life."
+                }
+              }
             },
+
 
             "meetTheTeam": 
             {
@@ -631,7 +724,103 @@ i18n
             "inclusiveCardDesc": "Conception de cadres accessibles pour maximiser les résultats d'apprentissage des étudiants de l'enseignement supérieur.",
             "toolsCardTitle": "Outils numériques et IA",
             "toolsCardDesc": "Intégration de pratiques innovantes et diversifiées pour enrichir l'enseignement moderne et stimuler l'engagement des étudiants.",
-          
+
+            "collaborators":
+            {
+              "title": "Collaborateurs",
+
+              "udem":
+              {
+                "neerushaGokool":
+                {
+                  "name": "Neerusha Gokool - Responsable du projet",
+                  "bio": "Neerusha est professeure à l'Université de Montréal, au sein de la Faculté des sciences de l'éducation, dans le Département de psychopédagogie et d'andragogie. Elle y est spécialisée dans les interventions en psychologie de l'éducation en enseignement supérieur, avec un intérêt particulier pour les pratiques enseignantes au niveau collégial (CEGEP). Elle dirige également EDUQLASSE, un laboratoire de recherche dont les travaux portent sur la conception, l'implantation et l'évaluation de stratégies éducatives en gestion de classe, l'intégration des technologies numériques et les pratiques d'enseignement inclusives. Ses recherches s'appuient sur des cadres théoriques robustes, notamment la conception universelle de l'apprentissage (CUA), les approches socioconstructivistes, la pédagogie culturellement pertinente et les perspectives inclusives en éducation. Ses travaux se concentrent sur l'analyse et la transformation des pratiques d'enseignement afin de soutenir la diversité des profils d'étudiants et de favoriser des environnements d'apprentissage équitables, accessibles et significatifs. Elle s'intéresse particulièrement aux questions liées à la diversité, à l'engagement des étudiants et à la relation entre la gestion de classe, les pratiques d'enseignement et l'utilisation des technologies numériques. Adoptant une approche de recherche axée sur la pratique, elle privilégie les stratégies collaboratives et pragmatiques qui permettent de combler le fossé entre les connaissances scientifiques et les pratiques éducatives. À cet égard, elle travaille en étroite collaboration avec le corps professoral pour co-développer des stratégies d'enseignement fondées sur des données probantes, contribuant ainsi à la réussite, à la rétention et au bien-être des étudiants en enseignement supérieur."
+                }
+              },
+              "champlain":
+              {
+                "saraHashem":
+                {
+                  "name": "Sara Hashem - Coresponsable du projet",
+                  "bio": "Sara Hashem est actuellement conseillère pédagogique au Collège Champlain Saint-Lambert, où elle soutient le développement de pratiques éducatives innovantes et la mise en œuvre d'initiatives qui favorisent l'apprentissage, la collaboration et la recherche en enseignement supérieur. Elle est également cofondatrice du groupe de recherche Artful Inquiry à l'Université McGill, un collectif de recherche dédié à l'avancement de la recherche en éducation et à la promotion d'approches artistiques et interdisciplinaires de la pédagogie. Son travail se concentre sur la conception d'expériences d'apprentissage qui créent des liens significatifs entre la théorie, la pratique et la création, tout en explorant les frontières des connaissances pédagogiques contemporaines. En 2023, elle a codirigé l'anthologie *Making Connections in and Through Arts-Based Educational Research*. Elle travaille actuellement sur un nouveau livre explorant les concepts de réémergence en éducation et la transformation des pratiques d'enseignement dans des contextes éducatifs en constante évolution."
+                },
+                "aïchaMein":
+                {
+                  "name": "Aïcha Mein, MA - Professeure au Centre d'aide en français / Centre d'écriture",
+                  "bio": "Aïcha Mein, MA, est professeure au Centre d'écriture (Writing Center) du Collège Champlain Saint-Lambert. Elle détient un baccalauréat en littérature anglaise et en études africaines, ainsi qu'une maîtrise en anglais, avec une spécialisation en littérature coloniale et postcoloniale. Elle cocoordonne le département d'anglais et a auparavant coordonné le Centre d'écriture, dont elle a repensé l'espace, mis à jour la plateforme en ligne et favorisé un environnement plus inclusif. Passionnée par l'équité, la diversité et l'inclusion (EDI), Aïcha intègre ces valeurs dans son travail, notamment par le biais de formations sur l'EDI destinées aux tuteurs et d'ateliers avec le Centre d'accès des étudiants. Elle a également participé à un projet pilote pancanadien avec le Centre mondial du pluralisme et continue de contribuer aux initiatives d'EDI du Collège, notamment en siégeant au comité du plan stratégique. Aïcha développe actuellement de nouvelles ressources pour le Centre d'écriture, y compris des modules dirigés par des tuteurs et un volet en ligne adapté au rythme de chacun, afin de rendre le soutien à l'écriture plus accessible et engageant."
+                },
+                "bahmanZamani":
+                {
+                  "name": "Bahman Zamani, PhD - Professeur d'informatique",
+                  "bio": "Bahman Zamani, PhD, est professeur d'informatique au Collège Champlain Saint-Lambert. Il détient un doctorat en informatique de l'Université Concordia à Montréal, QC, Canada, où il a mené des recherches sur la vérification des langages de modélisation. Il est actuellement membre du corps professoral à temps plein dans le Département de technologie informatique du Collège et enseigne également à temps partiel à l'Université Concordia. Dr. Zamani était auparavant professeur agrégé et est maintenant professeur agrégé émérite au Département de génie logiciel de l'Université d'Isfahan à Isfahan, en Iran. Son principal domaine de recherche est l'ingénierie logicielle dirigée par les modèles (IDM), et il est le fondateur du groupe de recherche en IDM de l'Université d'Isfahan."
+                },
+                "catherineNygren":
+                {
+                  "name": "Catherine Nygren, PhD - Enseignante au département d'anglais",
+                  "bio": "Catherine Nygren, PhD, enseigne au département d'anglais du Collège Champlain Saint-Lambert, se spécialisant dans la fiction spéculative et la rhétorique de l'écriture scientifique. En plus de ses responsabilités d'enseignement, elle travaille auprès d'étudiants ayant des besoins particuliers au Centre d'accès des étudiants, offrant un soutien académique personnalisé pour les aider à surmonter les obstacles et à développer des stratégies de réussite universitaire. Au cours de ses études doctorales, Catherine a utilisé des modèles informatiques pour explorer et analyser les récits de voyage du XVIIIe siècle. Cette approche interdisciplinaire lui a permis de combiner l'analyse littéraire avec des techniques informatiques, offrant ainsi une perspective nouvelle sur les textes historiques."
+                },
+                "jennyDoubt":
+                {
+                  "name": "Jenny Doubt",
+                  "bio": ""
+                },
+                "paulCatanu":
+                {
+                  "name": "Paul Catanu, PhD - Professeur de sciences humaines",
+                  "bio": "Paul Catanu est titulaire d'un doctorat et professeur de sciences humaines au Collège Champlain Saint-Lambert ; il enseigne également à temps partiel à l'Université Concordia. Il a obtenu son doctorat à l'Université de Montréal. Ses recherches portent sur l'intégration critique de l'IA — plus précisément des modèles statistiques automatisés — en milieu scolaire. Tout en reconnaissant l'importance d'initier les étudiants aux nouveaux modèles linguistiques à grande échelle, il insiste sur la nécessité de le faire dans des cadres éthiques qui priorisent la confidentialité des données et préservent l'authenticité de la voix des étudiants. Paul est l'auteur de deux livres : *Heidegger’s Nietzsche: Being and Becoming* (Montréal, 2010) et *Critical Thinking, Worldviews, and Logic* (Montréal, 2016)."
+                }
+              },
+              "dawson":
+              {
+                "rafaelScapin":
+                {
+                  "name": "Dr. Rafael Scapin - Coordinateur de la technologie éducative",
+                  "bio": "Le Dr. Rafael Scapin détient un baccalauréat en physique théorique ainsi qu'une maîtrise et un doctorat en physique numérique de l'Université de São Paulo (Brésil). Il est impliqué dans l'apprentissage en ligne (e-learning) et les technologies éducatives depuis 1996. Depuis son arrivée au Canada en 2008, il a travaillé pour différentes entreprises du domaine du e-learning (notamment comme consultant pour le gouvernement canadien), menant divers projets impliquant la conception de cours et l'utilisation des technologies dans un environnement pédagogique. En 2008, il est devenu coordinateur de la technologie éducative au Collège Dawson à Montréal, où il est actuellement employé, travaillant avec les nouvelles technologies pour l'éducation. Il publie également un bulletin d'information hebdomadaire sur les TI et l'éducation appelé DawsonITE. Il est l'un des cofondateurs de l'Association pour le développement des technologies en éducation (ADTE), un organisme à but non lucratif voué à favoriser le développement de la technologie éducative au Québec. Le Dr. Scapin a également fait partie du comité organisateur de la Conférence canadienne Moodle en 2013 à Vancouver, en 2015 à Montréal et en 2018 à Toronto. Il a aussi organisé l'événement TEDx Dawson College en mai 2013. Ses compétences linguistiques comprennent l'anglais, le français, l'espagnol, le portugais, l'italien et l'espéranto."
+                },
+                "azraKhan":
+                {
+                  "name": "Azra Khan - Conseillère pédagogique",
+                  "bio": "Azra Khan est conseillère pédagogique au Bureau de développement pédagogique du Collège Dawson. Elle a travaillé sur l'intégration professionnelle des nouveaux membres du corps professoral, le plan de réussite, et l'inclusion des communautés culturelles et des personnes ayant des besoins particuliers, ainsi que sur les objectifs de planification stratégique. Elle assure la liaison entre Dawson et le réseau par le biais de l'AQPC, Performa, SALTISE et d'autres initiatives du réseau collégial. Elle détient une maîtrise en développement urbain et a enseigné au niveau postsecondaire à Concordia, à McGill et au Royaume-Uni avant de se joindre à Dawson en 2011."
+                }
+              },
+              "vanier":
+              {
+                "elenaNaidenova":
+                {
+                  "name": "Elena Naidenova - Professeure et coordinatrice de mathématiques",
+                  "bio": "Elena Naidenova est professeure de mathématiques et coordinatrice du département de mathématiques au Collège Vanier à Montréal. Diplômée de l'Académie des sciences de Moldavie, elle possède une vaste expérience de l'enseignement postsecondaire, notamment dans les domaines du calcul différentiel et intégral et des équations différentielles. Elle est reconnue pour son approche pédagogique rigoureuse et structurée, centrée sur des explications claires et une progression méthodique des apprentissages. Elle se distingue par sa capacité à rendre les concepts complexes accessibles tout en maintenant des normes académiques élevées. Ses évaluations, bien que rigoureuses, sont perçues comme équitables et encouragent une préparation approfondie, la pratique active d'exercices et une réelle compréhension des concepts. En tant que coordinatrice, elle joue un rôle central dans la planification des cours, l'organisation départementale et l'intégration des innovations pédagogiques. Elle participe activement à des initiatives visant à moderniser l'enseignement des mathématiques, notamment par l'utilisation des technologies. Elle collabore actuellement avec Neerusha B. Gokool à la conception d'un agent conversationnel (chatbot) intelligent destiné à soutenir les étudiants en calcul différentiel et intégral. Ce projet d'IA vise à fournir un soutien éducatif accessible et interactif, permettant aux étudiants de renforcer leurs apprentissages en dehors de la classe traditionnelle. Toute la carrière d'Elena Naidenova témoigne d'un engagement soutenu envers la réussite des étudiants, l'innovation en enseignement des mathématiques et l'accessibilité des connaissances scientifiques au niveau collégial."
+                },
+                "karlLaroche":
+                {
+                  "name": "Karl Laroche - Enseignant en biologie",
+                  "bio": "Karl Laroche, enseignant en biologie au Collège Vanier, est reconnu pour sa contribution exceptionnelle à l'enseignement et ses approches pédagogiques innovantes. En 2022, il a reçu le Prix d'excellence en enseignement du Collège Vanier, soulignant son engagement envers une éducation de qualité (Education News Canada). Il avait auparavant été honoré en 2017 par le prix de l'innovateur SALTISE pour ses innovations pédagogiques (SALTISE). Karl se démarque par sa capacité à engager les étudiants grâce à l'apprentissage actif, des projets pratiques et des stratégies inclusives. Un exemple notable est un laboratoire de terrain qu'il a conçu, dans lequel les étudiants analysent l'impact d'une plante envahissante dans le parc de la Côte-de-Liesse, ce qui leur permet de collecter et d'interpréter des données du monde réel. Il a également participé au développement d'activités d'apprentissage actif, comme l'étude de cas « Génétique : les modes de transmission héréditaire », qui relie les concepts génétiques à des applications concrètes (SALTISE). En plus de son enseignement, Karl est activement impliqué dans le développement professionnel du corps professoral et promeut l'intégration des technologies numériques et les principes de la conception universelle de l'apprentissage (CUA) pour répondre aux besoins diversifiés des étudiants. Son travail témoigne d'un profond engagement envers la réussite des étudiants, l'innovation pédagogique et la communauté éducative."
+                },
+                "kevinCasey":
+                {
+                  "name": "Kevin F. Casey - Professeur de psychologie",
+                  "bio": "Kevin F. Casey est professeur de psychologie au Collège Vanier à Montréal, où il enseigne une variété de cours, notamment l'introduction à la psychologie, la psychologie culturelle, sociale et sportive, ainsi que les troubles psychologiques et la sexualité. Il est reconnu pour son approche pédagogique interactive et son style d'enseignement accessible, qui lui permettent de créer un environnement d'apprentissage favorable. M. Casey a également coanimé une table ronde lors de la conférence SALTISE 2023 à l'Université Concordia, mettant en lumière l'utilisation de l'apprentissage hybride pour améliorer les résultats des étudiants. Avant de se joindre à Vanier, il a enseigné à l'Université McGill, où il a également été reconnu pour son engagement envers l'excellence académique. Son dévouement envers l'éducation en fait un membre précieux de la communauté académique du Collège Vanier et de l'Université McGill."
+                }
+              },
+              "johnAbbott":
+              {
+                "ivoPendev":
+                {
+                  "name": "Ivo Pendev - Professeur de mathématiques",
+                  "bio": "Ivo Pendev est professeur de mathématiques au Collège John Abbott depuis 2015. Il s'intéresse particulièrement à l'intégration des technologies et de l'intelligence artificielle en enseignement supérieur. Il fait partie de l'équipe qui développe un système de tutorat intelligent pour le calcul différentiel, conçu pour soutenir l'apprentissage des étudiants en mathématiques. Il contribue également à un projet de recherche sur l'utilisation éthique et responsable de l'intelligence artificielle en milieu éducatif. Reconnu pour son engagement envers l'enseignement et son intérêt pour l'innovation pédagogique, il participe activement au développement de pratiques éducatives qui favorisent l'intégration réfléchie et critique des outils numériques et de l'intelligence artificielle dans les milieux d'enseignement secondaire et collégial."
+                },
+                "ferencBalogh":
+                {
+                  "name": "Dr. Ferenc Balogh - Professeur de mathématiques",
+                  "bio": "Le Dr. Ferenc Balogh est professeur de mathématiques au Département de mathématiques du Collège John Abbott depuis 2013. Spécialisé en mathématiques et en physique mathématique, il est l'auteur de nombreux articles scientifiques ainsi que d'une monographie sur la physique mathématique. En plus de ses activités de recherche, il est activement impliqué dans la vie étudiante et académique du collège. Il coorganise notamment le club d'explorations mathématiques du JAC, une activité parascolaire conçue pour exposer les étudiants à des idées mathématiques stimulantes et accessibles au-delà du cadre de la classe traditionnelle. Le Dr. Balogh participe également au développement d'un système de tutorat intelligent pour le calcul différentiel, contribuant ainsi à la création d'outils pédagogiques innovants pour soutenir la réussite des étudiants en mathématiques."
+                },
+                "michaelLautman":
+                {
+                  "name": "Michael Lautman - Professeur de chimie",
+                  "bio": "Michael Lautman est professeur de chimie au Collège John Abbott depuis 2006, où il enseigne une variété de cours liés à la chimie. Il a obtenu un baccalauréat ès sciences de l'Université Concordia en 2000 et a poursuivi ses études à l'Université de Montréal, où il a obtenu une maîtrise en chimie organique et des matériaux en 2002, suivie d'un doctorat en 2007. Avant de se joindre à John Abbott, il a enseigné au Collège Dawson et à l'Université de Montréal. Il s'appuie sur son expertise en chimie organique et en science des matériaux pour encourager les étudiants à explorer des solutions durables en chimie. En plus de ses activités d'enseignement, ses recherches portent sur la perception publique de la science, et il développe activement des projets visant à promouvoir la durabilité environnementale sur le campus. Tout au long de sa carrière, il a contribué à l'intégration de l'enseignement des sciences en mettant l'accent sur les applications pratiques, cherchant à approfondir la compréhension qu'ont les étudiants de la chimie et de son impact sur la vie quotidienne."
+                }
+              }
+            },
+
             "meetTheTeam": 
             {
               "title": "Rencontrez l'équipe EDUQLASSE",
@@ -699,38 +888,38 @@ i18n
 
                 "ahmedHassan": 
                 {
-                    "name": "Ahmed Hassan",
-                    "bio": "Je suis diplômé en informatique du Collège John Abbott. Les projets d'EduQlasse sur lesquels j'ai travaillé incluent Earth Codex et PIM Calculus. Je me spécialise principalement dans le développement de jeux, mais j'ai aussi de l'expérience dans le développement de sites web, d'applications et la sécurisation de réseaux. Mes passe-temps incluent la cuisine, l'apprentissage des langues et les voyages."
+                  "name": "Ahmed Hassan",
+                  "bio": "Je suis diplômé en informatique du Collège John Abbott. Les projets d'EduQlasse sur lesquels j'ai travaillé incluent Earth Codex et PIM Calculus. Je me spécialise principalement dans le développement de jeux, mais j'ai aussi de l'expérience dans le développement de sites web, d'applications et la sécurisation de réseaux. Mes passe-temps incluent la cuisine, l'apprentissage des langues et les voyages."
                 },
                 "abdelmouhcineMessaad": 
                 {
-                    "name": "Abdelmouhcine Messaad",
-                    "bio": "Je suis un étudiant en informatique avec un fort intérêt pour l'intelligence artificielle. Chez EDUQLASSE, j'ai travaillé sur The Integrity Rut Game et Student Voice Game, et j'ai co-créé Opération Diplôme avec mon équipe, le projet gagnant du Game Jam 2026."
+                  "name": "Abdelmouhcine Messaad",
+                  "bio": "Je suis un étudiant en informatique avec un fort intérêt pour l'intelligence artificielle. Chez EDUQLASSE, j'ai travaillé sur The Integrity Rut Game et Student Voice Game, et j'ai co-créé Opération Diplôme avec mon équipe, le projet gagnant du Game Jam 2026."
                 },
                 "muyangYu": 
                 {
-                    "name": "Muyang Yu",
-                    "bio": "Programmeuse de ECQ-Physics. Lorsqu'elle ne code pas, elle dessine."
+                  "name": "Muyang Yu",
+                  "bio": "Programmeuse de ECQ-Physics. Lorsqu'elle ne code pas, elle dessine."
                 },
                 "arielleWong": 
                 {
-                    "name": "Arielle Wong",
-                    "bio": "Étudiante de premier cycle à Concordia en informatique et arts numériques (Computation Arts). Je travaille actuellement comme graphiste et illustratrice pour EduQlasse dans le cadre du projet Ai Ethics, de Earth Codex et de Classroom Management Simulator. Elle aime dessiner des chats rigolos pendant son temps libre."
+                  "name": "Arielle Wong",
+                  "bio": "Étudiante de premier cycle à Concordia en informatique et arts numériques (Computation Arts). Je travaille actuellement comme graphiste et illustratrice pour EduQlasse dans le cadre du projet Ai Ethics, de Earth Codex et de Classroom Management Simulator. Elle aime dessiner des chats rigolos pendant son temps libre."
                 },
                 "alhasanShnoot": 
                 {
-                    "name": "Alhasan Shnoot",
-                    "bio": "Double majeure en physique et informatique à l'Université McGill. Chez EDUQLASSE, je conçois des simulations interactives et des outils pédagogiques basés sur l'IA pour l'enseignement de l'électromagnétisme. Mon travail englobe le développement web, l'intégration de l'IA et la conception de simulations. Je suis particulièrement attiré par les simulations, le développement backend et le développement de jeux. Pendant mon temps libre, je pars à l'aventure pour faire de l'escalade en plein air et je compose de la musique."
+                  "name": "Alhasan Shnoot",
+                  "bio": "Double majeure en physique et informatique à l'Université McGill. Chez EDUQLASSE, je conçois des simulations interactives et des outils pédagogiques basés sur l'IA pour l'enseignement de l'électromagnétisme. Mon travail englobe le développement web, l'intégration de l'IA et la conception de simulations. Je suis particulièrement attiré par les simulations, le développement backend et le développement de jeux. Pendant mon temps libre, je pars à l'aventure pour faire de l'escalade en plein air et je compose de la musique."
                 },
                 "brandonBoros": 
                 {
-                    "name": "Brandon Boros",
-                    "bio": "Bonjour ! Je m'appelle Brandon et j'étudie actuellement l'informatique à Concordia. Pour EduQlasse, je travaille présentement sur les projets ECQ Earth Codex et PIM Calculus. J'aime lire, faire de la randonnée et créer des trucs cool pendant mon temps libre."
+                  "name": "Brandon Boros",
+                  "bio": "Bonjour ! Je m'appelle Brandon et j'étudie actuellement l'informatique à Concordia. Pour EduQlasse, je travaille présentement sur les projets ECQ Earth Codex et PIM Calculus. J'aime lire, faire de la randonnée et créer des trucs cool pendant mon temps libre."
                 },
                 "mayaSabrineKabli": 
                 {
-                    "name": "Maya Sabrine Kabli",
-                    "bio": "Bien que je poursuive actuellement un baccalauréat en enseignement du français au secondaire, je dessine pendant mon temps libre depuis mon enfance. Cette passion m'a finalement amenée à devenir l'une des artistes travaillant sur le projet EDUQLASSE !"
+                  "name": "Maya Sabrine Kabli",
+                  "bio": "Bien que je poursuive actuellement un baccalauréat en enseignement du français au secondaire, je dessine pendant mon temps libre depuis mon enfance. Cette passion m'a finalement amenée à devenir l'une des artistes travaillant sur le projet EDUQLASSE !"
                 }
               }
             },
