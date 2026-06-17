@@ -8,7 +8,10 @@ import calcBuddyIcon from "/img/gen-ai-apps/calc-buddy-icon.webp";
 import teachersCraftIcon from "/img/gen-ai-apps/teachers-craft-icon.webp";
 import aiCompass from "/img/gen-ai-apps/ai-compass-icon.webp";
 import EcosystemCard from "./ecosystem-card";
-import { Blocks, BookCheck, BookOpen, BrainCircuit, BrickWall, ChartNetwork, Compass, Eye, GraduationCap, Network, PersonStanding, Puzzle, Sigma, Terminal, University } from "lucide-react";
+import { Blocks, BookCheck, BookOpen, BrainCircuit, BrickWall, ChartNetwork, Eye, GraduationCap, Network, PersonStanding, Puzzle, Terminal, University } from "lucide-react";
+import ImpactStats from "./impact-stats";
+import CollaboratorsSection from "./collaborators-section";
+import FooterSection from "./footer-section";
 
 const GenAiApps = () => {
   const { t } = useTranslation();
@@ -142,6 +145,22 @@ const GenAiApps = () => {
               </div>
             </div>
           </section>
+
+        <section className="">
+          <ImpactStats></ImpactStats>
+        </section>
+
+        <div className="mt-20"></div>
+
+        <section className="">
+          <CollaboratorsSection></CollaboratorsSection>
+        </section>
+
+        <div className="mt-20"></div>
+
+        <section className="">
+            <FooterSection></FooterSection>
+        </section>
     </>
   );
 };
