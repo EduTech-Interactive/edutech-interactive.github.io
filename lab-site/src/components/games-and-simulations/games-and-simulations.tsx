@@ -1,7 +1,12 @@
 import { useTranslation } from "react-i18next";
 import heroBg from "/img/games-and-simulations/hero.webp";
 import { GameCard } from "./game-card";
-import placeholderImgSrc from "/img/shared/placeholder.png"
+import placeholderImgSrc from "/img/shared/placeholder.png";
+
+//individual image src
+import biorobotImageSrc from "/img/games-and-simulations/biorobot.webp";
+import classBuildImageSrc from "/img/games-and-simulations/classbuild.webp";
+
 import { GAME_PATHS, PATHS } from "../../routes/pages";
 
 const GamesAndSimulations = () => {
@@ -10,12 +15,12 @@ const GamesAndSimulations = () => {
     const GAME_DATA: GameData[] = [
       {
         jsonKey: "gamesAndSimulations.gameData.bioBot",
-        imgSrc: placeholderImgSrc,
+        imgSrc: biorobotImageSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.classBuild",
-        imgSrc: placeholderImgSrc,
+        imgSrc: classBuildImageSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
       },
       {
