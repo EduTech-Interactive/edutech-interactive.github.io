@@ -22,7 +22,6 @@ const UnityEmbed = ({ src, isPortrait = false }: UnityEmbedProps) => {
     }
   };
 
-  // ✅ THIS is the important fix
   useEffect(() => {
     const onChange = () => {
       const isFs = document.fullscreenElement === containerRef.current;
@@ -34,14 +33,6 @@ const UnityEmbed = ({ src, isPortrait = false }: UnityEmbedProps) => {
   }, []);
   return (
     <div className="w-full mx-auto">
-
-      <div className='hidden md:block'>
-        <Button
-          onClick={enterFullscreen}
-        >
-          Fullscreen
-        </Button>
-      </div>
       <div
         ref={containerRef}
         className={`
@@ -73,6 +64,14 @@ const UnityEmbed = ({ src, isPortrait = false }: UnityEmbedProps) => {
             }
           `}
         />
+      </div>
+
+      <div className='hidden md:block'>
+        <Button
+          onClick={enterFullscreen}
+        >
+          Fullscreen
+        </Button>
       </div>
     </div>
   );
