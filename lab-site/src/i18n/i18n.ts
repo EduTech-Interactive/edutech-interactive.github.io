@@ -45,6 +45,11 @@ i18n
             "toolsCardTitle": "Digital & AI Tools",
             "toolsCardDesc": "Integrating innovative practices and variety to enhance modern teaching and student engagement.",
 
+            "collaborators": 
+            {
+
+            },
+
             "meetTheTeam": 
             {
               "title": "Meet the EDUQLASSE Team",
@@ -108,6 +113,41 @@ i18n
                 {
                   "name": "Hy Khang Tran",
                   "bio": "Hello! I am a Computer Science student working at EduQ as a Unity programmer for our Physic projects. It has been a long journey but I have finally found my passion of making games here in Canada. I wish to create things that I can always be proud of. Cheers"
+                },
+                "ahmedHassan": 
+                {
+                  "name": "Ahmed Hassan",
+                  "bio": "I am a Computer Science graduate from John Abbott College. The EduQlasse projects I worked on include Earth Codex and PIM Calculus. I specialize primarily in game development, but I also have experience developing websites, applications, and securing networks. My hobbies include cooking, learning languages, and traveling."
+                },
+                "abdelmouhcineMessaad": 
+                {
+                  "name": "Abdelmouhcine Messaad",
+                  "bio": "I am a Computer Science student with a strong interest in artificial intelligence. At EDUQLASSE, I have worked on The Integrity Rut Game and the Student Voice Game, and co-created Opération Diplôme with my team, the winning project of the 2026 Game Jam."
+                },
+                "muyangYu": 
+                {
+                  "name": "Muyang Yu",
+                  "bio": "Programmer of ECQ-Physics. When she’s not coding, she draws."
+                },
+                "arielleWong": 
+                {
+                  "name": "Arielle Wong",
+                  "bio": "Undergraduate student at Concordia in Computer Science and Computation Arts. Currently working as a graphic designer and illustrator for EduQlasse in the Ai Ethics project, Earth Codex and Classroom Management Simulator. Likes to draw silly cats in her free time."
+                },
+                "alhasanShnoot": 
+                {
+                  "name": "Alhasan Shnoot",
+                  "bio": "Joint major in Physics and Computer Science at McGill University. At EDUQLASSE, I build interactive simulations and AI-driven educational tools for teaching electromagnetism. My work spans web development, AI integration, and simulation design. I'm particularly drawn to simulations, backend development, and game dev. In my spare time, I go on climbing adventures outdoors and make music."
+                },
+                "brandonBoros": 
+                {
+                  "name": "Brandon Boros",
+                  "bio": "Hello! My name is Brandon and I'm currently studying Computer Science at Concordia. For EduQlasse, I am currently working on ECQ Earth Codex and PIM Calculus Project. I enjoy reading, hiking, and making cool stuff in my free time."
+                },
+                "mayaSabrineKabli": 
+                {
+                  "name": "Maya Sabrine Kabli",
+                  "bio": "Although I am currently pursuing a Bachelor’s degree in Secondary French Education, I have been drawing in my free time since childhood. This passion eventually led me to become one of the artists working on the EDUQLASSE project!"
                 }
               }
             },
@@ -600,63 +640,99 @@ i18n
               "learnMoreBtn": "En savoir plus",
 
               "teamMembers": 
+              {
+                "jimmyLe": 
                 {
-                  "jimmyLe": 
-                  {
-                    "name": "Jimmy Le",
-                    "bio": "Bonjour~\n\nJe suis actuellement étudiant de premier cycle à l'Université Concordia, où je poursuis une majeure conjointe en arts numériques (Computation Arts) et en informatique, et j'ai travaillé comme programmeur pour le projet Earth Codex.\nJ'aime jouer aux jeux vidéo, déboguer des choses, et je m'intéresse aux trucs liés à la psychologie !"
-                  },
-                  "kellyAnnThuot": 
-                  {
-                    "name": "Kelly-Ann Thuot",
-                    "bio": "Salut ! Je m'appelle Kelly-Ann Thuot et je suis étudiante en animation 2D au Cégep du Vieux Montréal, diplômée cette année ! J'ai participé à de nombreux projets au sein d'EDUQLASSE, mais j'ai principalement été affectée à Earth Codex et aux mini-jeux. J'aime créer des décors et des peintures, mais je suis aussi une grande passionnée d'animation ! Récemment, j'ai réalisé un court-métrage d'animation d'horreur et d'action qui sortira très bientôt !"
-                  },
-                  "adamLaurin": 
-                  {
-                    "name": "Adam Laurin",
-                    "bio": "Je m'appelle Adam Laurin. Je suis un étudiant en informatique diplômé du Collège John Abbott, et j'ai effectué un stage au laboratoire EduQlasse de l'Université de Montréal. Issu d'un parcours universitaire en histoire avant de me réorienter vers l'informatique, je suis passionné par l'éducation. J'ai rejoint ce projet pour aider à construire quelque chose qui pourrait avoir un impact positif sur le parcours éducatif des autres."
-                  },
-                  "thomasScripcariu": 
-                  {
-                    "name": "Thomas Scripcariu",
-                    "bio": "Je commence un baccalauréat en génie électrique à l'Université Concordia à l'automne 2026. J'ai travaillé sur les projets Geoscience, Crispr et Calculus en tant qu'artiste et programmeur. J'adore bricoler l'électronique, les motos et faire du MMA."
-                  },
-                  "sylvainMiklohoun": 
-                  {
-                    "name": "Sylvain Miklohoun",
-                    "bio": "Sylvain Miklohoun est doctorant à la Faculté des sciences de l'éducation de l'Université de Montréal. Ses recherches portent sur l'éthique de la conception des systèmes d'IA en éducation, l'inclusion scolaire par le numérique, et la littératie en IA, ainsi que sur les politiques qui sous-tendent ces aspects."
-                  },
-                  "tarynBeaupre": 
-                  {
-                    "name": "Taryn Beaupré",
-                    "bio": "Bonjour, je m'appelle Taryn. Je poursuis actuellement un baccalauréat en informatique à l'Université Concordia. Je suis développeuse Web chez EduQlasse, où j'ai contribué à divers projets, notamment BioBot et Calculus Buddy. J'aime explorer la technologie dans les espaces créatifs, exploiter les capacités de l'IA, et je m'intéresse à la cybersécurité. En dehors de la technologie, j'aime l'art, les films, les jeux vidéo, la cuisine et les voyages !"
-                  },
-                  "sophieDomine": 
-                  {
-                    "name": "Sophie Dominé",
-                    "bio": "En tant que doctorante en psychopédagogie à l'Université de Montréal, je m'intéresse au développement, au bien-être et aux pratiques inclusives des étudiants, particulièrement au secondaire mais aussi au postsecondaire. Au-delà de la recherche, j'ai un profond intérêt pour les nouvelles technologies — y compris l'IA — ainsi que pour les jeux vidéo et les activités manuelles. Je soutiendrai la professeure Neerusha Gokool dans ses diverses initiatives et je contribuerai à l'organisation d'événements."
-                  },
-                  "roustomAbdeldjalelCherir": 
-                  {
-                    "name": "Roustom Abdeldjalel Cherir",
-                    "bio": "Je poursuis actuellement un baccalauréat en informatique à l'Université de Montréal. J'ai travaillé sur plusieurs projets de développement de jeux au sein d'EDUQLASSE, notamment Opération Diplôme, le Student Voice Game et l'Academic Rut Game. Je suis passionné par le développement de logiciels propulsés par l'IA et par la cybersécurité, et j'ai également un vif intérêt pour les systèmes embarqués. En dehors des études, j'aime pratiquer les sports de combat, particulièrement le jiu-jitsu brésilien (JJB). Je suis toujours enthousiaste à l'idée d'apprendre de nouvelles technologies et de relever des défis stimulants."
-                  },
-                  "wanXinZhang": 
-                  {
-                    "name": "Wan Xin Zhang",
-                    "bio": "Étudiante à Concordia dans le programme de design, en tant que designer pour Eduqlasse, j'aide généralement pour le graphisme des sites Web et les aspects visuels de plusieurs projets. J'ai un fort intérêt pour les jeux vidéo et le design."
-                  },
-                  "aliAwada": 
-                  {
-                    "name": "Ali Awada",
-                    "bio": "Étudiant de premier cycle en informatique à l'UdeM, je travaille au laboratoire EduQlasse sur des jeux éducatifs propulsés par l'IA et des outils d'apprentissage interactifs pour les étudiants. Je me spécialise dans les agents d'IA et l'IA générative, avec de l'expérience dans les systèmes RAG, les API de LLM et le développement full-stack. J'adore construire des choses. Quand je ne code pas, j'aime aller dehors et essayer de nouvelles activités."
-                  },
-                  "hyKhangTran": 
-                  {
-                    "name": "Hy Khang Tran",
-                    "bio": "Bonjour ! Je suis un étudiant en informatique et je travaille chez EduQ en tant que programmeur Unity pour nos projets de physique. Le chemin a été long, mais j'ai enfin trouvé ma passion pour la création de jeux ici au Canada. Je souhaite créer des choses dont je pourrai toujours être fier. Santé !"
-                  }
+                  "name": "Jimmy Le",
+                  "bio": "Bonjour~\n\nJe suis actuellement étudiant de premier cycle à l'Université Concordia, où je poursuis une majeure conjointe en arts numériques (Computation Arts) et en informatique, et j'ai travaillé comme programmeur pour le projet Earth Codex.\nJ'aime jouer aux jeux vidéo, déboguer des choses, et je m'intéresse aux trucs liés à la psychologie !"
+                },
+                "kellyAnnThuot": 
+                {
+                  "name": "Kelly-Ann Thuot",
+                  "bio": "Salut ! Je m'appelle Kelly-Ann Thuot et je suis étudiante en animation 2D au Cégep du Vieux Montréal, diplômée cette année ! J'ai participé à de nombreux projets au sein d'EDUQLASSE, mais j'ai principalement été affectée à Earth Codex et aux mini-jeux. J'aime créer des décors et des peintures, mais je suis aussi une grande passionnée d'animation ! Récemment, j'ai réalisé un court-métrage d'animation d'horreur et d'action qui sortira très bientôt !"
+                },
+                "adamLaurin": 
+                {
+                  "name": "Adam Laurin",
+                  "bio": "Je m'appelle Adam Laurin. Je suis un étudiant en informatique diplômé du Collège John Abbott, et j'ai effectué un stage au laboratoire EduQlasse de l'Université de Montréal. Issu d'un parcours universitaire en histoire avant de me réorienter vers l'informatique, je suis passionné par l'éducation. J'ai rejoint ce projet pour aider à construire quelque chose qui pourrait avoir un impact positif sur le parcours éducatif des autres."
+                },
+                "thomasScripcariu": 
+                {
+                  "name": "Thomas Scripcariu",
+                  "bio": "Je commence un baccalauréat en génie électrique à l'Université Concordia à l'automne 2026. J'ai travaillé sur les projets Geoscience, Crispr et Calculus en tant qu'artiste et programmeur. J'adore bricoler l'électronique, les motos et faire du MMA."
+                },
+                "sylvainMiklohoun": 
+                {
+                  "name": "Sylvain Miklohoun",
+                  "bio": "Sylvain Miklohoun est doctorant à la Faculté des sciences de l'éducation de l'Université de Montréal. Ses recherches portent sur l'éthique de la conception des systèmes d'IA en éducation, l'inclusion scolaire par le numérique, et la littératie en IA, ainsi que sur les politiques qui sous-tendent ces aspects."
+                },
+                "tarynBeaupre": 
+                {
+                  "name": "Taryn Beaupré",
+                  "bio": "Bonjour, je m'appelle Taryn. Je poursuis actuellement un baccalauréat en informatique à l'Université Concordia. Je suis développeuse Web chez EduQlasse, où j'ai contribué à divers projets, notamment BioBot et Calculus Buddy. J'aime explorer la technologie dans les espaces créatifs, exploiter les capacités de l'IA, et je m'intéresse à la cybersécurité. En dehors de la technologie, j'aime l'art, les films, les jeux vidéo, la cuisine et les voyages !"
+                },
+                "sophieDomine": 
+                {
+                  "name": "Sophie Dominé",
+                  "bio": "En tant que doctorante en psychopédagogie à l'Université de Montréal, je m'intéresse au développement, au bien-être et aux pratiques inclusives des étudiants, particulièrement au secondaire mais aussi au postsecondaire. Au-delà de la recherche, j'ai un profond intérêt pour les nouvelles technologies — y compris l'IA — ainsi que pour les jeux vidéo et les activités manuelles. Je soutiendrai la professeure Neerusha Gokool dans ses diverses initiatives et je contribuerai à l'organisation d'événements."
+                },
+                "roustomAbdeldjalelCherir": 
+                {
+                  "name": "Roustom Abdeldjalel Cherir",
+                  "bio": "Je poursuis actuellement un baccalauréat en informatique à l'Université de Montréal. J'ai travaillé sur plusieurs projets de développement de jeux au sein d'EDUQLASSE, notamment Opération Diplôme, le Student Voice Game et l'Academic Rut Game. Je suis passionné par le développement de logiciels propulsés par l'IA et par la cybersécurité, et j'ai également un vif intérêt pour les systèmes embarqués. En dehors des études, j'aime pratiquer les sports de combat, particulièrement le jiu-jitsu brésilien (JJB). Je suis toujours enthousiaste à l'idée d'apprendre de nouvelles technologies et de relever des défis stimulants."
+                },
+                "wanXinZhang": 
+                {
+                  "name": "Wan Xin Zhang",
+                  "bio": "Étudiante à Concordia dans le programme de design, en tant que designer pour Eduqlasse, j'aide généralement pour le graphisme des sites Web et les aspects visuels de plusieurs projets. J'ai un fort intérêt pour les jeux vidéo et le design."
+                },
+                "aliAwada": 
+                {
+                  "name": "Ali Awada",
+                  "bio": "Étudiant de premier cycle en informatique à l'UdeM, je travaille au laboratoire EduQlasse sur des jeux éducatifs propulsés par l'IA et des outils d'apprentissage interactifs pour les étudiants. Je me spécialise dans les agents d'IA et l'IA générative, avec de l'expérience dans les systèmes RAG, les API de LLM et le développement full-stack. J'adore construire des choses. Quand je ne code pas, j'aime aller dehors et essayer de nouvelles activités."
+                },
+                "hyKhangTran": 
+                {
+                  "name": "Hy Khang Tran",
+                  "bio": "Bonjour ! Je suis un étudiant en informatique et je travaille chez EduQ en tant que programmeur Unity pour nos projets de physique. Le chemin a été long, mais j'ai enfin trouvé ma passion pour la création de jeux ici au Canada. Je souhaite créer des choses dont je pourrai toujours être fier. Santé !"
+                },
+
+                "ahmedHassan": 
+                {
+                    "name": "Ahmed Hassan",
+                    "bio": "Je suis diplômé en informatique du Collège John Abbott. Les projets d'EduQlasse sur lesquels j'ai travaillé incluent Earth Codex et PIM Calculus. Je me spécialise principalement dans le développement de jeux, mais j'ai aussi de l'expérience dans le développement de sites web, d'applications et la sécurisation de réseaux. Mes passe-temps incluent la cuisine, l'apprentissage des langues et les voyages."
+                },
+                "abdelmouhcineMessaad": 
+                {
+                    "name": "Abdelmouhcine Messaad",
+                    "bio": "Je suis un étudiant en informatique avec un fort intérêt pour l'intelligence artificielle. Chez EDUQLASSE, j'ai travaillé sur The Integrity Rut Game et Student Voice Game, et j'ai co-créé Opération Diplôme avec mon équipe, le projet gagnant du Game Jam 2026."
+                },
+                "muyangYu": 
+                {
+                    "name": "Muyang Yu",
+                    "bio": "Programmeuse de ECQ-Physics. Lorsqu'elle ne code pas, elle dessine."
+                },
+                "arielleWong": 
+                {
+                    "name": "Arielle Wong",
+                    "bio": "Étudiante de premier cycle à Concordia en informatique et arts numériques (Computation Arts). Je travaille actuellement comme graphiste et illustratrice pour EduQlasse dans le cadre du projet Ai Ethics, de Earth Codex et de Classroom Management Simulator. Elle aime dessiner des chats rigolos pendant son temps libre."
+                },
+                "alhasanShnoot": 
+                {
+                    "name": "Alhasan Shnoot",
+                    "bio": "Double majeure en physique et informatique à l'Université McGill. Chez EDUQLASSE, je conçois des simulations interactives et des outils pédagogiques basés sur l'IA pour l'enseignement de l'électromagnétisme. Mon travail englobe le développement web, l'intégration de l'IA et la conception de simulations. Je suis particulièrement attiré par les simulations, le développement backend et le développement de jeux. Pendant mon temps libre, je pars à l'aventure pour faire de l'escalade en plein air et je compose de la musique."
+                },
+                "brandonBoros": 
+                {
+                    "name": "Brandon Boros",
+                    "bio": "Bonjour ! Je m'appelle Brandon et j'étudie actuellement l'informatique à Concordia. Pour EduQlasse, je travaille présentement sur les projets ECQ Earth Codex et PIM Calculus. J'aime lire, faire de la randonnée et créer des trucs cool pendant mon temps libre."
+                },
+                "mayaSabrineKabli": 
+                {
+                    "name": "Maya Sabrine Kabli",
+                    "bio": "Bien que je poursuive actuellement un baccalauréat en enseignement du français au secondaire, je dessine pendant mon temps libre depuis mon enfance. Cette passion m'a finalement amenée à devenir l'une des artistes travaillant sur le projet EDUQLASSE !"
                 }
+              }
             },
           },
 
@@ -802,6 +878,7 @@ i18n
               }
             }
           },
+
           "podcasts": 
           {
             "heroSection": 
