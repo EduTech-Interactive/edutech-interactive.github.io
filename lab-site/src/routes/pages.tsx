@@ -164,6 +164,10 @@ export const routeDefinitions = [
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.GEN_AI_APPS,
+    staticData: 
+    {
+      hideFooter: true
+    },
     component: GenAiApps,
   }),
 
@@ -188,7 +192,7 @@ export const routeDefinitions = [
     component: Podcasts,
   }),
 
-  //podcast
+  //publication
   createRoute({
     getParentRoute: () => rootRoute,
     path: PATHS.PUBLICATIONS,
