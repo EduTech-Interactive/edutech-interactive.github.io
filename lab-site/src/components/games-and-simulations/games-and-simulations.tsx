@@ -11,6 +11,7 @@ import crisprImgSrc from "/img/games-and-simulations/crispr.webp";
 import vshockImgSrc from "/img/games-and-simulations/vshock.webp";
 import divideAndConquerImgSrc from "/img/games-and-simulations/dandc.webp";
 import microMedicsImgSrc from "/img/games-and-simulations/micromedics.webp";
+import geneDoomImgSrc from "/img/games-and-simulations/genedoom.webp";
 
 import { GAME_PATHS, PATHS } from "../../routes/pages";
 
@@ -40,7 +41,7 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.geneDoom",
-        imgSrc: placeholderImgSrc,
+        imgSrc: geneDoomImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
       },
       {
