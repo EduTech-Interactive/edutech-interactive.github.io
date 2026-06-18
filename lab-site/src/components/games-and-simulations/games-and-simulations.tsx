@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import heroBg from "/img/games-and-simulations/hero.webp";
 import { GameCard } from "./game-card";
-import placeholderImgSrc from "/img/shared/placeholder.png";
 
 //individual image src
 import biorobotImgSrc from "/img/games-and-simulations/biorobot.webp";
@@ -12,6 +11,7 @@ import vshockImgSrc from "/img/games-and-simulations/vshock.webp";
 import divideAndConquerImgSrc from "/img/games-and-simulations/dandc.webp";
 import microMedicsImgSrc from "/img/games-and-simulations/micromedics.webp";
 import geneDoomImgSrc from "/img/games-and-simulations/genedoom.webp";
+import earthCodexImgSrc from "/img/games-and-simulations/earthcodex.webp";
 
 import { GAME_PATHS, PATHS } from "../../routes/pages";
 
@@ -46,7 +46,7 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.earthCodex",
-        imgSrc: placeholderImgSrc,
+        imgSrc: earthCodexImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
       },
       {

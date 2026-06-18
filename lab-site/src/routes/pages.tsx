@@ -18,6 +18,7 @@ import MicroMedics from '../components/games-and-simulations/games/micromedics'
 import VectorShock from '../components/games-and-simulations/games/vector-shock'
 import CrisprSim from '../components/games-and-simulations/games/crispr-sim'
 import GeneDoom from '../components/games-and-simulations/games/gene-doom'
+import EarthCodex from '../components/games-and-simulations/games/earth-codex'
 
 export const PATHS = 
 {
@@ -92,6 +93,17 @@ export const routeDefinitions = [
     },
     component: Arcana
   }),
+
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
+    staticData: 
+    {
+      hideFooter: true
+    },
+    component: EarthCodex
+  }),
+
 
   //gene doom game
   createRoute({
