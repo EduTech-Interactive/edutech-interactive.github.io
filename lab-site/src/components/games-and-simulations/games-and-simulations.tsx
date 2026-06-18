@@ -4,8 +4,11 @@ import { GameCard } from "./game-card";
 import placeholderImgSrc from "/img/shared/placeholder.png";
 
 //individual image src
-import biorobotImageSrc from "/img/games-and-simulations/biorobot.webp";
-import classBuildImageSrc from "/img/games-and-simulations/classbuild.webp";
+import biorobotImgSrc from "/img/games-and-simulations/biorobot.webp";
+import classBuildImgSrc from "/img/games-and-simulations/classbuild.webp";
+import arcanaImgSrc from "/img/games-and-simulations/arcana.webp";
+import crisprImgSrc from "/img/games-and-simulations/crispr.webp";
+import vshockImgSrc from "/img/games-and-simulations/vshock.webp";
 
 import { GAME_PATHS, PATHS } from "../../routes/pages";
 
@@ -15,12 +18,12 @@ const GamesAndSimulations = () => {
     const GAME_DATA: GameData[] = [
       {
         jsonKey: "gamesAndSimulations.gameData.bioBot",
-        imgSrc: biorobotImageSrc,
+        imgSrc: biorobotImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.classBuild",
-        imgSrc: classBuildImageSrc,
+        imgSrc: classBuildImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
       },
       {
@@ -30,7 +33,7 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.arcana",
-        imgSrc: placeholderImgSrc,
+        imgSrc: arcanaImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
       },
       {
@@ -50,12 +53,12 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.vectorShock",
-        imgSrc: placeholderImgSrc,
+        imgSrc: vshockImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.crisprSim",
-        imgSrc: placeholderImgSrc,
+        imgSrc: crisprImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
       },
     ];
