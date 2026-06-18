@@ -17,6 +17,7 @@ import DivideAndConquer from '../components/games-and-simulations/games/divide-a
 import MicroMedics from '../components/games-and-simulations/games/micromedics'
 import VectorShock from '../components/games-and-simulations/games/vector-shock'
 import CrisprSim from '../components/games-and-simulations/games/crispr-sim'
+import GeneDoom from '../components/games-and-simulations/games/gene-doom'
 
 export const PATHS = 
 {
@@ -90,6 +91,17 @@ export const routeDefinitions = [
       hideFooter: true
     },
     component: Arcana
+  }),
+
+  //gene doom game
+  createRoute({
+    getParentRoute: () => rootRoute,
+    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
+    staticData: 
+    {
+      hideFooter: true
+    },
+    component: GeneDoom
   }),
 
   //biobot game
