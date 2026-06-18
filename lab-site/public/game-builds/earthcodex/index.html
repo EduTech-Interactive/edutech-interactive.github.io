@@ -32,12 +32,6 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var warningBanner = document.querySelector("#unity-warning");
 
-      // Shows a temporary message banner/ribbon for a few seconds, or
-      // a permanent error message on top of the canvas if type=='error'.
-      // If type=='warning', a yellow highlight color is used.
-      // Modify or remove this function to customize the visually presented
-      // way that non-critical warnings and error messages are presented to the
-      // user.
       function unityShowBanner(msg, type) {
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
@@ -58,54 +52,72 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/earthcodex-web.loader.js";
+      
+      // Explicit array of your 6 file chunks
+      var dataChunks = [
+        buildUrl + "/earthcodex-web.data00.part",
+        buildUrl + "/earthcodex-web.data01.part",
+        buildUrl + "/earthcodex-web.data02.part",
+        buildUrl + "/earthcodex-web.data03.part",
+        buildUrl + "/earthcodex-web.data04.part",
+        buildUrl + "/earthcodex-web.data05.part"
+      ];
+
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/earthcodex-web.data.gz",
-        frameworkUrl: buildUrl + "/earthcodex-web.framework.js.gz",
-        codeUrl: buildUrl + "/earthcodex-web.wasm.gz",
+        dataUrl: "", // This will be dynamically populated via Object URL below
+        frameworkUrl: buildUrl + "/earthcodex-web.framework.js",
+        codeUrl: buildUrl + "/earthcodex-web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "EduQlasse",
         productName: "Earth Codex",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
-        // errorHandler: function(err, url, line) {
-        //    alert("error " + err + " occurred at line " + line);
-        //    // Return 'true' if you handled this error and don't want Unity
-        //    // to process it further, 'false' otherwise.
-        //    return true;
-        // },
       };
 
-      // By default Unity keeps WebGL canvas render target size matched with
-      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-      // Set this to false if you want to decouple this synchronization from
-      // happening inside the engine, and you would instead like to size up
-      // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
-
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
         var meta = document.createElement('meta');
         meta.name = 'viewport';
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 
-
       loadingBar.style.display = "block";
 
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          loadingBar.style.display = "none";
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
+      // 1. Fetch all data file chunks concurrently
+      Promise.all(
+        dataChunks.map(url => 
+          fetch(url).then(response => {
+            if (!response.ok) throw new Error("Failed to fetch chunk: " + url);
+            return response.arrayBuffer();
+          })
+        )
+      )
+      .then(buffers => {
+        // 2. Stitch the buffers into a singular data blob
+        var combinedBlob = new Blob(buffers, { type: "application/octet-stream" });
+        
+        // 3. Bind the local object reference to your config object
+        config.dataUrl = URL.createObjectURL(combinedBlob);
+
+        // 4. Inject the standard Unity loader script now that data is ready
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+        script.onload = () => {
+          createUnityInstance(canvas, config, (progress) => {
+            progressBarFull.style.width = 100 * progress + "%";
+          }).then((unityInstance) => {
+            loadingBar.style.display = "none";
+          }).catch((message) => {
+            alert(message);
+          });
+        };
+        document.body.appendChild(script);
+      })
+      .catch(err => {
+        unityShowBanner("Critical error downloading build files: " + err.message, "error");
+        console.error(err);
+      });
     </script>
   </body>
 </html>
