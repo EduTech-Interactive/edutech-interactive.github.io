@@ -37,12 +37,12 @@ const EcosystemCard: React.FC<EcosystemCardProps> = ({
     <div className="grid h-full max-w-md grid-rows-[auto_1fr_auto_auto] rounded-3xl border border-gray-100 bg-white p-8 shadow-sm transition-shadow hover:shadow-md">
       
       {/* Header Section */}
-      <div className="flex items-start gap-5 pb-6">
-        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl">
+      <div className="flex items-start gap-1 pb-6">
+        <div className="flex shrink-0 items-center justify-center rounded-2xl">
           <img 
             src={imageSrc} 
             alt={imageAlt} 
-            className="h-20 w-20 rounded-2xl object-contain" 
+            className="h-36 w-36 rounded-2xl object-contain" 
           />
         </div>
         <div className="space-y-1">

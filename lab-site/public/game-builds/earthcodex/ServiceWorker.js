@@ -1,9 +1,9 @@
 const cacheName = "EduQlasse-Earth Codex-0.1.0";
 const contentToCache = [
     "Build/earthcodex-web.loader.js",
-    "Build/earthcodex-web.framework.js.br",
-    "Build/earthcodex-web.data.br",
-    "Build/earthcodex-web.wasm.br",
+    "Build/earthcodex-web.framework.js.gz",
+    "Build/earthcodex-web.data.gz",
+    "Build/earthcodex-web.wasm.gz",
     "TemplateData/style.css"
 
 ];

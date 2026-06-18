@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import heroImg from "/img/gen-ai-apps/ai-hero.webp"; 
 import neerushaSrc from "/img/shared/placeholder.png";
 
-import calcBuddyIcon from "/img/gen-ai-apps/calc-buddy-icon.webp";
-import teachersCraftIcon from "/img/gen-ai-apps/teachers-craft-icon.webp";
+import calcBuddyIcon from "/img/gen-ai-apps/cb-logo.webp";
+import teachersCraftIcon from "/img/gen-ai-apps/tc-logo.webp";
 import aiCompass from "/img/gen-ai-apps/ai-compass-icon.webp";
 import EcosystemCard from "./ecosystem-card";
 import { Blocks, BookCheck, BookOpen, BrainCircuit, BrickWall, ChartNetwork, Eye, GraduationCap, Network, PersonStanding, Puzzle, Terminal, University } from "lucide-react";
@@ -136,7 +136,7 @@ const GenAiApps = () => {
                   textClass="text-edu-purple-600"
                   bgClass="bg-edu-purple-600"
                   buttonText={t("genAiApps.ecosystem.apps.aiCompass.ctaText")}
-                  buttonTo="/ai-compass"
+                  buttonTo="https://www.eduqlasseonline.com/"
                   features={compassFeatures.map((text, idx) => ({
                     icon: compassIcons[idx],
                     text,
