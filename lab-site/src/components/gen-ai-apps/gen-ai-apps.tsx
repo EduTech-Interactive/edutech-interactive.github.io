@@ -104,7 +104,7 @@ const GenAiApps = () => {
                   textClass="text-edu-blue-600"
                   bgClass="bg-edu-blue-600"
                   buttonText={t("genAiApps.ecosystem.apps.calculusBuddy.ctaText")}
-                  buttonTo="/calculus-buddy" // Adjust route as needed
+                  buttonTo="https://calculus-buddy.intg.eduqlasse.com/"
                   features={calcFeatures.map((text, idx) => ({
                     icon: calcIcons[idx],
                     text,
@@ -120,7 +120,7 @@ const GenAiApps = () => {
                   textClass="text-emerald-600"
                   bgClass="bg-emerald-600"  
                   buttonText={t("genAiApps.ecosystem.apps.teachersCraft.ctaText")}
-                  buttonTo="/teachers-craft" // Adjust route as needed
+                  buttonTo="https://teacher-craft.intg.eduqlasse.com/"
                   features={teacherFeatures.map((text, idx) => ({
                     icon: teacherIcons[idx],
                     text,
@@ -136,7 +136,7 @@ const GenAiApps = () => {
                   textClass="text-edu-purple-600"
                   bgClass="bg-edu-purple-600"
                   buttonText={t("genAiApps.ecosystem.apps.aiCompass.ctaText")}
-                  buttonTo="/ai-compass" // Adjust route as needed
+                  buttonTo="/ai-compass"
                   features={compassFeatures.map((text, idx) => ({
                     icon: compassIcons[idx],
                     text,

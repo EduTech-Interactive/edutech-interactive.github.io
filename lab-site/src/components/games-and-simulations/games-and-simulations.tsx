@@ -9,6 +9,8 @@ import classBuildImgSrc from "/img/games-and-simulations/classbuild.webp";
 import arcanaImgSrc from "/img/games-and-simulations/arcana.webp";
 import crisprImgSrc from "/img/games-and-simulations/crispr.webp";
 import vshockImgSrc from "/img/games-and-simulations/vshock.webp";
+import divideAndConquerImgSrc from "/img/games-and-simulations/dandc.webp";
+import microMedicsImgSrc from "/img/games-and-simulations/micromedics.webp";
 
 import { GAME_PATHS, PATHS } from "../../routes/pages";
 
@@ -28,7 +30,7 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.divideAndConquer",
-        imgSrc: placeholderImgSrc,
+        imgSrc: divideAndConquerImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
       },
       {
@@ -48,7 +50,7 @@ const GamesAndSimulations = () => {
       },
       {
         jsonKey: "gamesAndSimulations.gameData.microMedics",
-        imgSrc: placeholderImgSrc,
+        imgSrc: microMedicsImgSrc,
         href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
       },
       {

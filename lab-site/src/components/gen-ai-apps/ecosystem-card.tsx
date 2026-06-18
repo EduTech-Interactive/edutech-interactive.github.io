@@ -82,6 +82,7 @@ const EcosystemCard: React.FC<EcosystemCardProps> = ({
       <div className="mt-auto">
         <Link
           to={buttonTo}
+          target='blank'
           className="inline-flex items-center gap-2 rounded-xl text-sm font-semibold text-white transition-colors hover:opacity-90"
         >
           <Button bgClassName={bgClass}>
