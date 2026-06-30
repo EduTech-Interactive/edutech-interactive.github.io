@@ -96,6 +96,7 @@ const GenAiApps = () => {
                 
                 {/* Calculus Buddy - Blue Theme */}
                 <EcosystemCard
+                  ytLink="https://www.youtube.com/embed/rmrHTds3ev0"
                   imageSrc={calcBuddyIcon}
                   imageAlt={t("genAiApps.ecosystem.apps.calculusBuddy.title")}
                   title={t("genAiApps.ecosystem.apps.calculusBuddy.title")}
@@ -112,6 +113,7 @@ const GenAiApps = () => {
 
                 {/* Teacher's Craft - Green Theme */}
                 <EcosystemCard
+                  ytLink=""
                   imageSrc={teachersCraftIcon}
                   imageAlt={t("genAiApps.ecosystem.apps.teachersCraft.title")}
                   title={t("genAiApps.ecosystem.apps.teachersCraft.title")}
@@ -128,6 +130,7 @@ const GenAiApps = () => {
 
                 {/* AI Compass - Purple Theme */}
                 <EcosystemCard
+                  ytLink="https://youtube.com/embed/L639M17mU5M"
                   imageSrc={aiCompass}
                   imageAlt={t("genAiApps.ecosystem.apps.aiCompass.title")}
                   title={t("genAiApps.ecosystem.apps.aiCompass.title")}

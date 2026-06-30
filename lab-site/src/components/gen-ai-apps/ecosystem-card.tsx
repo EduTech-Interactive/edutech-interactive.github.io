@@ -18,7 +18,8 @@ export interface EcosystemCardProps {
   textClass: string;
   bgClass: string;
   buttonText: string;
-  buttonTo: LinkProps['to'];
+  buttonTo: LinkProps['to']
+  ytLink: string;
 }
 
 const EcosystemCard: React.FC<EcosystemCardProps> = ({
@@ -32,6 +33,7 @@ const EcosystemCard: React.FC<EcosystemCardProps> = ({
   bgClass = 'bg-purple-700',
   buttonText,
   buttonTo,
+  ytLink
 }) => {
   return (
     <div className="grid h-full max-w-md grid-rows-[auto_1fr_auto_auto] rounded-3xl border border-gray-100 bg-white p-8 shadow-sm transition-shadow hover:shadow-md">
@@ -76,6 +78,14 @@ const EcosystemCard: React.FC<EcosystemCardProps> = ({
             </li>
           );
         })}
+      </ul>
+
+      <ul className="space-y-3.5 pb-8">
+        <iframe 
+          className='rounded-2xl'
+          src={ytLink} 
+          title="YouTube video player" 
+          allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       </ul>
 
       {/* Action Button */}
