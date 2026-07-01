@@ -113,7 +113,7 @@ const GenAiApps = () => {
 
                 {/* Teacher's Craft - Green Theme */}
                 <EcosystemCard
-                  ytLink=""
+                  ytLink="https://youtube.com/embed/qRIVRAwamqg"
                   imageSrc={teachersCraftIcon}
                   imageAlt={t("genAiApps.ecosystem.apps.teachersCraft.title")}
                   title={t("genAiApps.ecosystem.apps.teachersCraft.title")}
