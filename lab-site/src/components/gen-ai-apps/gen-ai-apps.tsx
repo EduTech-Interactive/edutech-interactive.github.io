@@ -122,7 +122,7 @@ const GenAiApps = () => {
                   textClass="text-emerald-600"
                   bgClass="bg-emerald-600"  
                   buttonText={t("genAiApps.ecosystem.apps.teachersCraft.ctaText")}
-                  buttonTo="https://teacher-craft.intg.eduqlasse.com/"
+                  buttonTo="https://teacher-craft.eduqlasse.com/"
                   features={teacherFeatures.map((text, idx) => ({
                     icon: teacherIcons[idx],
                     text,
