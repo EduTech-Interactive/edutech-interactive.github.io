@@ -1,9 +1,9 @@
 const cacheName = "EduQlasse-CrisprSim-0.1";
 const contentToCache = [
     "Build/crisprsim-web.loader.js",
-    "Build/crisprsim-web.framework.js.br",
-    "Build/crisprsim-web.data.br",
-    "Build/crisprsim-web.wasm.br",
+    "Build/crisprsim-web.framework.js",
+    "Build/crisprsim-web.data",
+    "Build/crisprsim-web.wasm",
     "TemplateData/style.css"
 
 ];
