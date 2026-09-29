@@ -573,6 +573,44 @@ i18n
             }
           },
 
+          "publications": 
+          {
+            "header": 
+            {
+              "title": "Publications & Research",
+              "subtitle": "Academic articles, conference proceedings, and research contributions on education and technology."
+            },
+            "buttons": 
+            {
+              "viewPaper": "View Paper"
+            },
+            "labels": 
+            {
+              "authors": "By {{authors}}"
+            },
+            "items": 
+            {
+              "pub1": 
+              {
+                "title": "Academic Publication Title 1",
+                "authors": "Author Name, Co-author Name",
+                "journal": "International Journal of Educational Technology",
+                "year": "2026",
+                "abstract": "Summary of the research paper detailing methodologies, key observations, and implications for pedagogical innovation in higher education.",
+                "link": "https://example.com/publication-1"
+              },
+              "pub2": 
+              {
+                "title": "Academic Publication Title 2",
+                "authors": "Author Name, Another Co-author",
+                "journal": "Digital Learning Conference Proceedings",
+                "year": "2025",
+                "abstract": "Overview of explored concepts concerning the integration of digital tools and blended learning frameworks in modern universities.",
+                "link": "https://example.com/publication-2"
+              }
+            }
+          },
+
           "researchProjects": 
           {
             "title": "Research Projects",
@@ -1204,6 +1242,44 @@ i18n
                 "guests": "Dr Elena Naidenova (Collège Vanier), Dr Ferenc Balogh (Collège John Abbott), M. Ivo Pendev (éducateur en mathématiques)",
                 "shortDescription": "Discussion sur la manière dont l'IAGen transforme l'enseignement des mathématiques, les pratiques d'apprentissage et l'engagement des étudiants.",
                 "longDescription": "Dans cet épisode de Voix de l'enseignement supérieur, nous explorons le rôle évolutif de l'intelligence artificielle générative dans l'enseignement des mathématiques au collégial avec trois éducateurs chevronnés : la Dre Elena Naidenova du Collège Vanier, le Dr Ferenc Balogh du Collège John Abbott, et M. Ivo Pendev, éducateur et collaborateur en mathématiques.<br><br>Ensemble, ils discutent de la manière dont l'IA générative redéfinit l'enseignement et l'apprentissage des mathématiques, qu'il s'agisse de soutenir la résolution de problèmes et l'apprentissage personnalisé ou de créer de nouvelles occasions de rétroaction, d'échafaudage cognitif et d'engagement des étudiants. La conversation examine également les défis qui accompagnent ces innovations, notamment le développement du raisonnement mathématique, l'intégrité académique, les pratiques d'évaluation et l'utilisation responsable des outils d'IA.<br><br>S'appuyant sur leur vaste expérience de l'enseignement des mathématiques au niveau collégial, les invités partagent des perspectives pratiques, des expériences de classe et des réflexions sur la façon dont les éducateurs peuvent exploiter l'IA pour améliorer l'apprentissage tout en veillant à ce que les étudiants continuent de développer les compétences de pensée critique et de résolution de problèmes qui sont au cœur des mathématiques."
+              }
+            }
+          },
+
+          "publications": 
+          {
+            "header": 
+            {
+              "title": "Publications et recherches",
+              "subtitle": "Articles universitaires, actes de conférences et contributions à la recherche sur l'éducation et la technologie."
+            },
+            "buttons": 
+            {
+              "viewPaper": "Consulter l'article"
+            },
+            "labels": 
+            {
+              "authors": "Par {{authors}}"
+            },
+            "items": 
+            {
+              "pub1": 
+              {
+                "title": "Titre de la publication académique 1",
+                "authors": "Nom Auteur, Nom Co-auteur",
+                "journal": "Revue internationale des technologies en éducation",
+                "year": "2026",
+                "abstract": "Résumé de l'article de recherche décrivant les méthodologies, les observations clés et les répercussions sur l'innovation pédagogique dans l'enseignement supérieur.",
+                "link": "https://example.com/publication-1"
+              },
+              "pub2": 
+              {
+                "title": "Titre de la publication académique 2",
+                "authors": "Nom Auteur, Autre Co-auteur",
+                "journal": "Conférence sur l'apprentissage numérique",
+                "year": "2025",
+                "abstract": "Aperçu des concepts explorés concernant l'intégration des outils numériques et des cadres d'apprentissage hybride dans les universités modernes.",
+                "link": "https://example.com/publication-2"
               }
             }
           },
