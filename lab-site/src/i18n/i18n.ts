@@ -471,6 +471,46 @@ i18n
             }
           },
 
+          "blog": 
+          {
+            "header": 
+            {
+              "title": "Our Blogs & Insights",
+              "subtitle": "Conversations, research reflections, and thoughts on innovating teaching, learning, and technology in higher education."
+            },
+            "buttons": 
+            {
+              "showLess": "Show Less",
+              "readArticle": "Read Article",
+              "collapsePost": "↑ Collapse post"
+            },
+            "labels": 
+            {
+              "by": "By {{author}}"
+            },
+            "posts": 
+            {
+              "post1": 
+              {
+                "title": "Blog Post 1",
+                "date": "May 14, 2026",
+                "author": "Author",
+                "category": "Category 1",
+                "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              },
+              "post2": 
+              {
+                "title": "Blog Post 2",
+                "date": "May 14, 2026",
+                "author": "Author",
+                "category": "Category 2",
+                "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              }
+            }
+          },
+
           "podcasts": 
           {
             "heroSection": 
@@ -1064,6 +1104,46 @@ i18n
                 partner: "Devenir partenaire",
                 pilot: "Piloter un outil",
                 explore: "Explorer nos recherches"
+              }
+            }
+          },
+
+          "blog": 
+          {
+            "header": 
+            {
+              "title": "Nos blogues et réflexions",
+              "subtitle": "Conversations, réflexions sur la recherche et pensées sur l'innovation dans l'enseignement, l'apprentissage et la technologie dans l'enseignement supérieur."
+            },
+            "buttons": 
+            {
+              "showLess": "Voir moins",
+              "readArticle": "Lire l'article",
+              "collapsePost": "↑ Réduire l'article"
+            },
+            "labels": 
+            {
+              "by": "Par {{author}}"
+            },
+            "posts": 
+            {
+              "post1": 
+              {
+                "title": "Article de blogue 1",
+                "date": "14 mai 2026",
+                "author": "Auteur",
+                "category": "Catégorie 1",
+                "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              },
+              "post2": 
+              {
+                "title": "Article de blogue 2",
+                "date": "14 mai 2026",
+                "author": "Auteur",
+                "category": "Catégorie 2",
+                "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               }
             }
           },
