@@ -43,9 +43,11 @@ export function GameCard({
 
             <div className="mt-auto">
 
+            {
             /* 
             todo: links to video showcases instead
             */
+            }
             {/* <Link to={href}>
               <Button>
                 {buttonText}
