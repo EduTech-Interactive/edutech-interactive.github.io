@@ -13,7 +13,7 @@ import microMedicsImgSrc from "/img/games-and-simulations/micromedics.webp";
 import geneDoomImgSrc from "/img/games-and-simulations/genedoom.webp";
 import earthCodexImgSrc from "/img/games-and-simulations/earthcodex.webp";
 
-import { GAME_PATHS, PATHS } from "../../routes/pages";
+// import { GAME_PATHS, PATHS } from "../../routes/pages";
 
 const GamesAndSimulations = () => {
     const { t } = useTranslation();
@@ -21,48 +21,48 @@ const GamesAndSimulations = () => {
     const GAME_DATA: GameData[] = [
       {
         jsonKey: "gamesAndSimulations.gameData.bioBot",
-        imgSrc: biorobotImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
+        imgSrc: biorobotImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.classBuild",
-        imgSrc: classBuildImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
+        imgSrc: classBuildImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.divideAndConquer",
-        imgSrc: divideAndConquerImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
+        imgSrc: divideAndConquerImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.arcana",
-        imgSrc: arcanaImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
+        imgSrc: arcanaImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.geneDoom",
-        imgSrc: geneDoomImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
+        imgSrc: geneDoomImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.earthCodex",
-        imgSrc: earthCodexImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
+        imgSrc: earthCodexImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.microMedics",
-        imgSrc: microMedicsImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
+        imgSrc: microMedicsImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.vectorShock",
-        imgSrc: vshockImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
+        imgSrc: vshockImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
       },
       {
         jsonKey: "gamesAndSimulations.gameData.crisprSim",
-        imgSrc: crisprImgSrc,
-        href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
+        imgSrc: crisprImgSrc
+        // href: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
       },
     ];
 
@@ -112,7 +112,7 @@ const GamesAndSimulations = () => {
                     description={t(`${d.jsonKey}.description`)}
                     credits={t(`${d.jsonKey}.citation`)}
                     buttonText={t(`gamesAndSimulations.gameBtnText`)}
-                    href={d.href}
+                    // href={d.href}
                   />
                 </div>
               ))}
@@ -126,6 +126,5 @@ export default GamesAndSimulations;
 interface GameData
 {
   jsonKey: string,
-  imgSrc: string,
-  href: string
+  imgSrc: string
 }

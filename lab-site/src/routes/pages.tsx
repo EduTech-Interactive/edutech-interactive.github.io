@@ -10,15 +10,15 @@ import Blog from '../components/blog/blog'
 import Podcasts from '../components/podcasts/podcasts'
 import Publications from '../components/publications/publications'
 import GamesAndSimulations from '../components/games-and-simulations/games-and-simulations'
-import Arcana from '../components/games-and-simulations/games/arcana'
-import BioBot from '../components/games-and-simulations/games/biobot'
-import ClassBuild from '../components/games-and-simulations/games/classbuild'
-import DivideAndConquer from '../components/games-and-simulations/games/divide-and-conquer'
-import MicroMedics from '../components/games-and-simulations/games/micromedics'
-import VectorShock from '../components/games-and-simulations/games/vector-shock'
-import CrisprSim from '../components/games-and-simulations/games/crispr-sim'
-import GeneDoom from '../components/games-and-simulations/games/gene-doom'
-import EarthCodex from '../components/games-and-simulations/games/earth-codex'
+// import Arcana from '../components/games-and-simulations/games/arcana'
+// import BioBot from '../components/games-and-simulations/games/biobot'
+// import ClassBuild from '../components/games-and-simulations/games/classbuild'
+// import DivideAndConquer from '../components/games-and-simulations/games/divide-and-conquer'
+// import MicroMedics from '../components/games-and-simulations/games/micromedics'
+// import VectorShock from '../components/games-and-simulations/games/vector-shock'
+// import CrisprSim from '../components/games-and-simulations/games/crispr-sim'
+// import GeneDoom from '../components/games-and-simulations/games/gene-doom'
+// import EarthCodex from '../components/games-and-simulations/games/earth-codex'
 
 export const PATHS = 
 {
@@ -83,104 +83,104 @@ export const routeDefinitions = [
   }),
 
   //Subpaths
-  //arcana game
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: Arcana
-  }),
+  // //arcana game
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.ARCANA,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: Arcana
+  // }),
 
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: EarthCodex
-  }),
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.EARTH_CODEX,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: EarthCodex
+  // }),
 
 
-  //gene doom game
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: GeneDoom
-  }),
+  // //gene doom game
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.GENE_DOOM,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: GeneDoom
+  // }),
 
-  //biobot game
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: BioBot,
-  }),
+  // //biobot game
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.BIOBOT,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: BioBot,
+  // }),
 
-  //cm sim
-    createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: ClassBuild,
-  }),
+  // //cm sim
+  //   createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CM_SIM,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: ClassBuild,
+  // }),
 
-  //divide and conquer
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: DivideAndConquer,
-  }),
+  // //divide and conquer
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.DIVIDE_AND_CONQUER,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: DivideAndConquer,
+  // }),
 
-  //micromedics
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: MicroMedics,
-  }),
+  // //micromedics
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.MICRO_MEDICS,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: MicroMedics,
+  // }),
 
-  //vector shock
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: VectorShock,
-  }),
+  // //vector shock
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.VECTOR_SHOCK,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: VectorShock,
+  // }),
 
-  //crispr sim
-  createRoute({
-    getParentRoute: () => rootRoute,
-    path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
-    staticData: 
-    {
-      hideFooter: true
-    },
-    component: CrisprSim,
-  }),
+  // //crispr sim
+  // createRoute({
+  //   getParentRoute: () => rootRoute,
+  //   path: PATHS.GAMES_AND_SIMULATIONS + GAME_PATHS.CRISPR_SIM,
+  //   staticData: 
+  //   {
+  //     hideFooter: true
+  //   },
+  //   component: CrisprSim,
+  // }),
 
   //===================
 

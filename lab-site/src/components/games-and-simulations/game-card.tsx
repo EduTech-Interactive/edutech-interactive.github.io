@@ -1,5 +1,5 @@
-import { Link } from "@tanstack/react-router";
-import { Button } from "../shared/ui/button";
+// import { Link } from "@tanstack/react-router";
+// import { Button } from "../shared/ui/button";
 
 type GameCardProps = {
   imageSrc: string;
@@ -7,7 +7,7 @@ type GameCardProps = {
   description: string;
   credits: string;
   buttonText: string;
-  href: string;
+  // href: string;
 };
 
 export function GameCard({
@@ -15,8 +15,8 @@ export function GameCard({
   title,
   description,
   credits,
-  buttonText,
-  href,
+  // buttonText,
+  // href,
 }: GameCardProps) {
   return (
     <div className="flex h-full w-full flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm">
@@ -42,11 +42,15 @@ export function GameCard({
             </p>
 
             <div className="mt-auto">
-            <Link to={href}>
+
+            /* 
+            todo: links to video showcases instead
+            */
+            {/* <Link to={href}>
               <Button>
                 {buttonText}
               </Button>
-            </Link>
+            </Link> */}
 
             </div>
         </div>
