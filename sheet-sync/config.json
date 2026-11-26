@@ -1,0 +1,33 @@
+{
+  "org": "EduTech-Interactive",
+  "projectTitle": "Website Project",
+  "statusField": "Status",
+  "priorityField": "Priority",
+  "cancelledOption": "Cancelled",
+
+  "statusMap": {
+    "Backlog": "New",
+    "Todo": "New",
+    "Ready": "New",
+    "In Progress": "In Progress",
+    "In Review": "In Review",
+    "Done": "Completed",
+    "Cancelled": "Cancelled"
+  },
+  "noStatus": "New",
+
+  "ownerMap": {
+    "AlexanderLystukha": "Alex",
+    "minenice55": "Devrin",
+    "AhmedCS-IT": "Ahmed",
+    "cocobalaur": "Carolina",
+    "O7SeaWaveO7": "Josh",
+    "VithusaMu": "Vithusa",
+    "AveryPBerger": "Avery",
+    "SkweesheeEmile": "Émile"
+  },
+
+  "cellMaxChars": 5000,
+  "batchSize": 40,
+  "eventDelaySeconds": 15
+}

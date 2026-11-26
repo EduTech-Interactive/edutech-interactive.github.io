@@ -1,0 +1,46 @@
+name: Sync board to Google Sheet
+
+on:
+  issues:
+    types: [opened, edited, assigned, unassigned, closed, reopened]
+  pull_request:
+    types: [opened, edited, assigned, unassigned, closed, reopened]
+  schedule:
+    - cron: '17 * * * *' # hourly reconcile; catches board-only changes (card drags)
+  
+concurrency:
+  group: sheet-sync-${{ github.event.issue.number || github.event.pull_request.number || 'reconcile' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+      SHEET_WEBAPP_URL: ${{ secrets.SHEET_WEBAPP_URL }}
+      SHEET_SYNC_SECRET: ${{ secrets.SHEET_SYNC_SECRET }}
+      NODE_ID: ${{ github.event.issue.node_id || github.event.pull_request.node_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: sheet-sync
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Closed-unmerged PR -> board Status "Cancelled"
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && !github.event.pull_request.merged
+        run: node sheet-sync/sync.mjs cancel "$NODE_ID"
+
+      - name: Sync this issue/PR
+        if: github.event_name == 'issues' || github.event_name == 'pull_request'
+        run: node sheet-sync/sync.mjs item "$NODE_ID"
+
+      - name: Full reconcile
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node sheet-sync/sync.mjs reconcile
