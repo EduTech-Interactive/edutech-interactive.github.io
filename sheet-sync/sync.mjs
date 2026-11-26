@@ -16,11 +16,14 @@ import { pathToFileURL } from 'node:url';
 const cfg = JSON.parse(await readFile(new URL('./config.json', import.meta.url), 'utf8'));
 const { GH_TOKEN, SHEET_WEBAPP_URL, SHEET_SYNC_SECRET } = process.env;
 
+// Print a yellow warning in the Actions log.
 const warn = (msg) => console.log(`::warning::${msg}`);
+// Wait s seconds.
 const sleep = (s) => new Promise((r) => setTimeout(r, s * 1000));
 
 // ---------------------------------------------------------------- GitHub ----
 
+// Send a GraphQL query to GitHub with the token; throw on any error.
 async function gql(query, variables = {}) {
   if (!GH_TOKEN) throw new Error('GH_TOKEN is not set');
   const res = await fetch('https://api.github.com/graphql', {
@@ -37,6 +40,7 @@ async function gql(query, variables = {}) {
   return json.data;
 }
 
+// Fields fetched for each board card: Status, Priority, and the linked issue/PR/draft.
 const ITEM_FIELDS = `
   id
   isArchived
@@ -55,6 +59,7 @@ const ITEM_FIELDS = `
     ... on DraftIssue  { title body       assignees(first: 5) { nodes { login } } }
   }`;
 
+// Find the board named in config.projectTitle, with its fields and Status options.
 async function getProject() {
   const data = await gql(
     `query($org: String!, $q: String!) {
@@ -81,6 +86,7 @@ async function getProject() {
   return project;
 }
 
+// Yield every card on the board, 100 per request, following page cursors.
 async function* allItems(projectId) {
   let after = null;
   do {
@@ -146,6 +152,7 @@ export function splitBody(raw) {
   return { description: clean(parts.description), notes: clean(parts.notes) };
 }
 
+// Turn one board card into a sheet row: maps Status and Owner via config.
 export function toPayload(item) {
   const c = item.content;
   const key = c.url || `draft:${item.id}`;
@@ -173,6 +180,7 @@ export function toPayload(item) {
   return { key, title, description, notes, status, owner, priority };
 }
 
+// Skip archived cards and cards the token can't read.
 function syncable(item) {
   if (item.isArchived) return false;
   if (!item.content) {
@@ -184,6 +192,7 @@ function syncable(item) {
 
 // ----------------------------------------------------------------- sheet ----
 
+// Send rows to the web app in batches and log each row's result.
 async function postToSheet(items) {
   if (!SHEET_WEBAPP_URL || !SHEET_SYNC_SECRET) throw new Error('SHEET_WEBAPP_URL / SHEET_SYNC_SECRET not set');
 
@@ -200,6 +209,7 @@ async function postToSheet(items) {
   if (failed) throw new Error(`${failed} item(s) failed`);
 }
 
+// POST one batch with the secret; retry twice if the web app is busy or fails.
 async function postBatch(batch, attempt = 1) {
   // Apps Script replies 302 -> script.googleusercontent.com; fetch follows it
   // with a GET, which is what `curl -L` does too.
@@ -230,6 +240,7 @@ async function postBatch(batch, attempt = 1) {
 
 // -------------------------------------------------------------- commands ----
 
+// Command: send every card on the board to the sheet.
 async function reconcile() {
   const project = await getProject();
   const payloads = [];
@@ -238,6 +249,7 @@ async function reconcile() {
   await postToSheet(payloads);
 }
 
+// Command: send one issue/PR's card, after giving board workflows time to update.
 async function syncOne(contentId) {
   // Give built-in project workflows (Item closed, PR merged, ...) time to
   // update Status before we read it. The hourly reconcile covers any miss.
@@ -249,6 +261,7 @@ async function syncOne(contentId) {
   await postToSheet([toPayload(item)]);
 }
 
+// Command: set an unmerged closed PR's board Status to Cancelled.
 async function cancel(contentId) {
   const project = await getProject();
   const field = project.fields.nodes.find((f) => f.name === cfg.statusField);
@@ -269,6 +282,7 @@ async function cancel(contentId) {
   console.log(`Set Status -> ${option.name} for ${item.content?.url ?? item.id}`);
 }
 
+// Command: print board fields, Status options and assignees missing from config.
 async function inspect() {
   const project = await getProject();
   console.log(`Project #${project.number}: ${project.title}\n\nFields:`);
@@ -289,6 +303,7 @@ async function inspect() {
   if (missing.length) console.log(`Status options not in statusMap: ${missing.join(', ')}`);
 }
 
+// Read the command from the CLI, run it, exit 1 on failure.
 async function main() {
   const [cmd, arg] = process.argv.slice(2);
   const commands = { reconcile, item: syncOne, cancel, inspect };
