@@ -48,9 +48,13 @@ const ITEM_FIELDS = `
   status: fieldValueByName(name: ${JSON.stringify(cfg.statusField)}) {
     ... on ProjectV2ItemFieldSingleSelectValue { name }
   }
-  priority: fieldValueByName(name: ${JSON.stringify(cfg.priorityField)}) {
-    ... on ProjectV2ItemFieldSingleSelectValue { name }
-    ... on ProjectV2ItemFieldTextValue { text }
+  issueFields: fieldValues(first: 30) {
+    nodes {
+      ... on ProjectV2ItemIssueFieldValue {
+        field { ... on ProjectV2FieldCommon { name } }
+        issueFieldValue { ... on IssueFieldSingleSelectValue { name } }
+      }
+    }
   }
   content {
     __typename
@@ -176,7 +180,9 @@ export function toPayload(item) {
     if (!owner) warn(`Assignee "${login}" is not in ownerMap; row goes to New Tasks (${key})`);
   }
 
-  const priority = item.priority?.name ?? item.priority?.text ?? '';
+  // Priority is an org-level issue field, so it comes back in fieldValues, not by name.
+  const priority =
+    item.issueFields?.nodes?.find((v) => v.field?.name === cfg.priorityField)?.issueFieldValue?.name ?? '';
   return { key, title, description, notes, status, owner, priority };
 }
 
